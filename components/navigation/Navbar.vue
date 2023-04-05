@@ -1,11 +1,11 @@
 <template>
-  <nav class="navbar" role="navigation" style="height: 4em" aria-label="main navigation">
+  <nav class="navbar" role="navigation" style="height: 6em" aria-label="main navigation">
   <div class="navbar-brand">
     <div class="level-item has-text-centered">
       <nuxt-link to="/" class="navbar-item">
         <img
           class="is-centered image"
-          style="height: 4em"
+          style="min-height: 5em"
           src="@/assets/images/svgs/logo-sss.svg"
         />
         <div style="margin-left: 1vw">
@@ -52,17 +52,6 @@ export default {}
 @import '@/assets/styles/main.scss';
 
 .navbar {
-  background-color: red;
-
-  a {
-    color: white;
-  }
-  a:hover {
-    color: black;
-  }
-
-  .navbar-item {
-    color: white;
-  }
+  background: linear-gradient(to bottom, rgba($primary, 0.45), transparent);
 }
 </style>

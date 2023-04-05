@@ -17,6 +17,6 @@ useHead({
   // where `%s` is replaced with the title
   // of the current page
   title: "Welcome ",
-  titleTemplate: "%s - bT Boilerplate 2023",
+  titleTemplate: "Študentski svet stanovalcev",
 });
 </script>

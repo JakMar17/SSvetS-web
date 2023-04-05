@@ -1,7 +1,6 @@
 <template>
   <main style="min-height: 100vh; padding-top: 0vh">
 
-<Gallery/>
 
 
     <!-- <b-carousel :interval="5000">
