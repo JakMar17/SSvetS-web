@@ -4,69 +4,75 @@
 
       <div class="columns is-centered">
         <div class="column" style="margin-top: 2em">
-          <hr style="background: black; margin: 0; margin-bottom: 2em" />
+          <hr class="is-hidden-touch" />
           <div class="has-text-centered is-centered">
-            <a class="button pb-0 is-text" style="display: flex; align-items: center; gap: 0.5em">
-              <!-- <b-icon icon="email" /> -->
+            <a class="button pb-0 is-ghost button__icon">
+              <i class="ri-mail-fill"></i>
               <span>info@ssvet.si</span>
             </a>
-            <a class="pb-0 is-text" style="display: flex; justify-content: center; align-items: center; gap: 0.5em">
-              <!-- <b-icon icon="mail" /> -->
+            <div class="pb-0 button__icon">
+              <i class="ri-home-3-fill"></i>
               <span>Svetčeva 9 1000 Ljubljana</span>
-            </a>
-            <a class="button is-text" style="display: flex; align-items: center; gap: 0.5em">
-              <!-- <b-icon icon="facebook" /> -->
+            </div>
+            <a class="button is-ghost button__icon">
+              <i class="ri-facebook-circle-fill"></i>
               <span>Študentski svet stanovalcev</span>
             </a>
           </div>
         </div>
         <div class="column is-narrow">
-          <img style="max-height: 10em; width: 10em;" src="@/assets/images/svgs/logo-sss.svg" />
+          <img class="img__logo" src="@/assets/images/svgs/logo-sss.svg" />
         </div>
         <div class="column" style="margin-top: 2em">
 
-          <hr style="background: black; margin: 0; margin-bottom: 2em" />
+          <hr class="is-hidden-touch" />
           <div class="buttons is-centered mb-0">
-              <a class="button is-text" style="display: flex; align-items: center; gap: 0.5em">
-                <!-- <b-icon icon="web" /> -->
-                <span>Majske igre</span>
-              </a>
-              <a class="button is-text" style="display: flex; align-items: center; gap: 0.5em">
-                <!-- <b-icon icon="facebook" /> -->
-                <span>Majske igre</span>
-              </a>
-              <a class="button is-text" style="display: flex; align-items: center; gap: 0.5em">
-                <!-- <b-icon icon="instagram" /> -->
-                <span>Majske igre</span>
-              </a>
-            </div>
-            <a class="button is-text" style="display: flex; align-items: center; gap: 0.5em">
-                <!-- <b-icon icon="web" /> -->
-                <span>Študentski dom Ljubljana</span>
-              </a>
+            <a class="button is-ghost button__icon">
+              <i class="ri-ie-fill"></i>
+              <span>Majske igre</span>
+            </a>
+            <a class="button is-ghost button__icon">
+              <span>
+                <i class="ri-facebook-circle-fill"></i>
+              </span>
+              <span>Majske igre</span>
+            </a>
+            <a class="button is-ghost button__icon">
+              <span class="icon">
+                <i class="ri-instagram-fill"></i>
+              </span>
+              <span>Majske igre</span>
+            </a>
+          </div>
+          <a class="button is-ghost button__icon">
+            <i class="ri-ie-fill"></i>
+            <span>Študentski dom Ljubljana</span>
+          </a>
         </div>
       </div>
-
-
-
-
-      <div class="no-margin-padding">© 2023 Študentski svet stanovalcev</div>
-      <div class="help no-margin-padding">Vse pravice pridržane</div>
+      <div class="m-0 p-0">© 2023 Študentski svet stanovalcev</div>
+      <div class="help m-0 p-0">Vse pravice pridržane</div>
     </div>
   </footer>
 </template>
 
-<script>
-export default {}
-</script>
 
-<style scoped>
-.no-margin-padding {
+<style lang="scss" scoped>
+hr {
+  background: black;
   margin: 0;
-  padding: 0;
+  margin-bottom: 2em;
 }
 
-.a-little-bit-of-margin {
-  margin-right: 1vw;
+.img__logo {
+  max-height: 10em;
+  width: 10em;
+}
+
+.button__icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  justify-content: center;
 }
 </style>
