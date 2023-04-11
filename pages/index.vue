@@ -55,7 +55,7 @@
                   irure incididunt non voluptate reprehenderit anim et fugiat.</p>
               </div>
               <p class="mt-3" style="font-style: italic;">
-                <span style="font-weight: 600">Dani Cerovac</span>, predsednik Študentskega sveta stanovalcev
+                <span style="font-weight: 600">Deni Cerovac</span>, predsednik Študentskega sveta stanovalcev
               </p>
             </div>
           </div>
