@@ -82,7 +82,7 @@
 
 <script>
 import HeaderPage from '~/components/header/HeaderPage.vue';
-import { createSEOMeta } from '/utils/seo'
+import {createSEOMeta} from '/utils/seo'
 
 export default {
     data() {
@@ -109,11 +109,11 @@ export default {
                         email: "delovna-skupina@sss.si"
                     },
                     {
-                        name: "Patrik Čelih",
-                        functionName: "koordinator",
-                        photoUrl: "https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png",
-                        phone: "031708115",
-                        email: "delovna-skupina@sss.si"
+                      name: "Patrik Čelik",
+                      functionName: "koordinator",
+                      photoUrl: "https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png",
+                      phone: "031708115",
+                      email: "delovna-skupina@sss.si"
                     },
                     {
                         name: "Tilen Dobovičnik",
