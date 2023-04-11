@@ -9,12 +9,10 @@
                 <hr style="background: black" />
             </div>
             <div class="column is-narrow has-text-centered">
-                <div class="buttons">
                     <button v-for="link of links" @click="link.onClick" :key="link.label" class="button is-text has-text-black"
                         style="text-decoration: none !important; font-weight: 700 !important;">
                         {{ link.label }}
                     </button>
-                </div>
             </div>
             <div class="column mr-2 is-hidden-touch">
                 <hr style="background: black" />
