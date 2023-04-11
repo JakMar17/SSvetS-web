@@ -1,18 +1,5 @@
 <template>
   <main style="min-height: 100vh; padding-top: 0vh">
-
-
-
-    <!-- <b-carousel :interval="5000">
-      <b-carousel-item style="height: 60vh; border-radius: 20%;" v-for="(carousel, i) in carousels" :key="i">
-        <section style="height: 100%;" :class="`hero is-medium is-${carousel.color}`">
-          <div class="hero-body has-text-centered">
-            <h1 class="title">{{ carousel.text }}</h1>
-          </div>
-        </section>
-      </b-carousel-item>
-    </b-carousel> -->
-    <!-- <Hero /> -->
     <div class="content__background">
       <div class="intruduction_row__wrapper block_padding">
         <div class="container">
@@ -49,7 +36,7 @@
         <div class="container">
           <TitleMain title="Misel predsednika ŠSS" />
           <div class="card columns" style="padding: 1em">
-            <div class="column is-3" style="display: flex; justify-content: center;">
+            <div class="column is-3" style="display: flex; justify-content: center; align-items: center">
               <img class="citation__avatar" src="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png">
             </div>
             <div class="column" style="display: flex; flex-direction: column; justify-content: center;">
@@ -80,8 +67,6 @@
 
 <script allowJs="true">
 // import {createSEOMeta} from '/utils/seo'
-
-import vueAgile from '~~/plugins/vue-agile';
 
 export default {
     data() {
@@ -116,7 +101,7 @@ export default {
         onClick() {
         }
     },
-    components: { vueAgile }
+    components: { }
 }
 </script>
 
@@ -132,7 +117,7 @@ export default {
 
 .citation {
   &__avatar {
-    //background-color: $success-light !important;
+    height: fit-content;
     border-radius: 50%;
   }
 }
