@@ -161,9 +161,20 @@ body {
 }
 
 .p-0 {
-  padding: 0;
+    padding: 0;
 }
 
 .m-100 {
-  margin: 0;
+    margin: 0;
+}
+
+/**
+used to fix margins for columns on mobile displays
+otherwise they are too wide for html body
+*/
+@media screen and (max-width: 1024px) {
+    .columns {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
