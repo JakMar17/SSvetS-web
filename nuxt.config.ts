@@ -18,13 +18,14 @@ export default defineNuxtConfig({
     },
     css: {
       preprocessorOptions: {
-        scss: {
-        }
+        scss: {}
       }
     }
 
   },
-  plugins: [],
+  plugins: [
+    {src: '~/plugins/aos.client.js', mode: 'client'},
+  ],
   modules: [
     ['@pinia/nuxt',
       {

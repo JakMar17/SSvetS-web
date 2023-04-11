@@ -22,6 +22,7 @@
   "dependencies": {
     "@mdi/font": "^7.1.96",
     "@pinia/nuxt": "^0.4.6",
+    "aos": "^2.3.4",
     "bulma": "^0.9.4",
     "remixicon": "^3.0.0",
     "sass": "^1.58.0"

@@ -1,10 +1,6 @@
 <template>
   <div class="container wrapper">
-    <div class="mb-4">
-      <h1 class="title is-1 has-text-centered">{{ title }}</h1>
-      <h2 class="subtitle is-3 has-text-centered">{{ subtitle }}</h2>
-    </div>
-    <div v-if="links" class="columns is-vcentered is-centered">
+    <div v-if="links" class="columns is-vcentered is-centered mb-0">
       <div class="column ml-2">
         <hr class="is-hidden-touch"/>
       </div>
@@ -16,6 +12,13 @@
       <div class="column mr-2">
         <hr class="is-hidden-touch"/>
       </div>
+    </div>
+    <div class="mb-4" data-aos="zoom-in">
+      <h1 class="title is-1 has-text-centered">{{ title }}</h1>
+      <h2 class="subtitle is-3 has-text-centered">{{ subtitle }}</h2>
+    </div>
+    <div class="pt-2">
+      <hr class="is-hidden-touch"/>
     </div>
   </div>
 </template>
@@ -37,8 +40,7 @@ export default {
 
 <style lang="scss" scoped>
 .wrapper {
-  padding-top: 4rem;
-  padding-bottom: 2rem;
+  margin-bottom: 5rem
 }
 
 .no_decoration_button {

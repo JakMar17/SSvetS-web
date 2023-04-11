@@ -17,22 +17,22 @@
         </div>
       </div>
 
-      <div class="blog_latest__wrapper block_padding">
+      <div class="blog_latest__wrapper block_padding" data-aos="zoom-in">
         <div class="container">
-          <TitleMain title="Aktualno" subtitle="Zadnje objave na blogu" />
+          <TitleMain subtitle="Zadnje objave na blogu" title="Aktualno"/>
           <div class="is-flex is-justify-content-flex-end">
             <a href="" class="button is-text blog_latest__title">Več vsebin</a>
           </div>
           <div class="columns px-3">
-            <BlogSummaryCard />
-            <BlogSummaryCard />
-            <BlogSummaryCard />
-            <BlogSummaryCard />
+            <BlogSummaryCard/>
+            <BlogSummaryCard/>
+            <BlogSummaryCard/>
+            <BlogSummaryCard/>
           </div>
         </div>
       </div>
 
-      <div class="block_padding citation">
+      <div class="block_padding citation" data-aos="zoom-in">
         <div class="container">
           <TitleMain title="Misel predsednika ŠSS"/>
           <div class="card columns p-2">
