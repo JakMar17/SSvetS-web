@@ -5,11 +5,16 @@ export default defineNuxtConfig({
     "@/node_modules/remixicon/fonts/remixicon.css"
   ],
   build: {
-    transpile: ['vue-agile'],
+    transpile: [],
   },
   vite: {
     define: {
-      'process.env.DEBUG': false,
+      'process.env.DEBUG': true,
+    },
+    server: {
+      hmr: {
+        port: 3008
+      }
     },
     css: {
       preprocessorOptions: {
@@ -19,7 +24,7 @@ export default defineNuxtConfig({
     }
 
   },
-  plugins: ['~/plugins/vue-agile'],
+  plugins: [],
   modules: [
     ['@pinia/nuxt',
       {
