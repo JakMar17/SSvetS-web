@@ -1,10 +1,10 @@
 <template>
-  <nav id="navMenu" class="navbar" role="navigation" style="height: 6em" aria-label="main navigation">
-    <div class="navbar-brand is-vcentered" style="display: flex; align-items: center">
+  <nav id="navMenu" aria-label="main navigation" class="navbar" role="navigation">
+    <div class="navbar-brand is-vcentered is-flex is-align-items-center">
       <div class="level-item has-text-centered">
         <nuxt-link to="/" class="navbar-item">
-          <img class="is-centered image" style="min-height: 5em" src="@/assets/images/svgs/logo-sss.svg"/>
-          <div style="margin-left: 1vw">
+          <img class="is-centered image logo" src="@/assets/images/svgs/logo-sss.svg"/>
+          <div class="ml-2">
             <div class="has-text-weight-bold">
               Študentski svet stanovalcev
             </div>
@@ -73,7 +73,15 @@ export default {
 <style lang="scss" scoped>
 @import '@/assets/styles/main.scss';
 
+nav {
+  height: 6em;
+}
+
 .navbar {
   background: linear-gradient(to bottom, rgba($primary, 0.45), transparent);
+}
+
+.logo {
+  min-height: 5em;
 }
 </style>

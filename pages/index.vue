@@ -1,15 +1,15 @@
 <template>
-  <main style="min-height: 100vh; padding-top: 0vh">
+  <main>
     <div class="content__background">
       <div class="intruduction_row__wrapper block_padding">
         <div class="container">
           <div class="columns is-centered">
             <Square class="column" :title="'Predstavniki študentov'"
-              :body="'Študentje naj sami oblikujemo in organiziramo skupnosti, v katerih bivamo. Uprava naj samostojnost podpira, ne zatira.'"
-              :onCLick="() => $router.push('/sss/kdo-smo')" :icon="'ri-shield-user-fill'" />
+                    :body="'Študentje naj sami oblikujemo in organiziramo skupnosti, v katerih bivamo. Uprava naj samostojnost podpira, ne zatira.'"
+                    :icon="'ri-shield-user-fill'" :onCLick="() => $router.push('/sss/kdo-smo')"/>
             <Square class="column"
-              :body="'Študentski svet stanovalcev že 40 let organizira Majske igre - celomesečno študentsko prireditev sestavljeno iz športa, kulture in zabave.'"
-              iconLink="https://majske-igre.si/wp-content/uploads/2022/03/Majske-igre-logo-BASIC-C-Barvna.svg" />
+                    :body="'Študentski svet stanovalcev že 40 let organizira Majske igre - celomesečno študentsko prireditev sestavljeno iz športa, kulture in zabave.'"
+                    iconLink="https://majske-igre.si/wp-content/uploads/2022/03/Majske-igre-logo-BASIC-C-Barvna.svg"/>
             <Square class="column" title="Naši projekti"
               body="ŠSS tekom leta izvaja različne projekte - dvakrat letno izdajamo revijo Na svoji zemlji, ob pustu prirejamo pustno zabavo, leto pa zapoljujemo še z drugimi kulturnimi in zabavnimi dogodki"
               :icon="'ri-file-fill'" />
@@ -20,7 +20,7 @@
       <div class="blog_latest__wrapper block_padding">
         <div class="container">
           <TitleMain title="Aktualno" subtitle="Zadnje objave na blogu" />
-          <div style="display: flex; justify-content: flex-end;">
+          <div class="is-flex is-justify-content-flex-end">
             <a href="" class="button is-text blog_latest__title">Več vsebin</a>
           </div>
           <div class="columns px-3">
@@ -34,13 +34,13 @@
 
       <div class="block_padding citation">
         <div class="container">
-          <TitleMain title="Misel predsednika ŠSS" />
-          <div class="card columns" style="padding: 1em">
-            <div class="column is-3" style="display: flex; justify-content: center; align-items: center">
+          <TitleMain title="Misel predsednika ŠSS"/>
+          <div class="card columns p-2">
+            <div class="column is-3 is-flex is-justify-content-center is-align-items-center">
               <img class="citation__avatar" src="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png">
             </div>
-            <div class="column" style="display: flex; flex-direction: column; justify-content: center;">
-              <div style="border-left: 1px solid; padding-left: 1em; padding-top: 1em; padding-bottom: 1em;">
+            <div class="column is-flex is-flex-direction-column is-justify-content-center">
+              <div class="citation__body">
                 <p class="content"> Minim pariatur est ipsum sit nisi aute duis sunt Lorem ipsum. Dolore magna
                   reprehenderit laboris ex
                   elit
@@ -54,8 +54,8 @@
                   elit
                   irure incididunt non voluptate reprehenderit anim et fugiat.</p>
               </div>
-              <p class="mt-3" style="font-style: italic;">
-                <span style="font-weight: 600">Deni Cerovac</span>, predsednik Študentskega sveta stanovalcev
+              <p class="mt-3 citation__signature">
+                <span class="citation__signature_name">Deni Cerovac</span>, predsednik Študentskega sveta stanovalcev
               </p>
             </div>
           </div>
@@ -108,10 +108,14 @@ export default {
 <style lang="scss" scoped>
 // @import '@/assets/styles/main.scss';
 
+main {
+  min-height: 100vh;
+  padding-top: 0;
+}
+
 .content {
   &__background {
     padding-top: 2em;
-    //background-color: $info-light;
   }
 }
 
@@ -119,6 +123,21 @@ export default {
   &__avatar {
     height: fit-content;
     border-radius: 50%;
+  }
+
+  &__body {
+    border-left: 1px solid;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  &__signature {
+    font-style: italic;
+
+    &_name {
+      font-weight: 600;
+    }
   }
 }
 

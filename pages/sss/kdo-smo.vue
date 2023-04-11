@@ -4,7 +4,7 @@
     <SssHeader title="Kaj je Študentski svet stanovalcev?" subtitle="Kdo smo in kaj je naša naloga?" />
 
     <div class="container">
-      <div class="card" style="padding: 1em">
+      <div class="card p-4">
         <p class="content">Javni zavod Študentski dom Ljubljana (ŠDL) sestavlja 29 študentskih domov, ki so postopoma
           zrasli na različnih lokacijah po Ljubljani (Vič, Bežigrad, Center in Šiška). V njih biva nekaj manj kot 7500
           stanovalcev in stanovalk.</p>
@@ -19,7 +19,7 @@
 
     <TitleSub title="Delovanje Študentskega sveta stanovalcev" />
     <div class="container">
-      <div class="card" style="padding: 1em">
+      <div class="card p-4">
         <p class="content">ŠSS sestavlja 29 neposredno izvoljenih predstavnikov domov in 29 njihovih namestnikov.
           Predstavniki so voljeni na volitvah v njihovem domu vsakega oktobra.</p>
         <p class="content">Predstavnik in namestnik doma sta odgovorna za teme, ki se tičejo posameznih domov in tam
@@ -30,14 +30,12 @@
           oktobra neposredno izvoljen izmed članov ŠSS.</p>
         <p class="content">Na sejah člani ŠSS sprejemajo skupna stališča glede tem, ki se tičejo bivanja v ŠDL ter
           podajajo mnenja na bivanjsko problematiko v študentskih domovih, če je to potrebno.</p>
-        <div style="display: flex; margin-top: 1em; justify-content: flex-end">
-        </div>
       </div>
     </div>
 
     <TitleSub title="Domsko življenje" />
     <div class="container">
-      <div class="card is-fullheight" style="padding: 1em;">
+      <div class="card is-fullheight p-4">
         <p class="content">Poleg uradnih dolžnosti predstavniki domov skrbijo, da v domu življenje gladko poteka.
           Skrbijo za sredstva doma in skupaj s hišnikom doma urejajo skupne prostore ter skupni inventar. So prvi
           naslov za bruce in preostale stanovalce, ki potrebujejo nasvet ali dva glede bivanja. Prav tako pa znotraj

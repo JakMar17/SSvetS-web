@@ -1,10 +1,10 @@
 <template>
-  <footer class="footer is-success" style="margin-top: 4em">
+  <footer class="footer is-success">
     <div class="content has-text-centered is-success">
 
       <div class="columns is-centered">
-        <div class="column" style="margin-top: 2em">
-          <hr class="is-hidden-touch" />
+        <div class="column mt-6">
+          <hr class="is-hidden-touch"/>
           <div class="has-text-centered is-centered">
             <a class="button pb-0 is-ghost button__icon">
               <i class="ri-mail-fill"></i>
@@ -23,9 +23,8 @@
         <div class="column is-narrow">
           <img class="img__logo" src="@/assets/images/svgs/logo-sss.svg" />
         </div>
-        <div class="column" style="margin-top: 2em">
-
-          <hr class="is-hidden-touch" />
+        <div class="column mt-6">
+          <hr class="is-hidden-touch"/>
           <div class="buttons is-centered mb-0">
             <a class="button is-ghost button__icon">
               <i class="ri-ie-fill"></i>
@@ -58,6 +57,10 @@
 
 
 <style lang="scss" scoped>
+footer {
+  margin-top: 4em;
+}
+
 hr {
   background: black;
   margin: 0;

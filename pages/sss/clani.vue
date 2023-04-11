@@ -3,11 +3,11 @@
     <SssHeader/>
 
     <div class="container">
+      <!--      TODO: popravi sliko-->
       <div style="max-height: 45vh; overflow: hidden;">
-        <img style=" "
-          src="https://ssvets.si/wp-content/uploads/2022/02/89144402_2506116986366693_2098656754677055488_n.jpg" />
+        <img src="https://ssvets.si/wp-content/uploads/2022/02/89144402_2506116986366693_2098656754677055488_n.jpg"/>
       </div>
-      <div class="card" style="padding: 1em; margin-top: 1em">
+      <div class="card p-4 mt-4">
         <p class="content">Svet sestavlja 60 članov stanovalcev študentskih domov v Ljubljani. Člani so predsednik in
           namestnik sveta ter predstavniki študentskih domov in njihovi namestniki. Vsak dom ima torej dva člana, volilno
           pravico pa uveljavlja prek predstavnika.</p>
@@ -21,13 +21,13 @@
       </div>
     </div>
 
-    <SssMembersLeadership class="members__wrapper" :president="leadership.president"
-      :vicePresident="leadership.vicePresident" :otherMembers="leadership.otherMembers"></SssMembersLeadership>
+    <SssMembersLeadership :otherMembers="leadership.otherMembers"
+                          :president="leadership.president" :vicePresident="leadership.vicePresident"></SssMembersLeadership>
 
     <div class="container members__wrapper">
-      <div class="container" style="margin-top: 4em">
+      <div class="container mt-6">
         <TitleMain title="Člani ŠSS" subtitle="Predstavniki in namestniki domov"/>
-        <div class="card" style="padding: 1em">
+        <div class="card p-4">
           <p class="content">Predstavniki domov oziroma skrbijo, da življenje v domu gladko poteka. So prvi naslov za
             bruce in preostale stanovalce, ki potrebujejo nasvet ali dva glede bivanja. Prav tako pa znotraj doma
             organizirajo različne dogodke – najpopularnejše domske zabave in piknike, pa tudi druge dogodke kot so
@@ -38,24 +38,23 @@
             bodisi na upravo ŠDL bodisi na sejah ŠSS. Pomagajo pri organizaciji Majskih iger in ostalih projektov ŠSS.</p>
         </div>
       </div>
-      <div
-        style="display: flex; justify-content: space-evenly; flex-wrap: wrap; gap: 1.75em; padding-bottom: 4em; margin-top: 4em">
+      <div class="members__wrapper">
         <SssMembersDorm dormName="Dom 5" dormMotto="Vsako leto manj tihi dom" presidentName="Jakob Marušič"
-          presidentPhotoUrl="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"
-          vicePresidentName="Maja Trušnovec"
-          vicePresidentPhotoUrl="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png" />
+                        presidentPhotoUrl="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"
+                        vicePresidentName="Maja Trušnovec"
+                        vicePresidentPhotoUrl="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"/>
         <SssMembersDorm dormName="Dom 5" dormMotto="Vsako leto manj tihi dom" presidentName="Jakob Marušič"
-          presidentPhotoUrl="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"
-          vicePresidentName="Maja Trušnovec"
-          vicePresidentPhotoUrl="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png" />
+                        presidentPhotoUrl="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"
+                        vicePresidentName="Maja Trušnovec"
+                        vicePresidentPhotoUrl="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"/>
         <SssMembersDorm dormName="Dom 5" dormMotto="Vsako leto manj tihi dom" presidentName="Jakob Marušič"
-          presidentPhotoUrl="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"
-          vicePresidentName="Maja Trušnovec"
-          vicePresidentPhotoUrl="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png" />
+                        presidentPhotoUrl="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"
+                        vicePresidentName="Maja Trušnovec"
+                        vicePresidentPhotoUrl="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"/>
         <SssMembersDorm dormName="Dom 5" dormMotto="Vsako leto manj tihi dom" presidentName="Jakob Marušič"
-          presidentPhotoUrl="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"
-          vicePresidentName="Maja Trušnovec"
-          vicePresidentPhotoUrl="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png" />
+                        presidentPhotoUrl="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"
+                        vicePresidentName="Maja Trušnovec"
+                        vicePresidentPhotoUrl="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"/>
       </div>
     </div>
   </main>
@@ -63,7 +62,7 @@
 
 
 <script>
-import { createSEOMeta } from '/utils/seo'
+import {createSEOMeta} from '/utils/seo'
 
 export default {
   data() {
@@ -129,3 +128,16 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.members {
+  &__wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1.75em;
+    padding-bottom: 4em;
+    margin-top: 4em;
+  }
+}
+</style>

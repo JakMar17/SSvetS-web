@@ -1,7 +1,7 @@
 <template>
-  <div class="columns is-vcentered" style="margin-top: 4em; margin-bottom: 2em">
-    <div class="column is-hidden-touch" style="padding-left: 0 !important">
-      <hr style="background: black"/>
+  <div class="columns is-vcentered mt-6 mb-4">
+    <div class="column is-hidden-touch pl-0">
+      <hr/>
     </div>
     <div class="column is-visible-touch"></div>
     <div class="column is-narrow has-text-centered">
@@ -9,8 +9,8 @@
       <h2 class="subtitle is-4">{{ subtitle }}</h2>
     </div>
     <div class="column is-visible-touch"></div>
-    <div class="column is-hidden-touch" style="padding-right: 0 !important">
-      <hr style="background: black"/>
+    <div class="column is-hidden-touch pr-0">
+      <hr/>
     </div>
   </div>
 </template>
@@ -26,3 +26,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+hr {
+  background: black;
+}
+</style>
