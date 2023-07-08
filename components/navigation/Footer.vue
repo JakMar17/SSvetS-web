@@ -58,7 +58,7 @@
 
 <style lang="scss" scoped>
 footer {
-  margin-top: 4em;
+    margin-top: 1em;
 }
 
 hr {

@@ -1,149 +1,85 @@
 <template>
-    <main>
-        <HeaderPage title="Kontakt"></HeaderPage>
-
-      <div class="container" style="margin-top: 4em">
-        <div class="columns">
-          <div class="column box is-4">
-          </div>
-          <div class="column box">
-          </div>
+    <div style="display: flex; justify-content: space-between; min-height: 47vh; gap: 4vw; flex-wrap: wrap; padding: 0 4vw">
+        <div style="display: flex; flex-direction: column; justify-content: flex-end;">
+            <h1 class="title is-1 mb-0">Kontaktne informacije</h1>
+            <h1 class="title is-1">Študentski svet stanovalcev</h1>
         </div>
-      </div>
+        <div class="card" style="display: flex; flex-direction: column; justify-content: space-around; flex-grow: 1; padding: 1em">
+            <div>
+                <h2 class="subtitle is-4 p-0 m-0">Naslov</h2>
+                <div style="display: flex; align-items: center; gap: 2em">
+                    <div><i class="ri-home-2-fill" style="font-size: 3em"></i></div>
+                    <div>
+                        <div>Svetčeva ulica 9 (dom 3, 2. nadstropje)</div>
+                        <div>1000 Ljubljana</div>
+                    </div>
+                </div>
+            </div>
 
-        <div class="container" style="margin-top: 4em">
-            <div class="columns">
-                <div class="column">
-                    <div class="card has-text-centered p-5">
-                        <h2 class="title is-5">Deni Cerovac</h2>
-                        <h3 class="subtitle is-6" style="font-style: italic;">predsednik ŠSS</h3>
-                        <div style="display: flex; gap: 1em; align-items: center; justify-content: center;">
-                            <i class="ri-phone-line"></i>
-                            <div>
-                                031708115
-                            </div>
-                        </div>
-                        <div style="display: flex; gap: 1em; align-items: center; justify-content: center;">
-                            <i class="ri-mail-line"></i>
-                            <div>
-                                deni@sss.si
-                            </div>
-                        </div>
-                        <span class="subtitle is-6" style="font-style: italic; padding-top: 24px">Kontakt za člane ŠSS, medije, upravo,...</span>
+            <div>
+                <h2 class="subtitle is-4 p-0 m-0">E-poštni naslov</h2>
+                <div style="display: flex; align-items: center; gap: 2em">
+                    <div><i class="ri-home-2-fill" style="font-size: 3em"></i></div>
+                    <div>
+                        <div>Svetčeva ulica 9 (dom 3, 2. nadstropje)</div>
+                        <div>1000 Ljubljana</div>
                     </div>
                 </div>
-                <div class="column">
-                    <div class="card has-text-centered p-5">
-                        <h2 class="title is-5">Deni Cerovac</h2>
-                        <h3 class="subtitle is-6" style="font-style: italic;">predsednik ŠSS</h3>
-                        <div style="display: flex; gap: 1em; align-items: center; justify-content: center;">
-                            <i class="ri-phone-line"></i>
-                            <div>
-                                031708115
-                            </div>
-                        </div>
-                        <div style="display: flex; gap: 1em; align-items: center; justify-content: center;">
-                            <i class="ri-mail-line"></i>
-                            <div>
-                                deni@sss.si
-                            </div>
-                        </div>
-                        <span class="subtitle is-6" style="font-style: italic; padding-top: 24px">Kontakt za člane ŠSS, medije, upravo,...</span>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card has-text-centered p-5">
-                        <h2 class="title is-5">Deni Cerovac</h2>
-                        <h3 class="subtitle is-6" style="font-style: italic;">predsednik ŠSS</h3>
-                        <div style="display: flex; gap: 1em; align-items: center; justify-content: center;">
-                            <i class="ri-phone-line"></i>
-                            <div>
-                                031708115
-                            </div>
-                        </div>
-                        <div style="display: flex; gap: 1em; align-items: center; justify-content: center;">
-                            <i class="ri-mail-line"></i>
-                            <div>
-                                deni@sss.si
-                            </div>
-                        </div>
-                        <span class="subtitle is-6" style="font-style: italic; padding-top: 24px">Kontakt za člane ŠSS, medije, upravo,...</span>
+            </div>
+
+            <div>
+                <h2 class="subtitle is-4 p-0 m-0">Telefonska številka</h2>
+                <div style="display: flex; align-items: center; gap: 2em">
+                    <div><i class="ri-home-2-fill" style="font-size: 3em"></i></div>
+                    <div>
+                        <div>Svetčeva ulica 9 (dom 3, 2. nadstropje)</div>
+                        <div>1000 Ljubljana</div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="container" style="margin-top: 4em">
-            <h2 class="title is-2">Kontakt za partnerje</h2>
+    <div style="display: flex; justify-content: space-between; min-height: 47vh; gap: 4vw; flex-wrap: wrap; padding: 0 4vw">
+        <div style="display: flex; flex-direction: column; justify-content: flex-end;">
+            <h1 class="title is-1 mb-0">Kontaktne informacije</h1>
+            <h1 class="title is-1">Majske igre</h1>
         </div>
-    </main>
+        <div class="card" style="display: flex; flex-direction: column; justify-content: space-around; flex-grow: 1; padding: 1em">
+            <div>
+                <h2 class="subtitle is-4 p-0 m-0">Naslov</h2>
+                <div style="display: flex; align-items: center; gap: 2em">
+                    <div><i class="ri-home-2-fill" style="font-size: 3em"></i></div>
+                    <div>
+                        <div>Svetčeva ulica 9 (dom 3, 2. nadstropje)</div>
+                        <div>1000 Ljubljana</div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="subtitle is-4 p-0 m-0">E-poštni naslov</h2>
+                <div style="display: flex; align-items: center; gap: 2em">
+                    <div><i class="ri-home-2-fill" style="font-size: 3em"></i></div>
+                    <div>
+                        <div>Svetčeva ulica 9 (dom 3, 2. nadstropje)</div>
+                        <div>1000 Ljubljana</div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="subtitle is-4 p-0 m-0">Telefonska številka</h2>
+                <div style="display: flex; align-items: center; gap: 2em">
+                    <div><i class="ri-home-2-fill" style="font-size: 3em"></i></div>
+                    <div>
+                        <div>Svetčeva ulica 9 (dom 3, 2. nadstropje)</div>
+                        <div>1000 Ljubljana</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
-
-
-<script>
-import HeaderPage from '~/components/header/HeaderPage.vue';
-import {createSEOMeta} from '/utils/seo'
-
-export default {
-    data() {
-        return {
-            leadership: {
-                president: {
-                    name: "Deni Cerovac",
-                    photoUrl: "https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png",
-                    phone: "031708115",
-                    email: "precednik@sss.si"
-                },
-                vicePresident: {
-                    name: "Mihela Janežič",
-                    photoUrl: "https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png",
-                    phone: "031708115",
-                    email: "viceprecednik@sss.si"
-                },
-                otherMembers: [
-                    {
-                        name: "Jakob Marušič",
-                        functionName: "vodja delovne skupine ŠSS",
-                        photoUrl: "https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png",
-                        phone: "031708115",
-                        email: "delovna-skupina@sss.si"
-                    },
-                    {
-                      name: "Patrik Čelik",
-                      functionName: "koordinator",
-                      photoUrl: "https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png",
-                      phone: "031708115",
-                      email: "delovna-skupina@sss.si"
-                    },
-                    {
-                        name: "Tilen Dobovičnik",
-                        functionName: "svetovalec",
-                        photoUrl: "https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png",
-                        phone: "031708115",
-                        email: "delovna-skupina@sss.si"
-                    },
-                ]
-            }
-        };
-    },
-    async asyncData() {
-    },
-    async mounted() {
-    },
-    methods: {},
-    head() {
-        return {
-            title: "this.project.project_name",
-            meta: [
-                ...createSEOMeta({
-                    title: "this.project.project_name",
-                    description: "this.project.description",
-                    url: "https://jakob.marela.team/project/" + "this.project.project_name",
-                    image: {}
-                }),
-            ],
-        };
-    },
-    components: { HeaderPage }
-}
+<script lang="ts" setup>
 </script>
