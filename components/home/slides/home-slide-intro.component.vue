@@ -5,7 +5,7 @@
             <h1 class="title">ŠTUDENTSKI SVET STANOVALCEV</h1>
             <h2 class="subtitle">Študentski dom Ljubljana</h2>
 
-            <div style="display: flex; gap: 0.25em">
+            <div class="social">
                 <a><i class="ri-facebook-circle-fill" style="color: white; font-size: 2em"></i></a>
                 <a><i class="ri-instagram-fill" style="color: white; font-size: 2em"></i></a>
                 <a href="https://majske.igre.si"><i class="ri-ie-fill" style="color: white; font-size: 2em"></i></a>
@@ -13,10 +13,10 @@
             <hr/>
 
             <div class="menu">
-                <a>Kdo smo</a>
-                <a>Projekti</a>
-                <a>Majske igre</a>
-                <a>Kontakt</a>
+                <NuxtLink to="/sss/kdo-smo">Kdo smo</NuxtLink>
+                <NuxtLink to="/projekti">Projekti</NuxtLink>
+                <NuxtLink target="_blank" to="https://majske-igre.si">Majske igre</NuxtLink>
+                <NuxtLink to="/kontakt">Kontakt</NuxtLink>
             </div>
         </div>
         <video autoplay loop muted>
@@ -36,13 +36,13 @@ hr {
 
 .wrapper {
     position: relative;
-    z-index: 10;
+    z-index: 20;
 }
 
 .content {
     z-index: 200;
     position: absolute;
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba($neutral, 0.5);
     height: 100vh;
     width: 100%;
 
@@ -72,6 +72,11 @@ hr {
         @extend .subtitle, .is-4, .text__has-shadow;
         text-align: center;
         color: white;
+    }
+
+    .social {
+        display: flex;
+        gap: 0.25em;
     }
 }
 

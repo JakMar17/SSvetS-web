@@ -2,16 +2,14 @@
 @import 'node_modules/bulma/sass/utilities/_all';
 
 // Set your colors
-$primary: #122b41;
-$info: #8FBAE0;
+$primary: #0072AF;
+$info: #5FADDB;
 $warning: #FFBC70;
 $danger: #F25F5C;
-$success: #8DB42D;
-$success: #CAE28D;
+$success: #76C31D;
 
 
-$neutral: #ebebeb;
-$background: findLightColor($neutral);
+$neutral: #5F7174;
 
 $primary-light: findLightColor($primary);
 $primary-dark: findDarkColor($primary);
@@ -33,7 +31,6 @@ $success-light: findLightColor($success);
 $success-dark: findDarkColor($success);
 $success-invert: findColorInvert($success);
 
-$background: $info-light;
 $twitter: #4099ff;
 $twitter-invert: findColorInvert($twitter);
 
@@ -41,15 +38,18 @@ $twitter-invert: findColorInvert($twitter);
 $custom-colors: null !default;
 $custom-shades: null !default;
 
+$background: $info-light;
+
+
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: mergeColorMaps(
-  (
-    'white': (
-      $white,
-      $black,
-    ),
-    'black': (
-      $black,
+                (
+                        'white': (
+                                $white,
+                                $black,
+                        ),
+                        'black': (
+                                $black,
       $white,
     ),
     'light': (
@@ -108,24 +108,6 @@ $link-focus-border: $primary;
 // Import Bulma and Buefy styles
 @import 'node_modules/bulma/bulma.sass';
 
-.uvodni-sestavek {
-  font-weight: 600;
-  font-size: larger;
-}
-
-.mednaslov {
-  margin: 6vh 5vh 3vh 5vh;
-  @extend .title, .is-2;
-}
-
-.pod-mednaslov {
-  margin: 6vh 5vh 3vh 5vh;
-  @extend .subtitle, .is-4;
-}
-
-.element {
-  margin: 3vh 4vw 3vh 4vw;
-}
 
 .block_padding {
   padding: 3em 4em;
@@ -134,22 +116,13 @@ $link-focus-border: $primary;
 .is-clickable {
   cursor: pointer;
 }
-/*
-html {
-  @extend .has-navbar-fixed-top
-}
 
 body {
-  @extend .has-navbar-fixed-top
-}
-*/
-
-
-body {
-  background-image: url('@/assets/images/svgs/sun-tornado.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
+    //background-image: url('@/assets/images/svgs/sun-tornado.svg');
+    //background-repeat: no-repeat;
+    //background-size: cover;
+    background: $background;
+    min-height: 100vh;
 }
 
 .h-100 {

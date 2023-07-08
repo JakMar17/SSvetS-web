@@ -78,7 +78,8 @@ nav {
 }
 
 .navbar {
-  background: linear-gradient(to bottom, rgba($primary, 0.45), transparent);
+    //background: linear-gradient(to bottom, rgba($primary, 0.45), transparent);
+    background: transparent;
 }
 
 .logo {
