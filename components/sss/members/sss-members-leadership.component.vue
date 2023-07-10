@@ -69,12 +69,12 @@ export default {
 
 .wrapper {
     position: relative;
-    height: 38em;
+    height: 30em;
     width: 100%;
     z-index: 2;
 
     @media only screen and (min-width: 768px) {
-        height: 32em;
+        height: 27em;
     }
 }
 
@@ -82,11 +82,10 @@ export default {
     z-index: -1;
     object-fit: cover;
     width: 100%;
-    height: 30em;
+    height: 20em;
     margin-top: 3em;
 
     @media only screen and (min-width: 768px) {
-        height: 27em;
         margin-top: 5em;
     }
 }
@@ -98,10 +97,9 @@ export default {
     height: 100%;
     margin-bottom: 0;
     padding: 2vh 4vw;
-    gap: 4em;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: space-between;
     align-content: space-evenly;
     justify-items: stretch;

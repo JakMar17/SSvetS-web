@@ -62,17 +62,11 @@ export default {
             required: true
         },
         president: {
-            type: {
-                name: String,
-                imageUrl: String
-            },
+            type: Object,
             required: true
         },
         vicePresident: {
-            type: {
-                name: String,
-                imageUrl: String
-            },
+            type: Object,
             required: true
         }
     }
@@ -86,7 +80,7 @@ export default {
 
 .wrapper {
     position: relative;
-    height: 45em;
+    height: 35em;
     width: 100%;
     z-index: 2;
 
@@ -99,8 +93,8 @@ export default {
     z-index: -1;
     object-fit: cover;
     width: 100%;
-    height: 30em;
     margin-top: 5em;
+    height: 20em;
 
     @media only screen and (min-width: 768px) {
         height: 25em;
