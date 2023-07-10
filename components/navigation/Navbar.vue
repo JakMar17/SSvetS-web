@@ -36,8 +36,8 @@
           </NuxtLink>
         </div>
         <div class="navbar-item">
-          <NuxtLink to="/contact" class="navbar-item">
-            Kontakt
+          <NuxtLink class="navbar-item" to="/kontakt">
+              Kontakt
           </NuxtLink>
         </div>
       </div>

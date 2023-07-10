@@ -17,8 +17,34 @@
             </div>
         </div>
 
-        <SssMembersLeadership :otherMembers="leadership.otherMembers"
-                              :president="leadership.president" :vicePresident="leadership.vicePresident"></SssMembersLeadership>
+
+        <!--        <SssMembersLeadershipComponent-->
+        <!--            name="Deni Cerovac"-->
+        <!--            position="predsednik ŠSS"-->
+        <!--            phone-number="031 708 115"-->
+        <!--            mail="deni.cerovac@sssvet.si"-->
+        <!--            image-url="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/341040534_1068140370811066_4696911631335463177_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0debeb&_nc_ohc=6arF0IdBoPQAX8kBUcA&_nc_ht=scontent-vie1-1.xx&oh=00_AfDiXJKylnr3_IVNjyWApJi9ikh9IEef72jrnqOo38b69w&oe=64B0F2AC"-->
+        <!--            avatar-url="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"-->
+        <!--        ></SssMembersLeadershipComponent>-->
+
+        <!--        <SssMembersLeadershipComponent-->
+        <!--            name="Deni Cerovac"-->
+        <!--            position="predsednik ŠSS"-->
+        <!--            phone-number="031 708 115"-->
+        <!--            mail="deni.cerovac@sssvet.si"-->
+        <!--            image-url="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/341040534_1068140370811066_4696911631335463177_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0debeb&_nc_ohc=6arF0IdBoPQAX8kBUcA&_nc_ht=scontent-vie1-1.xx&oh=00_AfDiXJKylnr3_IVNjyWApJi9ikh9IEef72jrnqOo38b69w&oe=64B0F2AC"-->
+        <!--            avatar-url="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"-->
+        <!--        ></SssMembersLeadershipComponent>-->
+
+        <!--        <SssMembersLeadershipComponent-->
+        <!--            name="Deni Cerovac"-->
+        <!--            position="predsednik ŠSS"-->
+        <!--            phone-number="031 708 115"-->
+        <!--            mail="deni.cerovac@sssvet.si"-->
+        <!--            image-url="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/341040534_1068140370811066_4696911631335463177_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0debeb&_nc_ohc=6arF0IdBoPQAX8kBUcA&_nc_ht=scontent-vie1-1.xx&oh=00_AfDiXJKylnr3_IVNjyWApJi9ikh9IEef72jrnqOo38b69w&oe=64B0F2AC"-->
+        <!--            avatar-url="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"-->
+        <!--        ></SssMembersLeadershipComponent>-->
+
 
         <SssMembersDormComponent
             v-for="dorm in members"
@@ -42,8 +68,8 @@ export default {
     data() {
         queryContent("/sss/members").findOne().then(
             ({members}) => {
-                console.log(members)
                 this.members = members
+                console.log(this.members)
             });
 
 
