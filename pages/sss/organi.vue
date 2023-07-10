@@ -1,7 +1,7 @@
 <template>
     <main>
 
-        <SssHeader title="Organi Študentskega sveta stanovalcev" subtitle="" />
+        <SssHeaderComponent subtitle="" title="Organi Študentskega sveta stanovalcev"/>
 
         <div class="container">
             <div class="card p-4">

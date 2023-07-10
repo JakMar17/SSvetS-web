@@ -118,10 +118,10 @@ $link-focus-border: $primary;
 }
 
 body {
-    //background-image: url('@/assets/images/svgs/sun-tornado.svg');
-    //background-repeat: no-repeat;
-    //background-size: cover;
-    background: $background;
+    background-image: url('@/assets/images/svgs/background-waves.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    //background: $background;
     min-height: 100vh;
 }
 

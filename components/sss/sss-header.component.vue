@@ -1,5 +1,5 @@
 <template>
-    <HeaderPage :title="title" :subtitle="subtitle" :links="headerLinks" />
+    <HeaderPageComponent :imageUrl="imageUrl" :links="headerLinks" :subtitle="subtitle" :title="title"/>
 </template>
 
 <script>
@@ -12,6 +12,10 @@ export default {
         subtitle: {
             type: String,
             default: "Predstavniki študentov Študentskega doma Ljubljana"
+        },
+        imageUrl: {
+            type: String,
+            default: "https://ssvets.si/wp-content/uploads/2022/02/89144402_2506116986366693_2098656754677055488_n.jpg"
         }
     },
     data() {

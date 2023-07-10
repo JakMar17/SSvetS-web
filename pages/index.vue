@@ -3,28 +3,25 @@
         <div class="snap-y__section">
             <HomeSlideIntroComponent/>
         </div>
-        <div class="snap-y__section">
-            <HomeSlideSectionComponent image-url="https://majske-igre.si/wp-content/uploads/2022/03/otvoritev-2018-zabava.jpg" subtitle="Skrb za dobrobit študentov in razgibano domsko življenje" title="Predstavniki stanovalcev">
-                <template v-slot:card-content>
-                    <p>Študentske domove Ljubljana sestavlja 29 domov, vsak izmed domov v oktobru voli svojega predstavnika, ki skrbi za tekoče zadeve doma in je član ŠSS.</p>
-                    <p>Poleg predstavnikov so člani ŠSS še njegovi namestniki, predsednik in namestnik predsednika ŠSS ter drugi člani predsedstva.</p>
-                    <p>Glavna naloga ŠSS-ja je predstavljanje interesov vseh stanovalcev zavoda, to vključuje skrb za dobro klimo, zastopanje interesov pri pripravi letnih delovnih planov ter oblikovanju internih pravilnikov.</p>
-                </template>
-            </HomeSlideSectionComponent>
-        </div>
-        <div class="snap-y__section">
-            <HomeSlideSectionComponent
-                image-url="https://majske-igre.si/wp-content/uploads/2022/03/otvoritev-2018-zabava.jpg"
-                subtitle="Majske igre, študentsko pustovanje, Na svoji zemlji"
-                title="Projekti"
+        <div v-for="section of sections" class="snap-y__section">
+            <HomeSlideSectionComponent v-if="section.slides == null"
+                                       :image-url="section.imageUrl"
+                                       :subtitle="section.subtitle"
+                                       :title="section.title"
             >
                 <template v-slot:card-content>
-                    <p>Študentski svet stanovalcev tekom leta organizira športne, kulturne in zabavne dogodke, ki so v prvi vrsti namenjeni stanovalcem domov. Tekom leta lahko v Rožni kuhni spremljate likovne, fotografske razstave, udeležite se lahko standup in drugih, resenjših in zabavnejših, večerov.</p>
-                    <p>Vsako leto ŠSS izda lastno publikacijo imenovano <strong>Na svoji zemlji</strong> v kateri stanovalci pišejo zanimive anekdote o svoje življenju v domu, hkrati pa lahko v njej najdete obilico zanimivih in uporabnih informacij.</p>
-                    <p>V decembru ŠSS organizira med domsko tekmovanje v okraševanju domov, v februarju največje študentsko pustovanje, v maju pa že 40 let največji študentski dogodek v Evropi, športen, kulturen in zabaven poklon študentskemu življenju - <strong>Majske igre</strong>.</p>
+                    <p v-for="c of section.content" v-html="c"></p>
                 </template>
             </HomeSlideSectionComponent>
+
+            <SliderWrapperComponent
+                v-if="section.slides"
+                image-url="https://majske-igre.si/wp-content/uploads/2022/03/otvoritev-2018-zabava.jpg"
+                :slides="section.slides"
+            >
+            </SliderWrapperComponent>
         </div>
+
         <div class="snap-y__section">
             <HomeBlogSlideComponent/>
         </div>
@@ -33,6 +30,8 @@
 
 <script>
 import HomeSlideSectionComponent from "~/components/home/slides/home-slide-section.component.vue";
+import HomeSliderComponent from "~/components/home/slides/home-slider.component.vue";
+import SliderWrapperComponent from "~/components/slider/slider-wrapper.component.vue";
 
 definePageMeta({
     layout: "no-navbar-layout"
@@ -40,9 +39,16 @@ definePageMeta({
 
 export default {
     name: "Home",
-    components: {HomeSlideSectionComponent},
+    components: {SliderWrapperComponent, HomeSliderComponent, HomeSlideSectionComponent},
     data() {
-        return {};
+        queryContent('').findOne().then(
+            ({sections}) => {
+                this.sections = sections;
+            });
+
+        return {
+            sections: [],
+        };
     },
     methods: {},
 };

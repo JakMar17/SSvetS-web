@@ -1,0 +1,34 @@
+{
+  "members": [
+    {
+      "dormName": "Dom V",
+      "imageUrl": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_5/Dom5-DSC_6156.jpg",
+      "location": "Rožna dolina",
+      "noOfMembers": 188,
+      "moto": "Vsako leto manj tihi dom",
+      "president": {
+        "name": "Jakob Marušič",
+        "imageUrl": "https://majske-igre.si/wp-content/uploads/2022/02/patrik.png"
+      },
+      "vicePresident": {
+        "name": "Oskar Rosc",
+        "imageUrl": "https://majske-igre.si/wp-content/uploads/2023/03/deni_belo-1-250x250.jpg"
+      }
+    },
+    {
+      "dormName": "Dom V",
+      "imageUrl": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_5/Dom5-DSC_6156.jpg",
+      "location": "Rožna dolina",
+      "noOfMembers": 188,
+      "moto": "Vsako leto manj tihi dom",
+      "president": {
+        "name": "Jakob Marušič",
+        "imageUrl": "https://majske-igre.si/wp-content/uploads/2022/02/patrik.png"
+      },
+      "vicePresident": {
+        "name": "Oskar Rosc",
+        "imageUrl": "https://majske-igre.si/wp-content/uploads/2023/03/deni_belo-1-250x250.jpg"
+      }
+    }
+  ]
+}

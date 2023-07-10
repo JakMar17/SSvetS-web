@@ -1,7 +1,7 @@
 <template>
   <main>
 
-    <SssHeader title="Kaj je Študentski svet stanovalcev?" subtitle="Kdo smo in kaj je naša naloga?" />
+    <SssHeaderComponent :links="headerLinks" imageUrl="https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_5/Dom5-DSC_6156.jpg" subtitle="Kdo smo in kaj je naša naloga?" title="Študentski svet stanovalcev"></SssHeaderComponent>
 
     <div class="container">
       <div class="card p-4">
@@ -52,7 +52,26 @@
 <script>
 export default {
   data() {
-    return {}
+      return {
+          headerLinks: [
+              {
+                  label: "Kdo smo",
+                  onClick: () => this.$router.push('/sss/kdo-smo')
+              },
+              {
+                  label: "Člani",
+                  onClick: () => this.$router.push('/sss/clani')
+              },
+              {
+                  label: "Organi",
+                  onClick: () => this.$router.push('/sss/organi')
+              },
+              {
+                  label: "Zgodovina",
+                  onClick: () => this.$router.push('/sss/zgodovina')
+              }
+          ]
+      }
   },
   async asyncData() {
 
