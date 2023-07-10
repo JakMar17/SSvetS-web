@@ -62,11 +62,17 @@ export default {
             required: true
         },
         president: {
-            type: Object,
+            type: {
+                name: String,
+                imageUrl: String
+            },
             required: true
         },
         vicePresident: {
-            type: Object,
+            type: {
+                name: String,
+                imageUrl: String
+            },
             required: true
         }
     }
