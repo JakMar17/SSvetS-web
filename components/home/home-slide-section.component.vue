@@ -2,31 +2,41 @@
     <div class="wrapper">
         <div class="content">
             <div class="content__title-wrapper">
-                <h1 class="title is-1 text__has-shadow" style="color: white">Aktualno</h1>
-                <h2 class="subtitle is-3 text__has-shadow" style="color: white">Zadnje objave na blogu</h2>
+                <h1 class="title is-1 text__has-shadow" style="color: white">{{ title?.toUpperCase() }}</h1>
+                <h2 v-if="subtitle" class="subtitle is-3 text__has-shadow" style="color: white">{{ subtitle }}</h2>
             </div>
             <div class="content__main-wrapper">
-                <div class="content__main-row">
-                    <BlogSummaryCard style="min-width: 16em"/>
-                    <BlogSummaryCard style="min-width: 16em"/>
-                    <BlogSummaryCard style="min-width: 16em"/>
-                </div>
-                <div style="display: flex; justify-content: flex-end; margin-right: 2em">
-                    <a>Več vsebine</a>
+                <div class="content__main-card card">
+                    <slot name="card-content"></slot>
                 </div>
             </div>
+
         </div>
+        <img :src="imageUrl" class="background img-clip"/>
     </div>
 </template>
 
 <script>
 export default {
-    name: "HomeSlideSection3",
+    name: "HomeSlideSectionComponent",
+    props: {
+        title: {
+            type: String,
+            required: true
+        },
+        subtitle: {
+            type: String
+        },
+        imageUrl: {
+            type: String,
+            required: true
+        }
+    }
 };
 </script>
 
 <style lang="scss" scoped>
-@import "@/assets/styles/main.scss";
+@import "assets/styles/main";
 
 hr {
     background: white;
@@ -36,21 +46,26 @@ hr {
 
 .wrapper {
     position: relative;
-    background: $info;
-    z-index: 5;
+    background: $primary;
+    z-index: 2;
 }
+
+.img-clip {
+    clip-path: polygon(0 0, 100% 0, 100% 40%, 44% 85%, 0 85%, 0% 65%);
+}
+
 
 .background {
     z-index: -1;
     object-fit: cover;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .content {
     position: absolute;
     z-index: 200;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     padding-top: 6em;
 
@@ -68,13 +83,14 @@ hr {
 
     &__main {
         &-wrapper {
-            padding-bottom: 4em
-        }
-
-        &-row {
             display: flex;
             justify-content: flex-end;
-            flex-wrap: wrap;
+        }
+
+        &-card {
+            padding: 2em;
+            margin: 0 2em 20vh 2em;
+            max-width: 50em;
         }
     }
 }

@@ -23,14 +23,14 @@
         </div>
 
         <div class="snap-y__section">
-            <HomeBlogSlideComponent/>
+            <HomeSlideBlogComponent/>
         </div>
     </div>
 </template>
 
 <script>
-import HomeSlideSectionComponent from "~/components/home/slides/home-slide-section.component.vue";
-import HomeSliderComponent from "~/components/home/slides/home-slider.component.vue";
+import HomeSlideSectionComponent from "~/components/home/home-slide-section.component.vue";
+import HomeSliderComponent from "~/components/home/home-slider.component.vue";
 import SliderWrapperComponent from "~/components/slider/slider-wrapper.component.vue";
 
 definePageMeta({

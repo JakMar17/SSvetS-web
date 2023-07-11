@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
         <div class="content">
-            <img alt="logo" src="@/assets/images/svgs/logo-sss.svg"/>
+            <img alt="logo" src="../../assets/images/svgs/logo-sss.svg"/>
             <h1 class="title">ŠTUDENTSKI SVET STANOVALCEV</h1>
             <h2 class="subtitle">Študentski dom Ljubljana</h2>
 
@@ -20,13 +20,13 @@
             </div>
         </div>
         <video autoplay loop muted>
-            <source src="@/assets/videos/majske_aftermovie.mp4" type="video/mp4">
+            <source src="../../assets/videos/majske_aftermovie.mp4" type="video/mp4">
         </video>
     </div>
 </template>
 
 <style lang="scss" scoped>
-@import "@/assets/styles/main.scss";
+@import "assets/styles/main";
 
 hr {
     background: white;
