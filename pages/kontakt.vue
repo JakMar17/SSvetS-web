@@ -11,7 +11,7 @@
                     </div>
                     <div>
                         Študentski svet stanovalcev<br/>
-                        Svetčeva 9<br/>
+                        Svetčeva 9 (dom 3, 2. nadstropje)<br/>
                         1000 Ljubljana<br/>
                     </div>
                 </div>
