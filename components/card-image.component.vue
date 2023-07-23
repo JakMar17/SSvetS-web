@@ -52,14 +52,13 @@ export default {
             const contentCardHeight = this.pxToEm(this.$refs.content__card?.offsetHeight);
             const imageHeight = this.pxToEm(this.$refs.backgroundImage?.offsetHeight);
 
-            if (clientWidth <= 1024) {
-                const wrapper = this.$refs.wrapper;
-                console.log(wrapper)
-                console.log(wrapper.style)
-                if (wrapper.style) {
-                    wrapper.style.height = `${contentCardHeight + (imageHeight)}em`;
-                }
+            const wrapper = this.$refs.wrapper;
+            if (!wrapper.style) {
+                return;
             }
+
+            wrapper.style.height = clientWidth <= 1024 ? `${contentCardHeight + imageHeight}em` : "38em";
+            wrapper.style.height = clientWidth <= 1024 ? `${contentCardHeight + imageHeight}em` : "38em";
         },
         pxToEm(px = 0) {
             const fontSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
@@ -77,7 +76,6 @@ export default {
     height: 38em;
     width: 100%;
     margin-bottom: 2em;
-
     display: flex;
 
     @media only screen and (min-width: 1024px) {
@@ -89,13 +87,14 @@ export default {
     z-index: 2;
     height: 100%;
     position: absolute;
-
-    margin-left: 4em;
-    margin-right: 4em;
-
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+
+    @media only screen and (min-width: 768px) {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
 
     @media only screen and (min-width: 1024px) {
         align-items: center;
@@ -123,9 +122,12 @@ export default {
     justify-content: center;
     align-items: flex-start;
 
-    margin-left: 4em;
-    margin-right: 4em;
     margin-bottom: 4em;
+
+    @media only screen and (min-width: 768px) {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
 
     @media only screen and (min-width: 1024px) {
         margin-bottom: 0;
