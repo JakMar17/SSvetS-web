@@ -21,7 +21,7 @@
 
         <SssMembersLeadershipComponent
             avatar-url="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"
-            image-url="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/341040534_1068140370811066_4696911631335463177_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0debeb&_nc_ohc=6arF0IdBoPQAX8kBUcA&_nc_ht=scontent-vie1-1.xx&oh=00_AfDiXJKylnr3_IVNjyWApJi9ikh9IEef72jrnqOo38b69w&oe=64B0F2AC"
+            image-url="/images/projekti/majska-gajba.jpg"
             mail="deni.cerovac@sssvet.si"
             name="Deni Cerovac"
             phone-number="031 708 115"
@@ -30,7 +30,7 @@
 
         <SssMembersLeadershipComponent
             avatar-url="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"
-            image-url="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/341040534_1068140370811066_4696911631335463177_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0debeb&_nc_ohc=6arF0IdBoPQAX8kBUcA&_nc_ht=scontent-vie1-1.xx&oh=00_AfDiXJKylnr3_IVNjyWApJi9ikh9IEef72jrnqOo38b69w&oe=64B0F2AC"
+            image-url="/images/projekti/majska-gajba.jpg"
             mail="deni.cerovac@sssvet.si"
             name="Deni Cerovac"
             phone-number="031 708 115"
@@ -39,7 +39,7 @@
 
         <SssMembersLeadershipComponent
             avatar-url="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"
-            image-url="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/341040534_1068140370811066_4696911631335463177_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0debeb&_nc_ohc=6arF0IdBoPQAX8kBUcA&_nc_ht=scontent-vie1-1.xx&oh=00_AfDiXJKylnr3_IVNjyWApJi9ikh9IEef72jrnqOo38b69w&oe=64B0F2AC"
+            image-url="/images/projekti/majska-gajba.jpg"
             mail="deni.cerovac@sssvet.si"
             name="Deni Cerovac"
             phone-number="031 708 115"
