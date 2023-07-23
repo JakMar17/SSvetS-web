@@ -2,9 +2,9 @@
     <div class="wrapper">
         <div class="content">
             <section class="title-section">
-                <div class="card px-4 py-2">
+                <div class="card" style="border-radius: 1em; padding: 1em 2em;">
                     <h1>{{ title }}</h1>
-                    <h2 v-if="subtitle">{{ subtitle }}</h2>
+                    <h2 v-if="subtitle" class="has-text-primary">{{ subtitle.toUpperCase() }}</h2>
                 </div>
             </section>
             <section class="submenu-section">
@@ -107,10 +107,12 @@ export default {
 
     h1 {
         @extend .title, .is-1;
+        margin-bottom: 0.25em !important;
     }
 
     h2 {
-        @extend .subtitle, .is-5;
+        @extend .title, .is-5;
+        margin-top: 0 !important;
     }
 
     text-align: center;
