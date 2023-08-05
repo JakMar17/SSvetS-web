@@ -127,7 +127,7 @@ main {
     min-height: 40em;
     margin: 1em 0;
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 1024px) {
         margin: 1em 4em;
     }
 }
@@ -139,18 +139,25 @@ main {
 
         @media only screen and (min-width: 768px) {
             z-index: 2;
-            width: 45%;
+            width: 55%;
             height: 40em;
             margin-left: 4em;
             position: absolute;
         }
+
+        @media only screen and (min-width: 1024px) {
+            width: 45%;
+        }
     }
 
     &--content {
-        @extend .has-background-primary, .has-text-white;
+        color: white;
+        background: $primary;
         width: 100%;
+        border-radius: 1em 1em 0 0;
 
         @media only screen and (min-width: 768px) {
+            border-radius: 1em;
             height: 40em;
             -webkit-box-shadow: 5px 5px 10px 3px rgba(187, 187, 187, 1);
             -moz-box-shadow: 5px 5px 10px 3px rgba(187, 187, 187, 1);
@@ -193,7 +200,10 @@ main {
             height: calc(40em * 0.8);
             width: 100%;
             display: flex;
+            border-radius: 0 0 1em 1em;
+
             @media only screen and (min-width: 768px) {
+                border-radius: 1em;
                 justify-content: flex-end;
             }
         }
