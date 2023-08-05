@@ -1,0 +1,14 @@
+{
+  "siteTitle": "Projekti Študentskega sveta stanovalcev",
+  "siteSubtitle": "ŠPORT, ZABAVA & KULTURA",
+  "featureImage": "/img/majska-gajba.jpg",
+  "intro": "Kot organizacija, ki se ukvarja z zastopanjem študentov v njihovem bivalnem okolju se predvsem osredotočamo na obštudijske dejavnosti, ki poskrbijo za dinamično in razgibano bivanje.\n\nVsako leto Študentski svet stanovalcev ustanovi organizacijsko ekipo ŠSS, ki za vse stanovalce pripravlja večje in manjše dogodke. Dogodki delimo na tri sklope: zabavne, športne in kulturne. Na te sklope se deli tudi naš največji projekt – Majske igre.",
+  "projects": [
+    {
+      "title": "Majske igre",
+      "subtitle": "NAJVEČJI ŠTUDENTSKI DOGODEK V EVROPI",
+      "description": "Majske igre so vseštudentski festival, ki poteka v mesecu maju. Njegove korenine segajo v leto 1983, ko so se začeli povezovati prvi stanovalci, z namenom da bi za svoje sostanovalce pripravili predizpitno športno sprostitev. Majske igre so z leti rasle in letos praznujejo že 39. obletnico, kar jih uvršča med najstarejše tovrstne študentske festivale v Evropi.",
+      "image": "/img/majske-igre.jpg"
+    }
+  ]
+}
