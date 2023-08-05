@@ -1,0 +1,52 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: public/img
+public_folder: /img
+
+collections:
+  - name: "blogg"
+    label: "Blog"
+    format: "json"
+    folder: "assets/content/blog"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+        label: "Featured Image",
+        name: "thumbnail",
+        widget: "image",
+        required: true,
+      }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "projects"
+    label: "Projekti"
+    format: "json"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "Naslov", name: "siteTitle", widget: "string", required: true }
+      - { label: "Podnaslov", name: "siteSubtitle", widget: "string" }
+      - {
+        label: "Featured Image",
+        name: "featureImage",
+        widget: "image",
+        required: true,
+      }
+      - { label: "Intro", name: "intro", widget: "markdown" }
+      - label: "Projekti"
+        name: "projects"
+        widget: "list"
+        fields:
+          - { label: "Naslov", name: "title", widget: "string", required: true }
+          - { label: "Podnaslov", name: "subtitle", widget: "string" }
+          - { label: "Opis", name: "description", widget: "markdown", required: true }
+          - { label: "Slika", name: "image", widget: "image", required: true }
