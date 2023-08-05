@@ -1,9 +1,15 @@
 <template>
-    <HeaderPageComponent :imageUrl="imageUrl" :links="headerLinks" :subtitle="subtitle" :title="title"/>
+    <HeaderPageComponent :imageUrl="imageUrl ?? defaultImage" :links="headerLinks" :subtitle="subtitle" :title="title"/>
 </template>
 
 <script>
 export default {
+    setup: async () => {
+        const {data} = await useAsyncData('projects', async () => (await queryContent('projects').find())[0]);
+        return {
+            defaultImage: data.value.featureImage
+        }
+    },
     props: {
         title: {
             type: String,
@@ -14,30 +20,12 @@ export default {
             default: "Šport, zabava & kultura"
         },
         imageUrl: {
-            type: String,
-            default: "/images/projekti/majska-gajba.jpg"
+            type: String
         }
     },
     data() {
         return {
-            headerLinks: [
-                // {
-                //     label: "Kdo smo",
-                //     onClick: () => this.$router.push('/sss/kdo-smo')
-                // },
-                // {
-                //     label: "Člani",
-                //     onClick: () => this.$router.push('/sss/clani')
-                // },
-                // {
-                //     label: "Organi",
-                //     onClick: () => this.$router.push('/sss/organi')
-                // },
-                // {
-                //     label: "Zgodovina",
-                //     onClick: () => this.$router.push('/sss/zgodovina')
-                // }
-            ]
+            headerLinks: []
         }
     }
 }
