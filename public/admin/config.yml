@@ -6,7 +6,7 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
+  - name: "blogg"
     label: "Blog"
     format: "json"
     folder: "assets/content/blog"
