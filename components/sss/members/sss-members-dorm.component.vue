@@ -22,12 +22,16 @@
             </div>
             <div class="dorm-members">
                 <div class="member-card">
-                    <img :src="presidentImage"/>
+                    <div class="img__wrapper">
+                        <img :src="presidentImage"/>
+                    </div>
                     <h2 class="subtitle is-4 mb-0 has-text-centered">{{ presidentName }}</h2>
                     <span class="has-text-centered">predstavnik</span>
                 </div>
                 <div class="member-card">
-                    <img :src="vicePresidentImage"/>
+                    <div class="img__wrapper">
+                        <img :src="vicePresidentImage"/>
+                    </div>
                     <h2 class="subtitle is-4 mb-0 has-text-centered">{{ vicePresidentName }}</h2>
                     <span class="has-text-centered">namestnik predstavnika</span>
                 </div>
@@ -172,11 +176,19 @@ export default {
         flex-direction: column;
         align-items: center;
 
-        img {
-            max-height: 200px;
-            max-width: 200px;
-            //object-fit: contain;
+        .img__wrapper {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                max-height: 200px;
+                max-width: 200px;
+            }
         }
+
     }
 
     @media only screen and (min-width: 768px) {

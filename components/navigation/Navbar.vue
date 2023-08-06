@@ -20,12 +20,12 @@
 
     <div class="navbar-menu" :class="isMobileMenuActive">
       <div class="navbar-end">
-        <div class="navbar-item">
-          <NuxtLink to="/" class="navbar-item">
-            Majske igre
-          </NuxtLink>
-        </div>
-        <div class="navbar-item">
+          <!--        <div class="navbar-item">-->
+          <!--          <NuxtLink to="/" class="navbar-item">-->
+          <!--            Majske igre-->
+          <!--          </NuxtLink>-->
+          <!--        </div>-->
+          <div class="navbar-item">
           <NuxtLink to="/sss/clani" class="navbar-item">
             Kdo smo
           </NuxtLink>

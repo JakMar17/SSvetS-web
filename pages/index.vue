@@ -3,28 +3,28 @@
         <div class="snap-y__section">
             <HomeSlideIntroComponent/>
         </div>
-        <div v-for="section of sections" class="snap-y__section">
-            <HomeSlideSectionComponent v-if="section.slides == null"
-                                       :image-url="section.imageUrl"
-                                       :subtitle="section.subtitle"
-                                       :title="section.title"
-            >
-                <template v-slot:card-content>
-                    <p v-for="c of section.content" v-html="c"></p>
-                </template>
-            </HomeSlideSectionComponent>
+        <!--        <div v-for="section of sections" class="snap-y__section">-->
+        <!--            <HomeSlideSectionComponent v-if="section.slides == null"-->
+        <!--                                       :image-url="section.imageUrl"-->
+        <!--                                       :subtitle="section.subtitle"-->
+        <!--                                       :title="section.title"-->
+        <!--            >-->
+        <!--                <template v-slot:card-content>-->
+        <!--                    <p v-for="c of section.content" v-html="c"></p>-->
+        <!--                </template>-->
+        <!--            </HomeSlideSectionComponent>-->
 
-            <SliderWrapperComponent
-                v-if="section.slides"
-                image-url="https://majske-igre.si/wp-content/uploads/2022/03/otvoritev-2018-zabava.jpg"
-                :slides="section.slides"
-            >
-            </SliderWrapperComponent>
-        </div>
+        <!--            <SliderWrapperComponent-->
+        <!--                v-if="section.slides"-->
+        <!--                image-url="https://majske-igre.si/wp-content/uploads/2022/03/otvoritev-2018-zabava.jpg"-->
+        <!--                :slides="section.slides"-->
+        <!--            >-->
+        <!--            </SliderWrapperComponent>-->
+        <!--        </div>-->
 
-        <div class="snap-y__section">
-            <HomeSlideBlogComponent/>
-        </div>
+        <!--        <div class="snap-y__section">-->
+        <!--            <HomeSlideBlogComponent/>-->
+        <!--        </div>-->
     </div>
 </template>
 

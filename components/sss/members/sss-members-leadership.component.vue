@@ -136,13 +136,18 @@ export default {
     gap: 0.25em;
 
     .member-card {
-        @extend .card, .p-2;
+        @extend .card;
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 250px;
+        width: 250px;
+        padding: 0.5em;
 
         img {
-            max-height: 300px;
+            object-fit: contain;
+            max-height: calc(250px - 1em);
+            max-width: calc(250px - 1em);
         }
     }
 
