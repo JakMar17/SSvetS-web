@@ -93,6 +93,78 @@
       "location": "Rožna dolina",
       "subPresidentImage": "https://majske-igre.si/wp-content/uploads/2023/03/maja_belo-250x250.jpg",
       "presidentImage": "/img/20230119_131034-1-.jpg"
+    },
+    {
+      "name": "Dom VI",
+      "location": "Rožna dolina",
+      "noOfStudents": 182,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_6/Dom6-DSC_6153.jpg",
+      "subPresidentName": "Janja Klavžer",
+      "presidentName": "Martin Prajnc"
+    },
+    {
+      "name": "Dom VII",
+      "location": "Rožna dolina",
+      "noOfStudents": 167,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_7/Dom7-DSC_6138-dom1.jpg",
+      "presidentName": "Marija Marolt",
+      "subPresidentName": "Sara Cimermančič"
+    },
+    {
+      "name": "Dom VIII",
+      "location": "Rožna dolina",
+      "noOfStudents": 196,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_8/Dom8-DSC_6175-dom8.jpg",
+      "presidentName": "Primož Hrovat",
+      "subPresidentName": "Lara Zlatoper"
+    },
+    {
+      "name": "Dom IX",
+      "location": "Rožna dolina",
+      "noOfStudents": 212,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_9/Dom9-DSC_6178.jpg",
+      "presidentName": "Erik Pahor",
+      "subPresidentName": "Klemen Ferlež"
+    },
+    {
+      "name": "Dom X",
+      "location": "Rožna dolina",
+      "noOfStudents": 217,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_10/Dom10-DSC_6184.jpg",
+      "presidentName": "Tjaša Cvek",
+      "subPresidentName": "Vita Mihelič"
+    },
+    {
+      "name": "Dom XI",
+      "location": "Rožna dolina",
+      "noOfStudents": 290,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_11/Dom11-DSC_6128.jpg",
+      "subPresidentName": "Filip Zevnik",
+      "presidentName": "Ivan Vehovec"
+    },
+    {
+      "name": "Dom XII",
+      "location": "Rožna dolina",
+      "noOfStudents": 192,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/_processed_/c/0/csm_Dom12-DSC_6122_6991ae1bcf.jpg",
+      "presidentName": "Lara Klemenčič",
+      "subPresidentName": "Nadja Balažic"
+    },
+    {
+      "name": "Dom XIII",
+      "location": "Rožna dolina",
+      "noOfStudents": 192,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_13/Dom13-DSC_6193.jpg",
+      "presidentName": "Urban Velikanje",
+      "subPresidentName": "Rok Petrovčič"
+    },
+    {
+      "name": "Dom XIV",
+      "location": "Rožna dolina",
+      "noOfStudents": 168,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_14/Dom14-DSC_6187-dom14.jpg",
+      "presidentName": "Nejc Godec",
+      "subPresidentName": "Hana Klemenčič"
     }
   ]
 }
