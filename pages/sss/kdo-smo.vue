@@ -51,16 +51,21 @@
 
 <script>
 export default {
-  data() {
-      return {
-          headerLinks: [
-              {
-                  label: "Kdo smo",
-                  onClick: () => this.$router.push('/sss/kdo-smo')
-              },
-              {
-                  label: "Člani",
-                  onClick: () => this.$router.push('/sss/clani')
+    async setup() {
+        const {data} = await useAsyncData('sss', async () => (await queryContent('sss/studentski-svet-stanovalcev').findOne()));
+        console.log(data)
+        return {content: data.value}
+    },
+    data() {
+        return {
+            headerLinks: [
+                {
+                    label: "Kdo smo",
+                    onClick: () => this.$router.push('/sss/kdo-smo')
+                },
+                {
+                    label: "Člani",
+                    onClick: () => this.$router.push('/sss/clani')
               },
               {
                   label: "Organi",

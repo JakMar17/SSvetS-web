@@ -4,61 +4,38 @@
 
         <div class="container">
             <div class="card p-4 mt-4">
-                <p class="content">Svet sestavlja 60 članov stanovalcev študentskih domov v Ljubljani. Člani so predsednik in
-                    namestnik sveta ter predstavniki študentskih domov in njihovi namestniki. Vsak dom ima torej dva člana, volilno
-                    pravico pa uveljavlja prek predstavnika.</p>
-                <p class="content">V svetu so zastopani vsi študentski domovi pod okriljem ŠDL: Rožna dolina (DOM 1-14), Mestni
-                    log (ŠD 3, ŠD4, Gerbičeva 59), Bežigrad (DOM A, B, C, D, Dom Topniška, Dom Akademski kolegij, Dom FDV, Dom
-                    Podiplomcev), Šiška (Litostroj) in Center (Dom na Poljanski cesti, Dom VŠZ, Dom Ilirska).</p>
-                <p class="content">Predstavniki in namestniki domov skrbijo pretežno za zadeve svojih domov, medtem ko predsednik
-                    ŠSS, njegov namestnik in ostale funkcije znotraj ŠSS skrbijo za koordiniranje med člani sveta, priprave
-                    finančnih načrtov, organiziranje interesnih dejavnosti in komunikacijo z upravo zavoda ter ostalimi deležniki
-                    vključenimi v študentsko bivanje.</p>
+                <p class="pre-wrap">
+                    {{ content.intro }}
+                </p>
             </div>
         </div>
 
         <TitleOneComponent title="Vodstvo"/>
 
         <SssMembersLeadershipComponent
-            avatar-url="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"
-            image-url="/images/projekti/majska-gajba.jpg"
-            mail="deni.cerovac@sssvet.si"
-            name="Deni Cerovac"
-            phone-number="031 708 115"
-            position="predsednik ŠSS"
-        ></SssMembersLeadershipComponent>
-
-        <SssMembersLeadershipComponent
-            avatar-url="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"
-            image-url="/images/projekti/majska-gajba.jpg"
-            mail="deni.cerovac@sssvet.si"
-            name="Deni Cerovac"
-            phone-number="031 708 115"
-            position="predsednik ŠSS"
-        ></SssMembersLeadershipComponent>
-
-        <SssMembersLeadershipComponent
-            avatar-url="https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png"
-            image-url="/images/projekti/majska-gajba.jpg"
-            mail="deni.cerovac@sssvet.si"
-            name="Deni Cerovac"
-            phone-number="031 708 115"
-            position="predsednik ŠSS"
+            v-for="member in content.leadership"
+            :avatar-url="member.image"
+            :image-url="member.backgroundImage"
+            :mail="member.email"
+            :name="member.name"
+            :phone-number="member.phone"
+            :position="member.function"
         ></SssMembersLeadershipComponent>
 
 
         <TitleOneComponent subtitle="Predstavniki in namestniki domov" title="Člani ŠSS"/>
 
         <SssMembersDormComponent
-            v-for="dorm in members"
-            :dorm-name="dorm.dormName"
-            :image-url="dorm.imageUrl"
+            v-for="dorm in content.memberDorms"
+            :dorm-name="dorm.name"
+            :image-url="dorm.dormImage"
             :location="dorm.location"
-            :moto="dorm.moto"
-            :no-of-members="dorm.noOfMembers"
-            :president="dorm.president"
-            :vice-president="dorm.vicePresident"
-
+            :moto="dorm.dormMotto"
+            :no-of-members="dorm.noOfStudents"
+            :presidentImage="dorm.presidentImage"
+            :presidentName="dorm.presidentName"
+            :vicePresidentImage="dorm.subPresidentImage"
+            :vicePresidentName="dorm.subPresidentName"
         ></SssMembersDormComponent>
     </main>
 </template>
@@ -68,6 +45,11 @@
 import {createSEOMeta} from '/utils/seo'
 
 export default {
+    async setup() {
+        const {data} = await useAsyncData('sss', async () => (await queryContent('sss/studentski-svet-stanovalcev').findOne()));
+        console.log(data)
+        return {content: data.value}
+    },
     data() {
         queryContent("/sss/members").findOne().then(
             ({members}) => {

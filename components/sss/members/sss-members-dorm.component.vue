@@ -22,13 +22,13 @@
             </div>
             <div class="dorm-members">
                 <div class="member-card">
-                    <img :src="president.imageUrl"/>
-                    <h2 class="subtitle is-4 mb-0 has-text-centered">{{ president.name }}</h2>
+                    <img :src="presidentImage"/>
+                    <h2 class="subtitle is-4 mb-0 has-text-centered">{{ presidentName }}</h2>
                     <span class="has-text-centered">predstavnik</span>
                 </div>
                 <div class="member-card">
-                    <img :src="vicePresident.imageUrl"/>
-                    <h2 class="subtitle is-4 mb-0 has-text-centered">{{ vicePresident.name }}</h2>
+                    <img :src="vicePresidentImage"/>
+                    <h2 class="subtitle is-4 mb-0 has-text-centered">{{ vicePresidentName }}</h2>
                     <span class="has-text-centered">namestnik predstavnika</span>
                 </div>
             </div>
@@ -62,12 +62,20 @@ export default {
             type: String,
             required: true
         },
-        president: {
-            type: Object,
+        presidentName: {
+            type: String,
             required: true
         },
-        vicePresident: {
-            type: Object,
+        presidentImage: {
+            type: String,
+            required: true
+        },
+        vicePresidentName: {
+            type: String,
+            required: true
+        },
+        vicePresidentImage: {
+            type: String,
             required: true
         }
     }
@@ -166,6 +174,8 @@ export default {
 
         img {
             max-height: 200px;
+            max-width: 200px;
+            //object-fit: contain;
         }
     }
 

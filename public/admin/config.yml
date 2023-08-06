@@ -6,24 +6,6 @@ media_folder: public/img
 public_folder: /img
 
 collections:
-  - name: "blogg"
-    label: "Blog"
-    format: "json"
-    folder: "assets/content/blog"
-    create: true
-    slug: "{{slug}}"
-    editor:
-      preview: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - {
-        label: "Featured Image",
-        name: "thumbnail",
-        widget: "image",
-        required: true,
-      }
-      - { label: "Body", name: "body", widget: "markdown" }
   - name: "projects"
     label: "Projekti"
     format: "json"
@@ -50,3 +32,72 @@ collections:
           - { label: "Podnaslov", name: "subtitle", widget: "string" }
           - { label: "Opis", name: "description", widget: "markdown", required: true }
           - { label: "Slika", name: "image", widget: "image", required: true }
+  - name: "SSSmembers"
+    label: "Člani"
+    format: "json"
+    folder: "content/sss"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - name: title
+        label: Naslov
+        widget: string
+      - name: subtitle
+        label: Podnaslov
+        widget: string
+      - name: intro
+        label: Intro
+        widget: markdown
+      - name: leadership
+        label: Vodstvo
+        widget: list
+        fields:
+          - name: name
+            label: Ime in priimek
+            widget: string
+          - name: function
+            label: Funkcija
+            widget: string
+          - name: email
+            label: Email
+            widget: string
+          - name: phone
+            label: Telefon
+            widget: string
+          - name: image
+            label: Slika
+            widget: image
+          - name: backgroundImage
+            label: Ozadje
+            widget: image
+      - name: memberDorms
+        label: Domovi
+        widget: list
+        fields:
+          - name: name
+            label: Naziv doma
+            widget: string
+          - name: location
+            label: Naselje
+            widget: string
+          - name: noOfStudents
+            label: Število prebivalcev
+            widget: number
+          - name: dormMotto
+            label: Moto
+            widget: string
+          - name: dormImage
+            label: Slika doma
+            widget: image
+          - name: presidentName
+            label: Predstavnik
+            widget: string
+          - name: presidentImage
+            label: Slika predstavnika
+            widget: image
+          - name: subPresidentName
+            label: Namestnik predstavnika
+            widget: string
+          - name: subPresidentImage
+            label: Slika namestnika predstavnika
+            widget: image
