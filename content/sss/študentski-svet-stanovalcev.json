@@ -48,7 +48,7 @@
     {
       "dormMotto": "Na nebo!",
       "presidentName": "Jakob Skrt",
-      "subPresidentName": "Aljaž Furlan",
+      "subPresidentName": "Bine Brunec",
       "name": "Dom I",
       "noOfStudents": 304,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_1/Dom-1-DSC_6141.jpg",
@@ -66,6 +66,17 @@
       "location": "Rožna dolina",
       "subPresidentImage": "https://majske-igre.si/wp-content/uploads/2023/03/maja_belo-250x250.jpg",
       "presidentImage": "/img/20230119_131034-1-.jpg"
+    },
+    {
+      "dormMotto": "Dvojka",
+      "presidentName": "Sergej Ašič",
+      "subPresidentName": "Zala Rojs",
+      "name": "Dom II",
+      "noOfStudents": 338,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_2/Dom2-DSC_6131-dom2.jpg",
+      "location": "Rožna dolina",
+      "subPresidentImage": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_400/https://ssvets.si/wp-content/uploads/2022/02/IMG_20211021_194104-1.png",
+      "presidentImage": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_400/https://ssvets.si/wp-content/uploads/2022/02/20210326_145653-3.png"
     }
   ]
 }
