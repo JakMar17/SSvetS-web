@@ -177,15 +177,25 @@ export default {
         align-items: center;
 
         .img__wrapper {
-            width: 200px;
-            height: 200px;
+            width: 150px;
+            height: 150px;
             display: flex;
             justify-content: center;
             align-items: center;
 
             img {
-                max-height: 200px;
-                max-width: 200px;
+                max-height: 150px;
+                max-width: 150px;
+            }
+
+            @media only screen and (min-width: 768px) {
+                width: 200px;
+                height: 200px;
+
+                img {
+                    max-height: 200px;
+                    max-width: 200px;
+                }
             }
         }
 

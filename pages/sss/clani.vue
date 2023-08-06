@@ -47,65 +47,8 @@ import {createSEOMeta} from '/utils/seo'
 export default {
     async setup() {
         const {data} = await useAsyncData('sss', async () => (await queryContent('sss/studentski-svet-stanovalcev').findOne()));
-        console.log(data)
         return {content: data.value}
     },
-    data() {
-        queryContent("/sss/members").findOne().then(
-            ({members}) => {
-                this.members = members
-                console.log(this.members)
-            });
-
-
-        return {
-            members: [],
-            leadership: {
-                president: {
-                    name: "Deni Cerovac",
-                    photoUrl: "https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png",
-                    phone: "031708115",
-                    email: "precednik@sss.si"
-                },
-                vicePresident: {
-                    name: "Mihela Janežič",
-                    photoUrl: "https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png",
-                    phone: "031708115",
-                    email: "viceprecednik@sss.si"
-                },
-                otherMembers: [
-                    {
-                        name: "Jakob Marušič",
-                        functionName: "vodja delovne skupine ŠSS",
-                        photoUrl: "https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png",
-                        phone: "031708115",
-                        email: "delovna-skupina@sss.si"
-                    },
-                    {
-                        name: "Patrik Čelik",
-                        functionName: "koordinator",
-                        photoUrl: "https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png",
-                        phone: "031708115",
-                        email: "delovna-skupina@sss.si"
-                    },
-                    {
-                        name: "Tilen Dobovičnik",
-                        functionName: "svetovalec",
-                        photoUrl: "https://majske-igre.si/wp-content/uploads/2022/02/patrik-250x250.png",
-                        phone: "031708115",
-                        email: "delovna-skupina@sss.si"
-                    },
-                ]
-            }
-        }
-    },
-    async asyncData() {
-
-    },
-    async mounted() {
-
-    },
-    methods: {},
     head() {
         return {
             title: "Študentski svet stanovalcev",
