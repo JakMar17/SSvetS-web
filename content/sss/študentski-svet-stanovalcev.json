@@ -57,17 +57,6 @@
       "presidentImage": "https://ssvets.si/wp-content/uploads/2022/02/Jakob-Skrt-predsednik-dom-1.png"
     },
     {
-      "dormMotto": "Vsako leto manj tihi dom",
-      "presidentName": "Jakob Marušič",
-      "subPresidentName": "Oskar Rosc",
-      "name": "Dom V",
-      "noOfStudents": 188,
-      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_5/Dom5-DSC_6156.jpg",
-      "location": "Rožna dolina",
-      "subPresidentImage": "https://majske-igre.si/wp-content/uploads/2023/03/maja_belo-250x250.jpg",
-      "presidentImage": "/img/20230119_131034-1-.jpg"
-    },
-    {
       "dormMotto": "Dvojka",
       "presidentName": "Sergej Ašič",
       "subPresidentName": "Zala Rojs",
@@ -77,6 +66,33 @@
       "location": "Rožna dolina",
       "subPresidentImage": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_400/https://ssvets.si/wp-content/uploads/2022/02/IMG_20211021_194104-1.png",
       "presidentImage": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_400/https://ssvets.si/wp-content/uploads/2022/02/20210326_145653-3.png"
+    },
+    {
+      "name": "Dom III",
+      "location": "Rožna dolina",
+      "noOfStudents": 164,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_3/Dom3-DSC_6116.jpg",
+      "presidentName": "Žiga Gerdina",
+      "subPresidentName": "Lara Drgajner"
+    },
+    {
+      "name": "Dom IV",
+      "location": "Rožna dolina",
+      "noOfStudents": 350,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_4/Dom4-DSC_6161.jpg",
+      "presidentName": "Tjaša Vraničar",
+      "subPresidentName": "Andraž Krapež"
+    },
+    {
+      "dormMotto": "Vsako leto manj tihi dom",
+      "presidentName": "Jakob Marušič",
+      "subPresidentName": "Oskar Rosc",
+      "name": "Dom V",
+      "noOfStudents": 188,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_5/Dom5-DSC_6156.jpg",
+      "location": "Rožna dolina",
+      "subPresidentImage": "https://majske-igre.si/wp-content/uploads/2023/03/maja_belo-250x250.jpg",
+      "presidentImage": "/img/20230119_131034-1-.jpg"
     }
   ]
 }
