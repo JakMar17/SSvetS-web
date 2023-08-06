@@ -28,19 +28,19 @@
       "backgroundImage": "/img/majska-gajba.jpg"
     },
     {
-      "name": "Tilen Dobovičnik",
-      "function": "svetovalec ŠSS",
-      "email": "tilen.dobovicnik@ssvets.si",
-      "phone": "070 271 037",
-      "image": "https://majske-igre.si/wp-content/uploads/2023/03/tilen_belo-250x250.jpg",
-      "backgroundImage": "/img/majska-gajba.jpg"
-    },
-    {
       "name": "Patrik Čelik",
       "function": "koordinator izvenštudijskih dejavnosti",
       "email": "patrik.celik@ssvets.si ",
       "phone": "041 598 401",
       "image": "https://majske-igre.si/wp-content/uploads/2022/02/patrik.png",
+      "backgroundImage": "/img/majska-gajba.jpg"
+    },
+    {
+      "name": "Tilen Dobovičnik",
+      "function": "svetovalec ŠSS",
+      "email": "tilen.dobovicnik@ssvets.si",
+      "phone": "070 271 037",
+      "image": "https://majske-igre.si/wp-content/uploads/2023/03/tilen_belo-250x250.jpg",
       "backgroundImage": "/img/majska-gajba.jpg"
     }
   ],
@@ -91,7 +91,7 @@
       "noOfStudents": 188,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_5/Dom5-DSC_6156.jpg",
       "location": "Rožna dolina",
-      "subPresidentImage": "https://majske-igre.si/wp-content/uploads/2023/03/maja_belo-250x250.jpg",
+      "subPresidentImage": "/img/received_647606173906776.jpeg",
       "presidentImage": "/img/20230119_131034-1-.jpg"
     },
     {
