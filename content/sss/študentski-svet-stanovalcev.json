@@ -64,8 +64,8 @@
       "noOfStudents": 338,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_2/Dom2-DSC_6131-dom2.jpg",
       "location": "Rožna dolina",
-      "subPresidentImage": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_400/https://ssvets.si/wp-content/uploads/2022/02/IMG_20211021_194104-1.png",
-      "presidentImage": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_400/https://ssvets.si/wp-content/uploads/2022/02/20210326_145653-3.png"
+      "subPresidentImage": "/img/dom-2-zala-namestnica-sergej-ašič.jpg",
+      "presidentImage": "/img/dom-2-sergej-predstavnik-sergej-ašič.jpg"
     },
     {
       "name": "Dom III",
