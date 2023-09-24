@@ -190,7 +190,8 @@
       "noOfStudents": 220,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_A/DomA-DSC_6211-domA.jpg",
       "subPresidentName": "Katja Udovč",
-      "presidentName": "Žan Ciglar"
+      "presidentName": "Žan Ciglar",
+      "presidentImage": "/img/325913297_1904223619951082_831897953377343763_n-žan-ciglar.jpg"
     },
     {
       "name": "Dom B",
@@ -198,7 +199,8 @@
       "noOfStudents": 256,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_B/DomB-DSC_6204-domB.jpg",
       "presidentName": "Kristina Fideršek",
-      "subPresidentName": "Meta Štuhec"
+      "subPresidentName": "Meta Štuhec",
+      "subPresidentImage": "/img/cb0f2b49-88a2-4df2-8095-4307f4ae7a5c-meta-štuhec.jpeg"
     },
     {
       "name": "Dom C",
@@ -206,7 +208,9 @@
       "noOfStudents": 291,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_C/DomC-DSC_6209-domC-1.jpg",
       "presidentName": "Blaž Vogrin",
-      "subPresidentName": "Dorian Josipović"
+      "subPresidentName": "Dorian Josipović",
+      "presidentImage": "/img/2fccabc8-ec51-46e7-a6e9-3774dd2dffa2-blaž-vogrin.jpeg",
+      "subPresidentImage": "/img/2fccabc8-ec51-46e7-a6e9-3774dd2dffa2-blaž-vogrin.jpeg"
     },
     {
       "name": "Dom D",
@@ -214,7 +218,9 @@
       "noOfStudents": 258,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_D/DomD-DSC_6221-domD.jpg",
       "presidentName": "Sara Lorbek",
-      "subPresidentName": "Kaja Bernardis"
+      "subPresidentName": "Kaja Bernardis",
+      "presidentImage": "/img/478a4ecd-2fd3-4ab7-8893-8554d26685d3-kaja-bernardis.jpeg",
+      "subPresidentImage": "/img/478a4ecd-2fd3-4ab7-8893-8554d26685d3-kaja-bernardis.jpeg"
     },
     {
       "name": "Dom FDV",
@@ -254,7 +260,9 @@
       "noOfStudents": 224,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_Poljanska/Poljanska-DSC_6246.jpg",
       "presidentName": "Ivana Jug",
-      "subPresidentName": "Ema Kačičnik"
+      "subPresidentName": "Ema Kačičnik",
+      "presidentImage": "/img/img-1565-ivana-jug.jpg",
+      "subPresidentImage": "/img/img_8648-ivana-jug.jpg"
     },
     {
       "name": "Dom VŠZ",
