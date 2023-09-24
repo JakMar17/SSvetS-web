@@ -73,7 +73,9 @@
       "noOfStudents": 164,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_3/Dom3-DSC_6116.jpg",
       "presidentName": "Žiga Gerdina",
-      "subPresidentName": "Lara Drgajner"
+      "subPresidentName": "Lara Drgajner",
+      "presidentImage": "/img/img_2989-žiga-gerdina.jpeg",
+      "subPresidentImage": "/img/img_3025-žiga-gerdina.jpeg"
     },
     {
       "name": "Dom IV",
@@ -81,7 +83,9 @@
       "noOfStudents": 350,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_4/Dom4-DSC_6161.jpg",
       "presidentName": "Tjaša Vraničar",
-      "subPresidentName": "Andraž Krapež"
+      "subPresidentName": "Andraž Krapež",
+      "presidentImage": "/img/20230121_122525-tjaša-vraničar.jpg",
+      "subPresidentImage": "/img/krapo-tjaša-vraničar.jpg"
     },
     {
       "dormMotto": "Vsako leto manj tihi dom",
@@ -100,7 +104,9 @@
       "noOfStudents": 182,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_6/Dom6-DSC_6153.jpg",
       "subPresidentName": "Janja Klavžer",
-      "presidentName": "Martin Prajnc"
+      "presidentName": "Martin Prajnc",
+      "presidentImage": "/img/20230119_175415-martin-burton.jpg",
+      "subPresidentImage": "/img/received_495082256071241-martin-burton.jpeg"
     },
     {
       "name": "Dom VII",
