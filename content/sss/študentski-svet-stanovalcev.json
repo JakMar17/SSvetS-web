@@ -57,7 +57,7 @@
       "presidentImage": "https://ssvets.si/wp-content/uploads/2022/02/Jakob-Skrt-predsednik-dom-1.png"
     },
     {
-      "dormMotto": "Dvojka",
+      "dormMotto": "Sosedov hrup me spravlja v obup. Rajši, kot da z njim kaj spijem, \"Bom klicu upravo!\" Čez hodnik upijem.",
       "presidentName": "Sergej Ašič",
       "subPresidentName": "Zala Rojs",
       "name": "Dom II",
@@ -68,24 +68,26 @@
       "presidentImage": "/img/dom-2-sergej-predstavnik-sergej-ašič.jpg"
     },
     {
-      "name": "Dom III",
-      "location": "Rožna dolina",
-      "noOfStudents": 164,
-      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_3/Dom3-DSC_6116.jpg",
+      "dormMotto": "Čeprav iz sekretov smrdi, se nam dobro godi",
       "presidentName": "Žiga Gerdina",
       "subPresidentName": "Lara Drgajner",
-      "presidentImage": "/img/img_2989-žiga-gerdina.jpeg",
-      "subPresidentImage": "/img/img_3025-žiga-gerdina.jpeg"
+      "name": "Dom III",
+      "noOfStudents": 164,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_3/Dom3-DSC_6116.jpg",
+      "location": "Rožna dolina",
+      "subPresidentImage": "/img/img_3025-žiga-gerdina.jpeg",
+      "presidentImage": "/img/img_2989-žiga-gerdina.jpeg"
     },
     {
-      "name": "Dom IV",
-      "location": "Rožna dolina",
-      "noOfStudents": 350,
-      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_4/Dom4-DSC_6161.jpg",
+      "dormMotto": "4-ka great again",
       "presidentName": "Tjaša Vraničar",
       "subPresidentName": "Andraž Krapež",
-      "presidentImage": "/img/20230121_122525-tjaša-vraničar.jpg",
-      "subPresidentImage": "/img/krapo-tjaša-vraničar.jpg"
+      "name": "Dom IV",
+      "noOfStudents": 350,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_4/Dom4-DSC_6161.jpg",
+      "location": "Rožna dolina",
+      "subPresidentImage": "/img/krapo-tjaša-vraničar.jpg",
+      "presidentImage": "/img/20230121_122525-tjaša-vraničar.jpg"
     },
     {
       "dormMotto": "Vsako leto manj tihi dom",
@@ -99,14 +101,15 @@
       "presidentImage": "/img/20230119_131034-1-.jpg"
     },
     {
+      "dormMotto": "Najbolj glasen tihi dom!",
+      "presidentName": "Martin Prajnc",
+      "subPresidentName": "Janja Klavžer",
       "name": "Dom VI",
-      "location": "Rožna dolina",
       "noOfStudents": 182,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_6/Dom6-DSC_6153.jpg",
-      "subPresidentName": "Janja Klavžer",
-      "presidentName": "Martin Prajnc",
-      "presidentImage": "/img/20230119_175415-martin-burton.jpg",
-      "subPresidentImage": "/img/received_495082256071241-martin-burton.jpeg"
+      "location": "Rožna dolina",
+      "subPresidentImage": "/img/received_495082256071241-martin-burton.jpeg",
+      "presidentImage": "/img/20230119_175415-martin-burton.jpg"
     },
     {
       "name": "Dom VII",
@@ -114,47 +117,52 @@
       "noOfStudents": 167,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_7/Dom7-DSC_6138-dom1.jpg",
       "presidentName": "Marija Marolt",
-      "subPresidentName": "Sara Cimermančič"
+      "subPresidentName": "Sara Cimermančič",
+      "dormMotto": "Seven heaven"
     },
     {
-      "name": "Dom VIII",
-      "location": "Rožna dolina",
-      "noOfStudents": 196,
-      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_8/Dom8-DSC_6175-dom8.jpg",
+      "dormMotto": "Dom 8, v srcu te nos'm",
       "presidentName": "Primož Hrovat",
       "subPresidentName": "Lara Zlatoper",
-      "presidentImage": "/img/img_4506-lara-zlatoper.jpg",
-      "subPresidentImage": "/img/screenshot_20230120-183707_gallery-lara-zlatoper.jpg"
+      "name": "Dom VIII",
+      "noOfStudents": 196,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_8/Dom8-DSC_6175-dom8.jpg",
+      "location": "Rožna dolina",
+      "subPresidentImage": "/img/screenshot_20230120-183707_gallery-lara-zlatoper.jpg",
+      "presidentImage": "/img/img_4506-lara-zlatoper.jpg"
     },
     {
-      "name": "Dom IX",
-      "location": "Rožna dolina",
-      "noOfStudents": 212,
-      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_9/Dom9-DSC_6178.jpg",
+      "dormMotto": "Dom kot iz raja, dokler ne prideta dva policaja",
       "presidentName": "Erik Pahor",
       "subPresidentName": "Klemen Ferlež",
-      "presidentImage": "/img/erik_pahor-erik.jpg",
-      "subPresidentImage": "/img/klemen_ferlez-erik.jpg"
+      "name": "Dom IX",
+      "noOfStudents": 212,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_9/Dom9-DSC_6178.jpg",
+      "location": "Rožna dolina",
+      "subPresidentImage": "/img/klemen_ferlez-erik.jpg",
+      "presidentImage": "/img/erik_pahor-erik.jpg"
     },
     {
-      "name": "Dom X",
-      "location": "Rožna dolina",
-      "noOfStudents": 217,
-      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_10/Dom10-DSC_6184.jpg",
+      "dormMotto": "Čista desetka!",
       "presidentName": "Tjaša Cvek",
       "subPresidentName": "Vita Mihelič",
-      "presidentImage": "/img/49ab4ed9-ce4f-4bed-98c3-691ead9b0dd6-tjaša-cvek.jpeg",
-      "subPresidentImage": "/img/bda4bb37-fa6d-43d5-a718-5f18f5bb1122-tjaša-cvek.jpeg"
+      "name": "Dom X",
+      "noOfStudents": 217,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_10/Dom10-DSC_6184.jpg",
+      "location": "Rožna dolina",
+      "subPresidentImage": "/img/bda4bb37-fa6d-43d5-a718-5f18f5bb1122-tjaša-cvek.jpeg",
+      "presidentImage": "/img/49ab4ed9-ce4f-4bed-98c3-691ead9b0dd6-tjaša-cvek.jpeg"
     },
     {
+      "dormMotto": "Vroče mamice v vaši bližini",
+      "presidentName": "Ivan Vehovec",
+      "subPresidentName": "Filip Zevnik",
       "name": "Dom XI",
-      "location": "Rožna dolina",
       "noOfStudents": 290,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_11/Dom11-DSC_6128.jpg",
-      "subPresidentName": "Filip Zevnik",
-      "presidentName": "Ivan Vehovec",
-      "presidentImage": "/img/screenshot_1-ivan-vehovec.png",
-      "subPresidentImage": "/img/img_20230115_094050-ivan-vehovec.jpg"
+      "location": "Rožna dolina",
+      "subPresidentImage": "/img/img_20230115_094050-ivan-vehovec.jpg",
+      "presidentImage": "/img/screenshot_1-ivan-vehovec.png"
     },
     {
       "name": "Dom XII",
@@ -166,14 +174,15 @@
       "presidentImage": "/img/screenshot_20230120-050942-lara-čede.jpg"
     },
     {
-      "name": "Dom XIII",
-      "location": "Rožna dolina",
-      "noOfStudents": 192,
-      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_13/Dom13-DSC_6193.jpg",
+      "dormMotto": "Prekleta številka, prekleto dobri ljudje",
       "presidentName": "Urban Velikanje",
       "subPresidentName": "Rok Petrovčič",
-      "presidentImage": "/img/324540485_891502132039511_3959346902778716447_n-urban-velikanje.jpg",
-      "subPresidentImage": "/img/20230120_134113-rok-petrovčič.jpg"
+      "name": "Dom XIII",
+      "noOfStudents": 192,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_13/Dom13-DSC_6193.jpg",
+      "location": "Rožna dolina",
+      "subPresidentImage": "/img/20230120_134113-rok-petrovčič.jpg",
+      "presidentImage": "/img/324540485_891502132039511_3959346902778716447_n-urban-velikanje.jpg"
     },
     {
       "name": "Dom XIV",
@@ -182,7 +191,8 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_14/Dom14-DSC_6187-dom14.jpg",
       "presidentName": "Nejc Godec",
       "subPresidentName": "Hana Klemenčič",
-      "presidentImage": "/img/nejc-predsednik-nejc-godec.jpeg"
+      "presidentImage": "/img/nejc-predsednik-nejc-godec.jpeg",
+      "dormMotto": "Mi casa es tu casa"
     },
     {
       "name": "Dom A",
@@ -191,7 +201,8 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_A/DomA-DSC_6211-domA.jpg",
       "subPresidentName": "Katja Udovč",
       "presidentName": "Žan Ciglar",
-      "presidentImage": "/img/325913297_1904223619951082_831897953377343763_n-žan-ciglar.jpg"
+      "presidentImage": "/img/325913297_1904223619951082_831897953377343763_n-žan-ciglar.jpg",
+      "dormMotto": "Tu smo DomA"
     },
     {
       "name": "Dom B",
@@ -200,27 +211,30 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_B/DomB-DSC_6204-domB.jpg",
       "presidentName": "Kristina Fideršek",
       "subPresidentName": "Meta Štuhec",
-      "subPresidentImage": "/img/cb0f2b49-88a2-4df2-8095-4307f4ae7a5c-meta-štuhec.jpeg"
+      "subPresidentImage": "/img/cb0f2b49-88a2-4df2-8095-4307f4ae7a5c-meta-štuhec.jpeg",
+      "dormMotto": "The place to B"
     },
     {
-      "name": "Dom C",
-      "location": "Kardeljeva ploščad",
-      "noOfStudents": 291,
-      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_C/DomC-DSC_6209-domC-1.jpg",
+      "dormMotto": "Mirnih študentov še profesorji ne marajo",
       "presidentName": "Blaž Vogrin",
       "subPresidentName": "Dorian Josipović",
-      "presidentImage": "/img/2fccabc8-ec51-46e7-a6e9-3774dd2dffa2-blaž-vogrin.jpeg",
-      "subPresidentImage": "/img/2fccabc8-ec51-46e7-a6e9-3774dd2dffa2-blaž-vogrin.jpeg"
+      "name": "Dom C",
+      "noOfStudents": 291,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_C/DomC-DSC_6209-domC-1.jpg",
+      "location": "Kardeljeva ploščad",
+      "subPresidentImage": "/img/2fccabc8-ec51-46e7-a6e9-3774dd2dffa2-blaž-vogrin.jpeg",
+      "presidentImage": "/img/2fccabc8-ec51-46e7-a6e9-3774dd2dffa2-blaž-vogrin.jpeg"
     },
     {
-      "name": "Dom D",
-      "location": "Kardeljeva ploščad",
-      "noOfStudents": 258,
-      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_D/DomD-DSC_6221-domD.jpg",
+      "dormMotto": "The biggest D on the block",
       "presidentName": "Sara Lorbek",
       "subPresidentName": "Kaja Bernardis",
-      "presidentImage": "/img/478a4ecd-2fd3-4ab7-8893-8554d26685d3-kaja-bernardis.jpeg",
-      "subPresidentImage": "/img/478a4ecd-2fd3-4ab7-8893-8554d26685d3-kaja-bernardis.jpeg"
+      "name": "Dom D",
+      "noOfStudents": 258,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_D/DomD-DSC_6221-domD.jpg",
+      "location": "Kardeljeva ploščad",
+      "subPresidentImage": "/img/478a4ecd-2fd3-4ab7-8893-8554d26685d3-kaja-bernardis.jpeg",
+      "presidentImage": "/img/478a4ecd-2fd3-4ab7-8893-8554d26685d3-kaja-bernardis.jpeg"
     },
     {
       "name": "Dom FDV",
@@ -228,7 +242,8 @@
       "noOfStudents": 289,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_FDV/FomFDV-DSC_5290.jpg",
       "presidentName": "Lara Čede",
-      "subPresidentName": "Sara Koljić"
+      "subPresidentName": "Sara Koljić",
+      "dormMotto": "Desn lift spet stoji v 5. štuku"
     },
     {
       "name": "Dom Litostroj",
@@ -236,35 +251,41 @@
       "noOfStudents": 406,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_Litostroj/Litostroj-DSC_6029.jpg",
       "presidentName": "Blaž Kos ",
-      "subPresidentName": "Valentina Razpet"
+      "subPresidentName": "Valentina Razpet",
+      "dormMotto": "Yes we exist (zdej mamo dejansko žure)"
     },
     {
+      "dormMotto": "Klapa, še smo tuki!",
+      "presidentName": "Jani Kodre ",
+      "subPresidentName": "Anja Černic",
       "name": "Dom AK",
-      "location": "samotni",
       "noOfStudents": 206,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_AK/AK-DSC_6238-AK.jpg",
-      "presidentName": "Jani Kodre ",
-      "subPresidentName": "Anja Černic"
+      "location": "samotni",
+      "subPresidentImage": "/img/20230120_125024-jani-kodre.jpg",
+      "presidentImage": "/img/20230120_125024-jani-kodre.jpg"
     },
     {
-      "name": "Dom Topniška",
-      "location": "samotni",
-      "noOfStudents": 418,
-      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_Topniska/Topniska-DSC_6232-Topn.jpg",
+      "dormMotto": "Na Topniški je Top!",
       "presidentName": "Robert Babić",
       "subPresidentName": "Tjaša Hrastnik",
-      "presidentImage": "/img/moments-in-between_3.1.3-robert-babić.jpg",
-      "subPresidentImage": "/img/325526684_694302802418818_277770597087937531_n-robert-babić.jpg"
+      "name": "Dom Topniška",
+      "noOfStudents": 418,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_Topniska/Topniska-DSC_6232-Topn.jpg",
+      "location": "samotni",
+      "subPresidentImage": "/img/325526684_694302802418818_277770597087937531_n-robert-babić.jpg",
+      "presidentImage": "/img/moments-in-between_3.1.3-robert-babić.jpg"
     },
     {
-      "name": "Dom Poljanska",
-      "location": "samotni",
-      "noOfStudents": 224,
-      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_Poljanska/Poljanska-DSC_6246.jpg",
+      "dormMotto": "Poljane dom prelepih dni",
       "presidentName": "Ivana Jug",
       "subPresidentName": "Ema Kačičnik",
-      "presidentImage": "/img/img-1565-ivana-jug.jpg",
-      "subPresidentImage": "/img/img_8648-ivana-jug.jpg"
+      "name": "Dom Poljanska",
+      "noOfStudents": 224,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_Poljanska/Poljanska-DSC_6246.jpg",
+      "location": "samotni",
+      "subPresidentImage": "/img/img_8648-ivana-jug.jpg",
+      "presidentImage": "/img/img-1565-ivana-jug.jpg"
     },
     {
       "name": "Dom VŠZ",
@@ -272,17 +293,19 @@
       "noOfStudents": 186,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_VSZ/VSZ-DSC_6256-VZS-1.jpg",
       "presidentName": "Sara Belšak",
-      "subPresidentName": "Nea Smolej"
+      "subPresidentName": "Nea Smolej",
+      "dormMotto": "Veliko študentske zabave"
     },
     {
-      "name": "Dom Ilirska",
-      "location": "samotni",
-      "noOfStudents": 300,
-      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_Ilirska/Ilirska-DSC_6270-ilirska3.jpg",
+      "dormMotto": "Življenje je borba, ampak mi smo Ilirčani!",
       "presidentName": "Nika Volk",
       "subPresidentName": "Sara Simonič",
-      "presidentImage": "/img/3142c84d-48d7-49c2-b792-5209430db74a-nika-volk.jpeg",
-      "subPresidentImage": "/img/sara-simonič-sara-simonič.jpg"
+      "name": "Dom Ilirska",
+      "noOfStudents": 300,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_Ilirska/Ilirska-DSC_6270-ilirska3.jpg",
+      "location": "samotni",
+      "subPresidentImage": "/img/sara-simonič-sara-simonič.jpg",
+      "presidentImage": "/img/3142c84d-48d7-49c2-b792-5209430db74a-nika-volk.jpeg"
     },
     {
       "name": "ŠD3",
@@ -295,34 +318,37 @@
       "subPresidentImage": "/img/alen-alen-kandare.png"
     },
     {
-      "name": "ŠD4",
-      "location": "Mestni log",
-      "noOfStudents": 453,
-      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_SD4/SD4-DSC_6326-Vic-SD4-1.jpg",
+      "dormMotto": "ŠD4 za zmeri!",
       "presidentName": "Niko Gustin",
       "subPresidentName": "Žiga Kastelic",
-      "presidentImage": "/img/niko_gustin_predstavnik-niko-gustin.jpg",
-      "subPresidentImage": "/img/ziga_kastelic_nadomestnik-niko-gustin.jpg"
+      "name": "ŠD4",
+      "noOfStudents": 453,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_SD4/SD4-DSC_6326-Vic-SD4-1.jpg",
+      "location": "Mestni log",
+      "subPresidentImage": "/img/ziga_kastelic_nadomestnik-niko-gustin.jpg",
+      "presidentImage": "/img/niko_gustin_predstavnik-niko-gustin.jpg"
     },
     {
-      "name": "Dom Gerbičeva",
-      "location": "Mestni log",
-      "noOfStudents": 180,
-      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_G59/G59-DSC_6338-Vic-Gerb1.jpg",
+      "dormMotto": "Najboljši študentski dom pod Ljubljanskim soncem!",
       "presidentName": "Miha Rejec",
       "subPresidentName": "Nina Špilar",
-      "presidentImage": "/img/foto_nsz_miha-miha-rejec.jpg",
-      "subPresidentImage": "/img/foto_nsz_nina-miha-rejec.jpg"
+      "name": "Dom Gerbičeva",
+      "noOfStudents": 180,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_G59/G59-DSC_6338-Vic-Gerb1.jpg",
+      "location": "Mestni log",
+      "subPresidentImage": "/img/foto_nsz_nina-miha-rejec.jpg",
+      "presidentImage": "/img/foto_nsz_miha-miha-rejec.jpg"
     },
     {
-      "name": "Dom podiplomcev",
-      "location": "samotni",
-      "noOfStudents": 172,
-      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_podiplomcev/DPL-zunanjost.jpg",
+      "dormMotto": "Znanost brez meja",
       "presidentName": "Miha Marinšek",
       "subPresidentName": "Matija Mavsar",
-      "presidentImage": "/img/miha-marinšek-miha-marinšek.jpg",
-      "subPresidentImage": "/img/matija-mavsar-miha-marinšek.jpg"
+      "name": "Dom podiplomcev",
+      "noOfStudents": 172,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_podiplomcev/DPL-zunanjost.jpg",
+      "location": "samotni",
+      "subPresidentImage": "/img/matija-mavsar-miha-marinšek.jpg",
+      "presidentImage": "/img/miha-marinšek-miha-marinšek.jpg"
     }
   ]
 }
