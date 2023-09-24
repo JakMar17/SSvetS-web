@@ -122,7 +122,9 @@
       "noOfStudents": 196,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_8/Dom8-DSC_6175-dom8.jpg",
       "presidentName": "Primož Hrovat",
-      "subPresidentName": "Lara Zlatoper"
+      "subPresidentName": "Lara Zlatoper",
+      "presidentImage": "/img/img_4506-lara-zlatoper.jpg",
+      "subPresidentImage": "/img/screenshot_20230120-183707_gallery-lara-zlatoper.jpg"
     },
     {
       "name": "Dom IX",
@@ -140,7 +142,9 @@
       "noOfStudents": 217,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_10/Dom10-DSC_6184.jpg",
       "presidentName": "Tjaša Cvek",
-      "subPresidentName": "Vita Mihelič"
+      "subPresidentName": "Vita Mihelič",
+      "presidentImage": "/img/49ab4ed9-ce4f-4bed-98c3-691ead9b0dd6-tjaša-cvek.jpeg",
+      "subPresidentImage": "/img/bda4bb37-fa6d-43d5-a718-5f18f5bb1122-tjaša-cvek.jpeg"
     },
     {
       "name": "Dom XI",
@@ -148,7 +152,9 @@
       "noOfStudents": 290,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_11/Dom11-DSC_6128.jpg",
       "subPresidentName": "Filip Zevnik",
-      "presidentName": "Ivan Vehovec"
+      "presidentName": "Ivan Vehovec",
+      "presidentImage": "/img/screenshot_1-ivan-vehovec.png",
+      "subPresidentImage": "/img/img_20230115_094050-ivan-vehovec.jpg"
     },
     {
       "name": "Dom XII",
@@ -156,7 +162,8 @@
       "noOfStudents": 192,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/_processed_/c/0/csm_Dom12-DSC_6122_6991ae1bcf.jpg",
       "presidentName": "Lara Klemenčič",
-      "subPresidentName": "Nadja Balažic"
+      "subPresidentName": "Nadja Balažic",
+      "presidentImage": "/img/screenshot_20230120-050942-lara-čede.jpg"
     },
     {
       "name": "Dom XIII",
@@ -164,7 +171,9 @@
       "noOfStudents": 192,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_13/Dom13-DSC_6193.jpg",
       "presidentName": "Urban Velikanje",
-      "subPresidentName": "Rok Petrovčič"
+      "subPresidentName": "Rok Petrovčič",
+      "presidentImage": "/img/324540485_891502132039511_3959346902778716447_n-urban-velikanje.jpg",
+      "subPresidentImage": "/img/20230120_134113-rok-petrovčič.jpg"
     },
     {
       "name": "Dom XIV",
@@ -172,7 +181,8 @@
       "noOfStudents": 168,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_14/Dom14-DSC_6187-dom14.jpg",
       "presidentName": "Nejc Godec",
-      "subPresidentName": "Hana Klemenčič"
+      "subPresidentName": "Hana Klemenčič",
+      "presidentImage": "/img/nejc-predsednik-nejc-godec.jpeg"
     },
     {
       "name": "Dom A",
@@ -268,7 +278,9 @@
       "noOfStudents": 456,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/DOM_SD3/SD3-DSC_6309-Vic-SD3-2.jpg",
       "presidentName": "Janez Petrič",
-      "subPresidentName": "Alen Kandare "
+      "subPresidentName": "Alen Kandare ",
+      "presidentImage": "/img/janez-alen-kandare.png",
+      "subPresidentImage": "/img/alen-alen-kandare.png"
     },
     {
       "name": "ŠD4",
@@ -276,7 +288,9 @@
       "noOfStudents": 453,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_SD4/SD4-DSC_6326-Vic-SD4-1.jpg",
       "presidentName": "Niko Gustin",
-      "subPresidentName": "Žiga Kastelic"
+      "subPresidentName": "Žiga Kastelic",
+      "presidentImage": "/img/niko_gustin_predstavnik-niko-gustin.jpg",
+      "subPresidentImage": "/img/ziga_kastelic_nadomestnik-niko-gustin.jpg"
     },
     {
       "name": "Dom Gerbičeva",
@@ -284,7 +298,9 @@
       "noOfStudents": 180,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_G59/G59-DSC_6338-Vic-Gerb1.jpg",
       "presidentName": "Miha Rejec",
-      "subPresidentName": "Nina Špilar"
+      "subPresidentName": "Nina Špilar",
+      "presidentImage": "/img/foto_nsz_miha-miha-rejec.jpg",
+      "subPresidentImage": "/img/foto_nsz_nina-miha-rejec.jpg"
     },
     {
       "name": "Dom podiplomcev",
