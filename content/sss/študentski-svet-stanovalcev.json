@@ -124,7 +124,9 @@
       "noOfStudents": 212,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_9/Dom9-DSC_6178.jpg",
       "presidentName": "Erik Pahor",
-      "subPresidentName": "Klemen Ferlež"
+      "subPresidentName": "Klemen Ferlež",
+      "presidentImage": "/img/erik_pahor-erik.jpg",
+      "subPresidentImage": "/img/klemen_ferlez-erik.jpg"
     },
     {
       "name": "Dom X",
