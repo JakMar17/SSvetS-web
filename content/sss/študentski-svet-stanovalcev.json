@@ -252,7 +252,9 @@
       "noOfStudents": 418,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_Topniska/Topniska-DSC_6232-Topn.jpg",
       "presidentName": "Robert Babić",
-      "subPresidentName": "Tjaša Hrastnik"
+      "subPresidentName": "Tjaša Hrastnik",
+      "presidentImage": "/img/moments-in-between_3.1.3-robert-babić.jpg",
+      "subPresidentImage": "/img/325526684_694302802418818_277770597087937531_n-robert-babić.jpg"
     },
     {
       "name": "Dom Poljanska",
@@ -278,7 +280,9 @@
       "noOfStudents": 300,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_Ilirska/Ilirska-DSC_6270-ilirska3.jpg",
       "presidentName": "Nika Volk",
-      "subPresidentName": "Sara Simonič"
+      "subPresidentName": "Sara Simonič",
+      "presidentImage": "/img/3142c84d-48d7-49c2-b792-5209430db74a-nika-volk.jpeg",
+      "subPresidentImage": "/img/sara-simonič-sara-simonič.jpg"
     },
     {
       "name": "ŠD3",
@@ -316,7 +320,9 @@
       "noOfStudents": 172,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_podiplomcev/DPL-zunanjost.jpg",
       "presidentName": "Miha Marinšek",
-      "subPresidentName": "Matija Mavsar"
+      "subPresidentName": "Matija Mavsar",
+      "presidentImage": "/img/miha-marinšek-miha-marinšek.jpg",
+      "subPresidentImage": "/img/matija-mavsar-miha-marinšek.jpg"
     }
   ]
 }
