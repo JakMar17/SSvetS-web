@@ -5,10 +5,10 @@
                 <div ref="content__card" class="content__card">
                     <h1 class="title is-2 mb-0">{{ title }}</h1>
                     <h2 v-if="subtitle" class="title is-6 mt-2 has-text-primary">{{ subtitle.toUpperCase() }}</h2>
-                    <slot></slot>
+                    <ContentRendererMarkdown v-if="parsedContent" :value="parsedContent"/>
                 </div>
             </div>
-            <div :class="buildCssClass('background')">
+            <div v-if="imageUrl" :class="buildCssClass('background')">
                 <div></div>
                 <img ref="backgroundImage" :src="imageUrl"/>
             </div>
@@ -17,6 +17,8 @@
 </template>
 
 <script>
+import {parseMarkdown} from "~/utils/parseMarkdown";
+
 export default {
     props: {
         title: {
@@ -30,6 +32,9 @@ export default {
             type: String,
             required: true
         },
+        content: {
+            type: String
+        },
         reversed: {
             type: Boolean,
             default: false
@@ -38,10 +43,12 @@ export default {
     data() {
         return {
             clientWidth: null,
-            clientHeight: null
+            clientHeight: null,
+            parsedContent: null
         }
     },
     mounted() {
+        parseMarkdown(this.content).then(parsed => this.parsedContent = parsed);
         window.addEventListener("resize", () => this.onResize());
         this.onResize();
     },

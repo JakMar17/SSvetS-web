@@ -7,19 +7,9 @@
             :title="content.title"
         ></SssHeaderComponent>
 
-        <div class="container">
-            <div class="card p-4 mb-4">
-                <p class="pre-wrap">
-                    {{ content.intro }}
-                </p>
-            </div>
-        </div>
+        <CardComponent :content="content.intro"></CardComponent>
 
-        <CardImageComponent v-for="(card, index) in content.paragraphs" :key="card.title" :image-url="card.image" :reversed="index % 2 !== 0" :title="card.title">
-            <p>
-                {{ card.description }}
-            </p>
-        </CardImageComponent>
+        <CardImageComponent v-for="(card, index) in content.paragraphs" :key="card.title" :content="card.description" :image-url="card.image" :reversed="index % 2 !== 0" :title="card.title"/>
 
     </main>
 </template>

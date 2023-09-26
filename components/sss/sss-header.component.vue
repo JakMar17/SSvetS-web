@@ -18,6 +18,16 @@ export default {
             default: "https://ssvets.si/wp-content/uploads/2022/02/89144402_2506116986366693_2098656754677055488_n.jpg"
         }
     },
+    async setup() {
+        const router = useRouter();
+        const {data} = await useAsyncData('sss', async () => (await queryContent('sss-pages').find()));
+        const headerLinks = data.value.map((page) => ({
+            label: page.title,
+            onClick: () => router.push({path: `/sss/${page.link}`})
+        }));
+
+        return {headerLinks};
+    },
     data() {
         return {
             headerLinks: [
@@ -29,14 +39,7 @@ export default {
                     label: "Člani",
                     onClick: () => this.$router.push('/sss/clani')
                 },
-                {
-                    label: "Organi",
-                    onClick: () => this.$router.push('/sss/organi')
-                },
-                {
-                    label: "Zgodovina",
-                    onClick: () => this.$router.push('/sss/zgodovina')
-                }
+                ...this.headerLinks
             ]
         }
     }
