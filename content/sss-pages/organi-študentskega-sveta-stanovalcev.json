@@ -1,0 +1,40 @@
+{
+  "title": "Organi Študentskega sveta stanovalcev",
+  "subtitle": "Kako smo sestavljeni",
+  "menuButton": "Organi ŠSS",
+  "link": "organi-sss",
+  "cover": "/img/sss_skupinska.jpg",
+  "intro": "Študentski svet stanovalcev je sestavljen iz posameznih organov, ki opravljajo naloge vezane na življenje v zavodu Študentski dom Ljubljana.\n\nŠtudentski svet stanovalcev (ŠSS) je avtonomen organ, ki prek predstavnikov zastopa vse stanovalce ŠDL. Vsak dom zastopa predstavnik, ki interese stanovalcev predstavlja na upravi ŠDL ter na sejah ŠSS. ŠSS ima svojega predstavnika v svetu zavoda ŠDL, ki je najvišji organ",
+  "paragraphs": [
+    {
+      "title": "Predsednik ŠSS",
+      "description": "Predsednik ŠSS vodi seje ŠSS in skrbi za zastopanje ŠSS v javnosti. Skrbi za finančna sredstva ŠSS. Je predstavnik študentov v svetu zavoda ŠDL. Vodi, koordinira in razpisuje projekte ŠSS. Tradicionalno prevzame funkcijo vodje prireditve Majske igre. Voljen je oktobra izmed članov ŠSS\n\nV študijskem letu 2022/23 funkcijo predsednika ŠSS opravlja **Deni Cerovac**.",
+      "image": "/img/20230119_131034-1-.jpg"
+    },
+    {
+      "title": "Namestnik predsednika ŠSS",
+      "description": "Predsedniku ŠSS pomaga pri vseh opravilih. Nadomešča predsednika ŠSS, ko je ta odsoten. Imenuje ga predsednik ŠSS, potrdijo ga člani ŠSS.\n\nV študijskem letu 2022/23 funkcijo namestnika predsednika ŠSS opravlja **Mihela Janežič**.",
+      "image": "/img/20230119_131034-1-.jpg"
+    },
+    {
+      "title": "Delovne skupine ŠSS",
+      "description": "Delovne skupine ŠSS so interni organ ŠSS-ja sestavljene iz trenutnih in bivših članov ŠSS, ki pomagajo pri zbiranju, urejanju in posredovanju stališč stanovalcev. Predsedniku ŠSS in ostalim članom svetujejo pri oblikovanju skupnih stališč problematik v domu. Delovne skupine so ustanovljene za potrebe posameznih problematik in polemik, imenuje jih predsednik ŠSS.\n\nDelovne skupine vodi in koordinira vodja delovne skupine, ki predsedniku ŠSS pomaga pri pripravi delovnega gradiva in sodeluje pri izmenjavi mnenj stanovalcev in uprave ŠDL.\n\nV študijskem letu 2022/23 funkcijo vodje delovne skupine opravlja **Jakob Marušič**.",
+      "image": "/img/20230119_131034-1-.jpg"
+    },
+    {
+      "title": "Koordinator interesnih dejavnosti",
+      "description": "Koordinator interesnih dejavnosti ŠSS in njegov namestnik skrbita za izvajanje interesnih dejavnosti in meddomskih dogodkov. Ostalim članom ŠSS pomagati pri izvajanju interesnih dejavnosti. Predsedniku ŠSS pomagata pri projektih, ki jih izvaja ŠSS. Na sejah ŠSS poročata o tekočih in izvedenih projektih.\n\nV študijskem letu 2022/23 funkcijo koordinatorja interesnih dejavnosti opravlja **Patrik Čelih**.",
+      "image": "/img/20230119_131034-1-.jpg"
+    },
+    {
+      "title": "Tajnik ŠSS",
+      "description": "Tajnik ŠSS skrbi za pisanje zapisnikov in druge administrativne zadeve.\n\nV študijskem letu 2022/23 funkcijo predsednika ŠSS opravlja **Deni Cerovac**.",
+      "image": "/img/20230119_131034-1-.jpg"
+    },
+    {
+      "title": "Svetovalec ŠSS",
+      "description": "Svetovalec ŠSS je običajno bivši član Študentskega sveta stanovalcev, ki s svojim znanjem in izkušnjam pomaga ter svetuje predsedniku in drugim članom pri pripravi in izvedbi nalog ŠSS.\n\nV študijskem letu 2022/23 funkcijo svetovalca ŠSS opravlja **Tilen Dobovičnik**.",
+      "image": "/img/20230119_131034-1-.jpg"
+    }
+  ]
+}
