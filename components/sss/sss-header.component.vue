@@ -22,7 +22,7 @@ export default {
         const router = useRouter();
         const {data} = await useAsyncData('sss', async () => (await queryContent('sss-pages').find()));
         const headerLinks = data.value.map((page) => ({
-            label: page.title,
+            label: page.menuButton,
             onClick: () => router.push({path: `/sss/${page.link}`})
         }));
 
