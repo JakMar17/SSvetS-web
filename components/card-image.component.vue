@@ -1,17 +1,19 @@
 <template>
-    <section id="wrapper" ref="wrapper" :class="buildCssClass('wrapper')">
-        <div ref="content" class="content">
-            <div ref="content__card" class="content__card">
-                <h1 class="title is-2 mb-0">{{ title }}</h1>
-                <h2 v-if="subtitle" class="title is-6 mt-2 has-text-primary">{{ subtitle.toUpperCase() }}</h2>
-                <slot></slot>
+    <div class="flex justify-content--center align-items--center">
+        <section id="wrapper" ref="wrapper" :class="buildCssClass('wrapper')">
+            <div ref="content" class="content">
+                <div ref="content__card" class="content__card">
+                    <h1 class="title is-2 mb-0">{{ title }}</h1>
+                    <h2 v-if="subtitle" class="title is-6 mt-2 has-text-primary">{{ subtitle.toUpperCase() }}</h2>
+                    <slot></slot>
+                </div>
             </div>
-        </div>
-        <div :class="buildCssClass('background')">
-            <div></div>
-            <img ref="backgroundImage" :src="imageUrl"/>
-        </div>
-    </section>
+            <div :class="buildCssClass('background')">
+                <div></div>
+                <img ref="backgroundImage" :src="imageUrl"/>
+            </div>
+        </section>
+    </div>
 </template>
 
 <script>
@@ -75,6 +77,7 @@ export default {
     position: relative;
     height: 38em;
     width: 100%;
+    max-width: 120em;
     margin-bottom: 2em;
     display: flex;
 
