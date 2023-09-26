@@ -162,9 +162,11 @@ collections:
       - name: intro
         label: Intro
         widget: markdown
+        required: false
       - name: paragraphs
         label: Kartice
         widget: list
+        required: false
         fields:
           - name: title
             label: Naslov
@@ -175,3 +177,4 @@ collections:
           - name: image
             label: Slika
             widget: image
+            required: false
