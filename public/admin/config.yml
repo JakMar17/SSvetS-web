@@ -136,3 +136,42 @@ collections:
           - name: image
             label: Slika
             widget: image
+
+  - name: "SSSpage"
+    label: "Študentski svet stanovalcev"
+    format: "json"
+    folder: "content/sss-pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - name: title
+        label: Naslov
+        widget: string
+      - name: subtitle
+        label: Podnaslov
+        widget: string
+      - name: menuButton
+        label: "Besedilo gumba"
+        widget: string
+      - name: link
+        label: Povezava
+        widget: string
+      - name: cover
+        label: Naslovnica
+        widget: image
+      - name: intro
+        label: Intro
+        widget: markdown
+      - name: paragraphs
+        label: Kartice
+        widget: list
+        fields:
+          - name: title
+            label: Naslov
+            widget: string
+          - name: description
+            label: Opis
+            widget: markdown
+          - name: image
+            label: Slika
+            widget: image
