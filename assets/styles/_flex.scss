@@ -1,5 +1,13 @@
 .flex {
-    display: flex;
+    display: flex !important;
+
+    &.direction--column {
+        flex-direction: column;
+    }
+
+    &.flex-wrap {
+        flex-wrap: wrap;
+    }
 
     &.justify-content {
         &--start {
@@ -42,6 +50,20 @@
 
         &--stretch {
             align-items: stretch;
+        }
+    }
+
+    &.gap {
+        &--05em {
+            gap: 0.5em;
+        }
+
+        &--1em {
+            gap: 1em;
+        }
+
+        &--2em {
+            gap: 2em;
         }
     }
 

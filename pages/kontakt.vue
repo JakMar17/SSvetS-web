@@ -1,115 +1,73 @@
 <template>
-    <main>
-        <section class="foreground--wrapper">
-            <div class="foreground--content card p-4">
-                <h1 class="subtitle is-1 has-text-white">
-                    Kontakt
-                </h1>
-                <div class="contact--wrapper">
-                    <div>
-                        <i class="contact--icon ri-community-line"></i>
-                    </div>
-                    <div>
-                        Študentski svet stanovalcev<br/>
-                        Svetčeva 9 (dom 3, 2. nadstropje)<br/>
-                        1000 Ljubljana<br/>
-                    </div>
+    <main class="flex flex-wrap justify-content--center gap--1em">
+        <section id="main-column" class="card py-6 px-4">
+            <div class="has-text-centered">
+                <img src="@/assets/images/svgs/logo-sss.svg" style="height: 7em"/>
+            </div>
+            <h1 class="title px-2 has-text-centered">Študentski svet stanovalcev</h1>
+            <div class="flex direction--column has-text-centered gap--2em">
+                <div>
+                    <i class="ri-home-2-line" style="font-size: 2em"></i>
+                    <div>Svetčeva ulica 9</div>
+                    <div>dom 3, 2. nadstropje</div>
+                    <div>1000 Ljubljana</div>
                 </div>
-
-                <div class="contact--wrapper">
+                <div>
+                    <i class="ri-mail-line" style="font-size: 2em"></i>
                     <div>
-                        <i class="contact--icon ri-mail-line"></i>
-                    </div>
-                    <div>
-                        <a class="has-text-white" href="mailto:info@ssvets.si">info@ssvets.si</a>
+                        <a href="mailto:info@ssvets.si">info@ssvets.si</a>
                     </div>
                 </div>
-
-                <div class="contact--wrapper">
-                    <div>
-                        <i class="contact--icon ri-phone-line"></i>
-                    </div>
-                    <div>
-                        041 398 407
-                    </div>
-                </div>
-
-                <h2 class="subtitle is-3 has-text-white pt-4">Socialna omrežja</h2>
-                <div class="contact--social">
-                    <a>
-                        <i class="ri-facebook-circle-fill"></i>
-                        <span>Študentski svet stanovalcev</span>
-                    </a>
-                </div>
-                <hr class="contact--hr"/>
-                <div class="contact--social">
-                    <a>
-                        <i class="ri-ie-fill"></i>
-                        <span>Spletna stran Majskih iger</span>
-                    </a>
-                </div>
-                <div class="contact--social">
-                    <a>
-                        <i class="ri-facebook-circle-fill"></i>
-                        <span>Majske igre</span>
-                    </a>
-                </div>
-                <div class="contact--social">
-                    <a>
-                        <i class="ri-instagram-fill"></i>
-                        <span>Majske igre</span>
-                    </a>
-                </div>
-                <hr class="contact--hr"/>
-                <div class="contact--social">
-                    <a>
-                        <i class="ri-facebook-circle-fill"></i>
-                        <span>Študentsko pustovanje v Rožni dolini</span>
-                    </a>
+                <div>
+                    <i class="ri-phone-line" style="font-size: 2em"></i>
+                    <div>041 398 407</div>
                 </div>
             </div>
         </section>
-        <section class="background--wrapper">
-            <div class="background--content-card">
-                <div class="background--content">
+        <section id="majske-igre-column" class="card p-6 mt-6 mb-6">
+            <div class="has-text-centered">
+                <img src="@/assets/images/majske-igre/majske-logo-black.svg"/>
+            </div>
+            <div class="flex direction--column gap--2em">
+                <div class="has-text-centered">
+                    <i class="ri-ie-line" style="font-size: 2em"></i>
+                    <div><a href="https://majske-igre.si" target="_blank">majske-igre.si</a></div>
+                </div>
+                <div class="flex align-items--center gap--1em">
+                    <img src="@/assets/images/majske-igre/zabavko.svg" style="height: 5em"/>
                     <div>
-                        <div class="title is-5 pr-1 mb-0">Deni Cerovac</div>
-                        <div class="title is-6">predsednik ŠSS</div>
-                        <div class="subtitle is-6 mb-0">
-                            deni.cerovac@ssvets.si
-                            <span><i class="ri-mail-line"></i></span>
-                        </div>
-                        <div class="subtitle is-6 mt-0">
-                            041 398 407
-                            <span><i class="ri-phone-line"></i></span>
-                        </div>
+                        <div class="has-text-weight-bold">Zabava</div>
+                        <div><a href="mailto:zabava@ssvets.si">zabava@ssvets.si</a></div>
                     </div>
-
+                </div>
+                <div class="flex align-items--center gap--1em">
+                    <img src="@/assets/images/majske-igre/sportko.svg" style="height: 5em"/>
                     <div>
-                        <div class="title is-5 pr-1 mb-0">Jakob Marušič</div>
-                        <div class="title is-6">namestnik predsednika ŠSS</div>
-                        <div class="subtitle is-6 mb-0">
-                            jakob.marusic@ssvets.si
-                            <span><i class="ri-mail-line"></i></span>
-                        </div>
-                        <div class="subtitle is-6 mt-0">
-                            031 708 115
-                            <span><i class="ri-phone-line"></i></span>
-                        </div>
+                        <div class="has-text-weight-bold">Šport</div>
+                        <div><a href="mailto:sport@ssvets.si">sport@ssvets.si </a></div>
                     </div>
-
+                </div>
+                <div class="flex align-items--center gap--1em">
+                    <img src="@/assets/images/majske-igre/kulturko.svg" style="height: 5em"/>
                     <div>
-                        <div class="title is-5 pr-1 mb-0">Jakob Marušič</div>
-                        <div class="title is-6">namestnik predsednika ŠSS</div>
-                        <div class="subtitle is-6 mb-0">
-                            jakob.marusic@ssvets.si
-                            <span><i class="ri-mail-line"></i></span>
-                        </div>
-                        <div class="subtitle is-6 mt-0">
-                            031 708 115
-                            <span><i class="ri-phone-line"></i></span>
-                        </div>
+                        <div class="has-text-weight-bold">Kultura</div>
+                        <div><a href="mailto:kultura@ssvets.si">kultura@ssvets.si</a></div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section id="social-column" class="card p-6 mt-6 mb-6">
+            <h1 class="title px-2 has-text-centered">Socialna omrežja</h1>
+            <div class="flex direction--column has-text-centered gap--2em">
+                <div>
+                    <i class="ri-facebook-circle-line" style="font-size: 2em"></i>
+                    <div><a href="" target="_blank">Študentski svet stanovalcev</a></div>
+                    <div><a href="" target="_blank">Majske igre</a></div>
+                    <div><a href="" target="_blank">Največje študentsko pustovanje</a></div>
+                </div>
+                <div>
+                    <i class="ri-instagram-line" style="font-size: 2em"></i>
+                    <div><a href="" target="_blank">Majske igre</a></div>
                 </div>
             </div>
         </section>
@@ -121,10 +79,31 @@
 <style lang="scss" scoped>
 @import '@/assets/styles/main.scss';
 
+#majske-igre-column {
+    width: 20em;
+    order: 2;
+    @media only screen and (min-width: 1024px) {
+        order: 1;
+    }
+}
+
+#main-column {
+    order: 1;
+    width: 45em;
+    @media only screen and (min-width: 1024px) {
+        order: 2;
+        width: 25em;
+    }
+}
+
+#social-column {
+    width: 20em;
+    order: 3;
+}
 
 main {
     position: relative;
-    min-height: 40em;
+    min-height: 60vh;
     margin: 1em 0;
 
     @media only screen and (min-width: 1024px) {
