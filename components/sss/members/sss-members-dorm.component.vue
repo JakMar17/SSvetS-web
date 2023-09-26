@@ -12,7 +12,7 @@
                         <span><i class="ri-user-3-line"></i></span>
                         <span>{{ noOfMembers }}</span>
                     </div>
-                    <div class="info-row moto">
+                    <div v-if="moto" class="info-row moto">
                         <span><i class="ri-megaphone-line"></i></span>
                         <strong>
                             {{ moto }}
@@ -64,7 +64,6 @@ export default {
         },
         moto: {
             type: String,
-            required: true
         },
         presidentName: {
             type: String,
@@ -72,7 +71,6 @@ export default {
         },
         presidentImage: {
             type: String,
-            required: true
         },
         vicePresidentName: {
             type: String,
@@ -80,7 +78,6 @@ export default {
         },
         vicePresidentImage: {
             type: String,
-            required: true
         }
     }
 }
