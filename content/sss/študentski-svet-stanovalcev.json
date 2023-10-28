@@ -12,35 +12,11 @@
       "backgroundImage": "/img/majska-gajba.jpg"
     },
     {
-      "name": "Mihela Janežič",
-      "function": "namestnica predsednika ŠSS",
-      "phone": "031 407 437",
-      "email": "mihela.janezic@ssvets.si",
-      "image": "https://majske-igre.si/wp-content/uploads/2023/03/mihela_belo-250x250.jpg",
-      "backgroundImage": "/img/majska-gajba.jpg"
-    },
-    {
       "name": "Jakob Marušič",
-      "function": "vodja delovne skupine ŠSS",
-      "email": "jakob.marusic17@gmail.com",
-      "phone": "031 708 115",
+      "function": "namestnik predsednika ŠSS",
+      "email": "jakob.marusic@ssvets.si",
+      "phone": "041 337 631",
       "image": "/img/20230119_131034-1-.jpg",
-      "backgroundImage": "/img/majska-gajba.jpg"
-    },
-    {
-      "name": "Patrik Čelik",
-      "function": "koordinator izvenštudijskih dejavnosti",
-      "email": "patrik.celik@ssvets.si ",
-      "phone": "041 598 401",
-      "image": "https://majske-igre.si/wp-content/uploads/2022/02/patrik.png",
-      "backgroundImage": "/img/majska-gajba.jpg"
-    },
-    {
-      "name": "Tilen Dobovičnik",
-      "function": "svetovalec ŠSS",
-      "email": "tilen.dobovicnik@ssvets.si",
-      "phone": "070 271 037",
-      "image": "https://majske-igre.si/wp-content/uploads/2023/03/tilen_belo-250x250.jpg",
       "backgroundImage": "/img/majska-gajba.jpg"
     }
   ],
