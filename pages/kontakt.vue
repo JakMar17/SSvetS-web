@@ -15,12 +15,15 @@
                 <div>
                     <i class="ri-mail-line" style="font-size: 2em"></i>
                     <div>
-                        <a href="mailto:info@ssvets.si">info@ssvets.si</a>
+                        <div><a href="mailto:info@ssvets.si">info@ssvets.si</a></div>
+                        <div><a href="mailto:deni.cerovac@ssvets.si">Deni Cerovac</a></div>
+                        <div><a href="mailto:jakob.marusic@ssvets.si">Jakob Marušič</a></div>
                     </div>
                 </div>
                 <div>
                     <i class="ri-phone-line" style="font-size: 2em"></i>
-                    <div>041 398 407</div>
+                    <div>041 398 407 (predsednik ŠSS)</div>
+                    <div>041 337 631 (namestnik predsednika ŠSS)</div>
                 </div>
             </div>
         </section>
