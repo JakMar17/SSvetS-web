@@ -8,7 +8,27 @@
       "title": "Majske igre",
       "subtitle": "NAJVEČJI ŠTUDENTSKI DOGODEK V EVROPI",
       "description": "Majske igre so vseštudentski festival, ki poteka v mesecu maju. Njegove korenine segajo v leto 1983, ko so se začeli povezovati prvi stanovalci, z namenom da bi za svoje sostanovalce pripravili predizpitno športno sprostitev. Majske igre so z leti rasle in letos praznujejo že 39. obletnico, kar jih uvršča med najstarejše tovrstne študentske festivale v Evropi.",
-      "image": "/img/majske-igre.jpg"
+      "image": "/img/majske-igre.jpg",
+      "links": [
+        {
+          "internalLink": true,
+          "buttonType": "is-text",
+          "title": "Več o projektu",
+          "link": "https://majske-igre.si"
+        },
+        {
+          "internalLink": true,
+          "buttonType": "is-text",
+          "title": "Facebook",
+          "link": "https://www.facebook.com/majskeigre"
+        },
+        {
+          "internalLink": true,
+          "buttonType": "is-text",
+          "title": "Instagram",
+          "link": "https://www.instagram.com/majskeigre/"
+        }
+      ]
     },
     {
       "title": "Pustovanje v Rožni dolini",
@@ -25,7 +45,8 @@
     {
       "title": "Ekskurizija v Planico",
       "description": "Študentski svet stanovalcev tradicionalno organizira izlet in ekskurzijo v Planico v času tekem v smučarskih poletih. Tako se že zgodaj zjutraj odpravimo proti sneženeni kraljici, kjer si ogledamo tekmo, se podružimo in vzpostavimo tesna prijateljstva. Kaj d fak je ta zadnji stavek, love it!",
-      "image": "/img/majske-igre.jpg"
+      "image": "/img/majske-igre.jpg",
+      "subtitle": "Enodnevna ekskurzija na praznik športa"
     },
     {
       "title": "Kultura v menzi",
