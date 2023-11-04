@@ -10,7 +10,7 @@
             </div>
         </div>
 
-        <CardImageComponent v-for="(project, index) in content.projects" :key="project.title" :content="project.description" :image-url="project.image" :reversed="index % 2 !== 0" :subtitle="project.subtitle" :title="project.title"/>
+        <CardImageComponent v-for="(project, index) in content.projects" :key="project.title" :content="project.description" :image-url="project.image" :links="project.links" :reversed="index % 2 !== 0" :subtitle="project.subtitle" :title="project.title"/>
     </main>
 </template>
 
