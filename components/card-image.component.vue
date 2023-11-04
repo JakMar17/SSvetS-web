@@ -6,6 +6,9 @@
                     <h1 class="title is-2 mb-0">{{ title }}</h1>
                     <h2 v-if="subtitle" class="title is-6 mt-2 has-text-primary">{{ subtitle.toUpperCase() }}</h2>
                     <ContentRendererMarkdown v-if="parsedContent" :value="parsedContent"/>
+                    <div class="flex flex-wrap mt-4">
+                        <NuxtLink v-for="link in links" :key="link.title" :class="link.buttonType.value" :to="link.link" class="button">{{ link.title }}</NuxtLink>
+                    </div>
                 </div>
             </div>
             <div v-if="imageUrl" :class="buildCssClass('background')">
@@ -38,6 +41,10 @@ export default {
         reversed: {
             type: Boolean,
             default: false
+        },
+        links: {
+            type: Array,
+            default: () => []
         }
     },
     data() {

@@ -39,7 +39,7 @@ collections:
               - { label: "Naslov", name: "title", widget: "string", required: true }
               - { label: "Povezava", name: "link", widget: "string", required: true }
               - { label: "Notranja povezava", name: "internalLink", widget: "boolean", default: true }
-              - { label: "Vrsta gumba", name: "buttonType", widget: "select", options: [ "primary", "secondary", "text" ], default: "primary" }
+              - { label: "Vrsta gumba", name: "buttonType", widget: "select", options: [ { label: "Primarni", value: "is-primary" },{ label: "Sekundarni", value: "is-secondary" }, { label: "Tekstovni", value: "is-text" } ], default: "primary" }
   - name: "SSSmembers"
     label: "Člani ŠSS"
     format: "json"
