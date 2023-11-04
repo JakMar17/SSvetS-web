@@ -32,6 +32,14 @@ collections:
           - { label: "Podnaslov", name: "subtitle", widget: "string" }
           - { label: "Opis", name: "description", widget: "markdown", required: true }
           - { label: "Slika", name: "image", widget: "image", required: true }
+          - label: "Povezave"
+            name: "links"
+            widget: "list"
+            fields:
+              - { label: "Naslov", name: "title", widget: "string", required: true }
+              - { label: "Povezava", name: "link", widget: "string", required: true }
+              - { label: "Notranja povezava", name: "internalLink", widget: "boolean", default: true }
+              - { label: "Vrsta gumba", name: "buttonType", widget: "select", options: [ "primary", "secondary", "text" ], default: "primary" }
   - name: "SSSmembers"
     label: "Člani ŠSS"
     format: "json"
