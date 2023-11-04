@@ -66,8 +66,7 @@ export default {
                 return;
             }
 
-            wrapper.style.height = clientWidth <= 1024 ? `${contentCardHeight + imageHeight}em` : "38em";
-            wrapper.style.height = clientWidth <= 1024 ? `${contentCardHeight + imageHeight}em` : "38em";
+            wrapper.style.height = clientWidth <= 1024 ? `${contentCardHeight + imageHeight}em` : `${Math.max(contentCardHeight, 38)}em`;
         },
         pxToEm(px = 0) {
             const fontSize = parseFloat(getComputedStyle(document.documentElement).fontSize);

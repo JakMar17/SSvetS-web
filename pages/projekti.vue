@@ -3,7 +3,7 @@
         <ProjectsHeaderComponent></ProjectsHeaderComponent>
 
         <div class="container">
-            <div class="card p-4">
+            <div class="card p-4 mb-6">
                 <p class="content">
                     {{ content.intro }}
                 </p>

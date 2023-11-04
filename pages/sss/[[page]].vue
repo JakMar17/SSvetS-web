@@ -13,7 +13,7 @@
 
         <div v-for="(card, index) in content.paragraphs" :key="card.title">
             <CardImageComponent v-if="card.image" :content="card.description" :image-url="card.image" :reversed="index % 2 !== 0" :title="card.title"/>
-            <CardComponent v-if="!card.image" :centered-titles="true" :content="card.description" :subtitle="card.title" :title="card.title"/>
+            <CardComponent v-if="!card.image" :centered-titles="true" :content="card.description" :subtitle="card.subtitle" :title="card.title"/>
         </div>
 
 
