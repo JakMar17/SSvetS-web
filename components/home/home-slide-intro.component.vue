@@ -6,16 +6,19 @@
             <h2 class="subtitle">Študentski dom Ljubljana</h2>
 
             <div class="social">
-                <a><i class="ri-facebook-circle-fill" style="color: white; font-size: 2em"></i></a>
-                <a><i class="ri-instagram-fill" style="color: white; font-size: 2em"></i></a>
-                <a href="https://majske.igre.si"><i class="ri-ie-fill" style="color: white; font-size: 2em"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100069419859415" target="_blank" title="Študentski svet stanovalcev"><i class="ri-facebook-circle-fill" style="color: white; font-size: 2em"></i></a>
+                <div class="mx-2 my-4" style="border-left: solid 1px white"></div>
+                <a href="https://www.facebook.com/majskeigre" target="_blank" title="Majske igre"><i class="ri-facebook-circle-fill" style="color: white; font-size: 2em"></i></a>
+                <a href="https://www.instagram.com/majskeigre" target="_blank" title="Majske igre"><i class="ri-instagram-fill" style="color: white; font-size: 2em"></i></a>
+                <a href="https://majske-igre.si" target="_blank" title="Majske igre"><i class="ri-ie-fill" style="color: white; font-size: 2em"></i></a>
+                <div class="mx-2 my-4" style="border-left: solid 1px white"></div>
+                <a href="https://www.facebook.com/pustovanje" target="_blank" title="Študentsko pustovanje v Rožni dolini"><i class="ri-facebook-circle-fill" style="color: white; font-size: 2em"></i></a>
             </div>
             <hr/>
 
             <div class="menu">
                 <NuxtLink to="/sss/kdo-smo">Kdo smo</NuxtLink>
                 <NuxtLink to="/projekti">Projekti</NuxtLink>
-                <NuxtLink target="_blank" to="https://majske-igre.si">Majske igre</NuxtLink>
                 <NuxtLink to="/kontakt">Kontakt</NuxtLink>
             </div>
         </div>
