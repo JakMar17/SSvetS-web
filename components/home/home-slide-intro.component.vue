@@ -27,7 +27,8 @@
 
 export default {
     async setup() {
-        const {data} = await useAsyncData('index-slideshow', async () => (await queryContent('index-slideshow').findOne()));
+        const {data} = await useAsyncData('slideshow', async () => (await queryContent('slideshow').where({title: 'index'}).findOne()));
+        console.log(data);
         return {imageUrls: data.value}
     },
     data() {

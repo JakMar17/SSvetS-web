@@ -186,17 +186,19 @@ collections:
             widget: image
             required: false
 
-  - name: "IndexSlideshow"
-    label: "Slike na naslovnici"
+  - name: "Slideshows"
+    label: "Galerije"
     format: "json"
-    folder: "content/index-slideshow"
+    folder: "content/slideshow"
     create: true
     fields:
+      - name: title
+        label: "Id galerije (določen s kodo - ne spreminjaj)"
+        widget: string
       - name: images
         label: Slike
         widget: list
         required: false
-        media_folder: '/img/naslovnica'
         fields:
           - name: image
             label: Slika
