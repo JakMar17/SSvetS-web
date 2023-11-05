@@ -20,9 +20,6 @@
             </div>
         </div>
         <img loading="lazy" src="images/background.jpg" style="height: 100vh; width: 100vw; object-fit: cover"/>
-        <!--        <video autoplay loop muted preload="none">-->
-        <!--            <source src="../../assets/videos/majske_aftermovie.mp4" type="video/mp4">-->
-        <!--        </video>-->
     </div>
 </template>
 

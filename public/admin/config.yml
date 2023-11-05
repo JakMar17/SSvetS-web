@@ -185,3 +185,19 @@ collections:
             label: Slika
             widget: image
             required: false
+
+  - name: "IndexSlideshow"
+    label: "Slike na naslovnici"
+    format: "json"
+    folder: "content/index-slideshow"
+    create: true
+    fields:
+      - name: images
+        label: Slike
+        widget: list
+        required: false
+        fields:
+          - name: image
+            label: Slika
+            widget: image
+            required: true
