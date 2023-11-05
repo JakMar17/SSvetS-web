@@ -19,9 +19,9 @@
                 <NuxtLink to="/kontakt">Kontakt</NuxtLink>
             </div>
         </div>
-        <video autoplay loop muted preload="none">
-            <source src="../../assets/videos/majske_aftermovie.mp4" type="video/mp4">
-        </video>
+        <!--        <video autoplay loop muted preload="none">-->
+        <!--            <source src="../../assets/videos/majske_aftermovie.mp4" type="video/mp4">-->
+        <!--        </video>-->
     </div>
 </template>
 

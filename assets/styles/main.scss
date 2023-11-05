@@ -39,7 +39,7 @@ $twitter-invert: findColorInvert($twitter);
 $custom-colors: null !default;
 $custom-shades: null !default;
 
-$background: $info-light;
+$background: #F3F9FB;
 
 
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
@@ -119,10 +119,10 @@ $link-focus-border: $primary;
 }
 
 body {
-    background-image: url('@/assets/images/svgs/stacked-waves-haikei.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    //background: $background;
+    //background-image: url('@/assets/images/svgs/stacked-waves-haikei.svg');
+    //background-repeat: no-repeat;
+    //background-size: cover;
+    background: $background;
     min-height: 100vh;
 }
 
