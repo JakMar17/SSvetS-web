@@ -13,7 +13,7 @@
                 </button>
             </section>
         </div>
-        <img :src="imageUrl" class="background"/>
+        <img :src="imageUrl" class="background" loading="lazy"/>
     </div>
 </template>
 

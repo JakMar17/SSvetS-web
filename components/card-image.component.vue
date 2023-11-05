@@ -13,7 +13,7 @@
             </div>
             <div v-if="imageUrl" :class="buildCssClass('background')">
                 <div></div>
-                <img ref="backgroundImage" :src="imageUrl"/>
+                <img ref="backgroundImage" :src="imageUrl" loading="lazy"/>
             </div>
         </section>
     </div>

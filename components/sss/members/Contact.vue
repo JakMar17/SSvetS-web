@@ -1,7 +1,7 @@
 <template>
     <div class="card" style="padding: 1em; min-width: 20em">
         <div style="display: flex; justify-content: center;">
-            <img class="citation__avatar" :src="photoUrl">
+            <img :src="photoUrl" class="citation__avatar" loading="lazy">
         </div>
         <div style="display: flex; flex-direction: column; align-items: center; margin-top: 2em;">
             <h3 class="subtitle is-3">{{ name }}</h3>
