@@ -19,9 +19,37 @@
                 <NuxtLink to="/kontakt">Kontakt</NuxtLink>
             </div>
         </div>
-        <img loading="lazy" src="images/background.jpg" style="height: 100vh; width: 100vw; object-fit: cover"/>
+        <img :src="backgroundSrc" class="background" loading="lazy"/>
     </div>
 </template>
+
+<script>
+
+export default {
+    async setup() {
+        const {data} = await useAsyncData('index-slideshow', async () => (await queryContent('index-slideshow').findOne()));
+        return {imageUrls: data.value}
+    },
+    data() {
+        return {
+            backgroundSrc: '',
+            backgroundSrcIndex: 0,
+            imageUrls: []
+        }
+    },
+    mounted() {
+        this.setImageInterval();
+    },
+    methods: {
+        setImageInterval() {
+            setInterval(() => {
+                this.backgroundSrcIndex++;
+                this.backgroundSrc = this.imageUrls[this.backgroundSrcIndex % this.imageUrls.length];
+            }, 5000)
+        }
+    }
+}
+</script>
 
 <style lang="scss" scoped>
 @import "assets/styles/main";
@@ -78,13 +106,11 @@ hr {
     }
 }
 
-video {
-    z-index: -1;
-    width: 100vw;
+.background {
+    transition: opacity 0.5s;
     height: 100vh;
+    width: 100vw;
     object-fit: cover;
-    top: 0;
-    left: 0;
 }
 
 .menu {

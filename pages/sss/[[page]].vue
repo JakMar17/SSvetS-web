@@ -27,7 +27,6 @@ export default {
     async setup() {
         const route = useRoute()
         const {data} = await useAsyncData('sss', async () => (await queryContent('sss-pages').where({link: route.params.page}).findOne()));
-        console.log(data)
         return {content: data.value}
     },
     data() {
