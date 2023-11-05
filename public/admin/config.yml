@@ -196,6 +196,7 @@ collections:
         label: Slike
         widget: list
         required: false
+        media_folder: '/img/naslovnica'
         fields:
           - name: image
             label: Slika
