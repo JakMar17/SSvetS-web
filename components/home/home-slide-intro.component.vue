@@ -19,7 +19,7 @@
                 <NuxtLink to="/kontakt">Kontakt</NuxtLink>
             </div>
         </div>
-        <img :src="backgroundSrc" class="background" loading="lazy"/>
+        <img :src="backgroundSrc" alt="background" class="background" loading="lazy"/>
     </div>
 </template>
 
@@ -28,8 +28,9 @@
 export default {
     async setup() {
         const {data} = await useAsyncData('slideshow', async () => (await queryContent('slideshow').where({title: 'index'}).findOne()));
-        console.log(data);
-        return {imageUrls: data.value}
+        const imageUrls = data.value.images.map(img => img.image);
+        console.log(imageUrls)
+        return {imageUrls}
     },
     data() {
         return {
@@ -39,7 +40,10 @@ export default {
         }
     },
     mounted() {
-        this.setImageInterval();
+        if (this.imageUrls.length > 0) {
+            this.backgroundSrc = this.imageUrls[0];
+            this.setImageInterval();
+        }
     },
     methods: {
         setImageInterval() {
