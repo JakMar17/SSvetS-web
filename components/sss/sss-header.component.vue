@@ -19,16 +19,16 @@ export default {
         }
     },
     async setup() {
-        const router = useRouter();
-        const {data} = await useAsyncData('sss', async () => (await queryContent('sss-pages').find()));
-        const headerLinks = data.value.map((page) => ({
-            label: page.menuButton,
-            onClick: () => router.push({path: `/sss/${page.link}`})
-        }));
-
-        return {headerLinks};
+        return {headerLinks: []};
     },
     data() {
+        const router = useRouter();
+        queryContent('sss-pages').find().then(data =>
+            data.forEach((page) => this.headerLinks.push({
+                label: page.menuButton,
+                onClick: () => router.push({path: `/sss/${page.link}`})
+            })));
+
         return {
             headerLinks: [
                 {
@@ -38,8 +38,7 @@ export default {
                 {
                     label: "Člani",
                     onClick: () => this.$router.push('/sss/clani')
-                },
-                ...this.headerLinks
+                }
             ]
         }
     }
