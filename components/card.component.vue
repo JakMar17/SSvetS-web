@@ -30,15 +30,12 @@ export default {
         }
     },
     data() {
-        console.log(this.$slots)
+        parseMarkdown(this.content).then(parsed => this.parsedContent = parsed);
         return {
             clientWidth: null,
             clientHeight: null,
             parsedContent: null
         }
-    },
-    mounted() {
-        parseMarkdown(this.content).then(parsed => this.parsedContent = parsed);
     },
     methods: {
         buildCssClass(baseClass = "") {

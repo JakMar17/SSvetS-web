@@ -2,13 +2,15 @@
     <main>
         <ProjectsHeaderComponent></ProjectsHeaderComponent>
 
-        <div class="container">
-            <div class="card p-4 mb-6">
-                <p class="content">
-                    {{ content.intro }}
-                </p>
-            </div>
-        </div>
+        <!--        <div class="container">-->
+        <!--            <div class="card p-4 mb-6">-->
+        <!--                <p class="content">-->
+        <!--                    {{ content.intro }}-->
+        <!--                </p>-->
+        <!--            </div>-->
+        <!--        </div>-->
+
+        <CardComponent :content="content.intro"></CardComponent>
 
         <CardImageComponent v-for="(project, index) in content.projects" :key="project.title" :content="project.description" :image-url="project.image" :links="project.links" :reversed="index % 2 !== 0" :subtitle="project.subtitle" :title="project.title"/>
     </main>

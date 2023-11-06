@@ -48,6 +48,7 @@ export default {
         }
     },
     data() {
+        parseMarkdown(this.content).then(parsed => this.parsedContent = parsed);
         return {
             clientWidth: null,
             clientHeight: null,
@@ -55,7 +56,6 @@ export default {
         }
     },
     mounted() {
-        parseMarkdown(this.content).then(parsed => this.parsedContent = parsed);
         window.addEventListener("resize", () => this.onResize());
         this.onResize();
     },
