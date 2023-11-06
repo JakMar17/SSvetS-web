@@ -15,8 +15,6 @@
 </template>
 
 <script>
-import TitleSub from '~/components/title/TitleSub.vue';
-
 export default {
     setup: async () => {
         const {data} = await useAsyncData('projects', async () => (await queryContent('projects').find())[0]);
@@ -27,10 +25,6 @@ export default {
         return {
             content: data?.[0] ?? null
         }
-    }
-    ,
-    components: {
-        TitleSub
     }
 }
 </script>

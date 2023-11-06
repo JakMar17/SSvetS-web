@@ -7,17 +7,12 @@
 </template>
 
 <script>
-import HomeSlideSectionComponent from "~/components/home/home-slide-section.component.vue";
-import HomeSliderComponent from "~/components/home/home-slider.component.vue";
-import SliderWrapperComponent from "~/components/slider/slider-wrapper.component.vue";
-
 definePageMeta({
     layout: "no-navbar-layout"
 });
 
 export default {
     name: "Home",
-    components: {SliderWrapperComponent, HomeSliderComponent, HomeSlideSectionComponent},
     data() {
         queryContent('').findOne().then(
             ({sections}) => {

@@ -18,17 +18,7 @@ export default {
             default: "https://ssvets.si/wp-content/uploads/2022/02/89144402_2506116986366693_2098656754677055488_n.jpg"
         }
     },
-    async setup() {
-        return {headerLinks: []};
-    },
     data() {
-        const router = useRouter();
-        queryContent('sss-pages').find().then(data =>
-            data.forEach((page) => this.headerLinks.push({
-                label: page.menuButton,
-                onClick: () => router.push({path: `/sss/${page.link}`})
-            })));
-
         return {
             headerLinks: [
                 {
@@ -40,6 +30,20 @@ export default {
                     onClick: () => this.$router.push('/sss/clani')
                 }
             ]
+        }
+    },
+    mounted() {
+        this.fetchHeaderLinks();
+    },
+    methods: {
+        fetchHeaderLinks() {
+            const router = useRouter();
+            queryContent('sss-pages').only(['menuButton', 'link']).find().then(data => {
+                data.forEach(({menuButton, link}) => this.headerLinks.push({
+                    label: menuButton,
+                    onClick: () => router.push({path: `/sss/${link}`})
+                }))
+            });
         }
     }
 }
