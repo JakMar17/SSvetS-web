@@ -84,8 +84,8 @@
 
 #majske-igre-column {
     width: 20em;
-    order: 2;
-    @media only screen and (min-width: 1024px) {
+    order: 3;
+    @media only screen and (min-width: 1204px) {
         order: 1;
     }
 }
@@ -93,7 +93,7 @@
 #main-column {
     order: 1;
     width: 45em;
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1204px) {
         order: 2;
         width: 25em;
     }
@@ -101,7 +101,10 @@
 
 #social-column {
     width: 20em;
-    order: 3;
+    order: 2;
+    @media only screen and (min-width: 1204px) {
+        order: 3;
+    }
 }
 
 main {
@@ -109,7 +112,7 @@ main {
     min-height: 60vh;
     margin: 1em 0;
 
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1204px) {
         margin: 1em 4em;
     }
 }
@@ -119,7 +122,7 @@ main {
         display: flex;
         align-items: center;
 
-        @media only screen and (min-width: 768px) {
+        @media only screen and (min-width: 1204px) {
             z-index: 2;
             width: 55%;
             height: 40em;
@@ -127,7 +130,7 @@ main {
             position: absolute;
         }
 
-        @media only screen and (min-width: 1024px) {
+        @media only screen and (min-width: 1204px) {
             width: 45%;
         }
     }
