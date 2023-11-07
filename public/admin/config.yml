@@ -232,6 +232,7 @@ collections:
       - name: description
         label: Opis
         widget: markdown
+        required: true
   - name: "BlogPosts"
     label: "Blog: objave"
     format: "json"
@@ -253,7 +254,7 @@ collections:
         collection: "BlogAuthors"
         value_field: "name"
         search_fields: [ "name" ]
-        display_fields: [ "name", "image" ]
+        display_fields: [ "name" ]
       - name: category
         label: Kategorija
         widget: relation
@@ -268,6 +269,8 @@ collections:
         label: Povzetek
         widget: markdown
         required: true
+        buttons: [ 'bold', 'italic', 'link' ]
+        editor_components: [ ]
       - name: body
         label: Vsebina
         widget: markdown
