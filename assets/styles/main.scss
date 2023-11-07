@@ -155,6 +155,13 @@ otherwise they are too wide for html body
 
 .card {
     border-radius: 1em;
+
+    .card-image {
+        &__top {
+            border-top-left-radius: 1em;
+            border-top-right-radius: 1em;
+        }
+    }
 }
 
 .pre-wrap {
