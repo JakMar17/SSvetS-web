@@ -260,8 +260,12 @@ collections:
         widget: relation
         collection: "BlogCategories"
         search_fields: [ "title" ]
-        display_fields: [ "title" ]
+        display_fields: [ "title", "image" ]
         value_field: "title"
+      - name: date
+        label: Datum
+        widget: datetime
+        format: "DD. MM. YYYY"
       - name: cover
         label: Naslovnica
         widget: image
