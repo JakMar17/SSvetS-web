@@ -251,14 +251,16 @@ collections:
         label: Avtor
         widget: relation
         collection: "BlogAuthors"
-        searchFields: [ "name" ]
-        displayFields: [ "name", "image" ]
+        value_field: "name"
+        search_fields: [ "name" ]
+        display_fields: [ "name", "image" ]
       - name: category
         label: Kategorija
         widget: relation
         collection: "BlogCategories"
-        searchFields: [ "title" ]
-        displayFields: [ "title" ]
+        search_fields: [ "title" ]
+        display_fields: [ "title" ]
+        value_field: "title"
       - name: cover
         label: Naslovnica
         widget: image
