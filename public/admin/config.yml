@@ -254,13 +254,13 @@ collections:
         collection: "BlogAuthors"
         value_field: "name"
         search_fields: [ "name" ]
-        display_fields: [ "name" ]
+        display_fields: [ "name", "image" ]
       - name: category
         label: Kategorija
         widget: relation
         collection: "BlogCategories"
         search_fields: [ "title" ]
-        display_fields: [ "title", "image" ]
+        display_fields: [ "title" ]
         value_field: "title"
       - name: date
         label: Datum
