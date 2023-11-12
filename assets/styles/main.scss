@@ -108,6 +108,7 @@ $link-focus-border: $primary;
 
 // Import Bulma and Buefy styles
 @import 'node_modules/bulma/bulma.sass';
+@import "markdown";
 
 
 .block_padding {

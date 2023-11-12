@@ -11,7 +11,9 @@
                     <h1 class="title is-2 mb-0">{{ title }}</h1>
                     <h2 v-if="subtitle" class="subtitle is-4 mt-2 mb-6 has-text-primary">{{ subtitle }}</h2>
                 </div>
-                <ContentRendererMarkdown v-if="content" :value="content"/>
+                <ContentRenderer>
+                    <ContentRendererMarkdown v-if="content" :value="content" class="markdown"/>
+                </ContentRenderer>
             </div>
         </div>
     </main>

@@ -1,0 +1,51 @@
+.markdown {
+    & > p {
+        margin-bottom: 1em;
+    }
+
+    & > h1 {
+        @extend .title, .is-1;
+    }
+
+    & > h2 {
+        @extend .title, .is-2;
+    }
+
+    & > h3 {
+        @extend .title, .is-3;
+    }
+
+    & > h4 {
+        @extend .title, .is-4;
+    }
+
+    & > h5 {
+        @extend .title, .is-5;
+    }
+
+    & > h6 {
+        @extend .title, .is-6;
+    }
+
+    & > blockquote {
+        font-style: italic;
+        margin: 1em 0 1em 0.5em;
+        padding-left: 1em;
+        border-left: solid 0.25em $primary-light;
+    }
+
+    & > pre {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    & > ul {
+        margin-left: 2em;
+        list-style: disc;
+    }
+
+    & > ol {
+        margin-left: 2em;
+        list-style: decimal;
+    }
+}
