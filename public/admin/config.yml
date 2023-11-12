@@ -1,3 +1,5 @@
+local_backend: true
+
 backend:
   name: git-gateway
   branch: master
@@ -100,6 +102,7 @@ collections:
           - name: presidentName
             label: Predstavnik
             widget: string
+            required: false
           - name: presidentImage
             label: Slika predstavnika
             widget: image
@@ -107,6 +110,7 @@ collections:
           - name: subPresidentName
             label: Namestnik predstavnika
             widget: string
+            required: false
           - name: subPresidentImage
             label: Slika namestnika predstavnika
             widget: image
