@@ -1,5 +1,5 @@
 <template>
-    <NuxtLink :to="'/blog/objava/' + post.title" class="wrapper">
+    <NuxtLink :to="'/blog/objava/' + encodeURIComponent(post.title)" class="wrapper">
         <div class="img-wrapper">
             <img :src="post.cover"/>
         </div>
