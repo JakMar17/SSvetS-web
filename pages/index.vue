@@ -13,17 +13,6 @@ definePageMeta({
 
 export default {
     name: "Home",
-    data() {
-        queryContent('').findOne().then(
-            ({sections}) => {
-                this.sections = sections;
-            });
-
-        return {
-            sections: [],
-        };
-    },
-    methods: {},
 };
 </script>
 
