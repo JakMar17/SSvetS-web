@@ -19,6 +19,7 @@
             <div class="menu">
                 <NuxtLink to="/sss/kdo-smo">Kdo smo</NuxtLink>
                 <NuxtLink to="/projekti">Projekti</NuxtLink>
+                <NuxtLink to="/blog">Novice</NuxtLink>
                 <NuxtLink to="/kontakt">Kontakt</NuxtLink>
             </div>
         </div>
