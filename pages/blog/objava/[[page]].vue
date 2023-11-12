@@ -19,17 +19,7 @@
 <script>
 export default {
     data() {
-        const route = useRoute();
-        queryContent('blog/posts').where({title: route.params.page}).findOne().then(res => {
-            console.log(res)
-            this.author = res.author;
-            this.cover = res.cover;
-            this.title = res.title;
-            this.subtitle = res.subtitle;
-            parseMarkdown(res.body).then(parsed => this.content = parsed);
-            this.componentState = 'loaded';
-        }).catch(() => this.componentState = 'error');
-
+        this.fetchBlogPost();
         return {
             componentState: 'loading',
             title: null,
@@ -40,10 +30,32 @@ export default {
             cover: null
         }
     },
-    async mounted() {
-
+    methods: {
+        parseMarkdown,
+        async fetchBlogPost() {
+            const route = useRoute();
+            try {
+                const res = await queryContent('blog/posts').where({title: route.params.page}).findOne()
+                this.author = res.author;
+                this.cover = res.cover;
+                this.title = res.title;
+                this.subtitle = res.subtitle;
+                parseMarkdown(res.body).then(parsed => this.content = parsed);
+                this.fetchAuthorImage(res.author);
+                this.componentState = 'loaded';
+            } catch (e) {
+                this.componentState = 'error';
+            }
+        },
+        async fetchAuthorImage(authorTitle) {
+            try {
+                const res = await queryContent('blog/authors').where({title: authorTitle}).findOne();
+                console.log(res)
+                this.authorAvatarUrl = res.avatar;
+            } catch (e) {
+            }
+        }
     },
-    methods: {parseMarkdown},
 }
 </script>
 
