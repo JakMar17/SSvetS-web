@@ -21,15 +21,15 @@
                 </div>
             </div>
             <div class="dorm-members">
-                <div class="member-card">
-                    <div class="img__wrapper">
+                <div v-if="presidentName" class="member-card">
+                    <div v-if="presidentImage" class="img__wrapper">
                         <img :src="presidentImage" loading="lazy"/>
                     </div>
                     <h2 class="subtitle is-4 mb-0 has-text-centered">{{ presidentName }}</h2>
                     <span class="has-text-centered">predstavnik</span>
                 </div>
-                <div class="member-card">
-                    <div class="img__wrapper">
+                <div v-if="vicePresidentName" class="member-card">
+                    <div v-if="vicePresidentImage" class="img__wrapper">
                         <img :src="vicePresidentImage" loading="lazy"/>
                     </div>
                     <h2 class="subtitle is-4 mb-0 has-text-centered">{{ vicePresidentName }}</h2>
@@ -67,14 +67,12 @@ export default {
         },
         presidentName: {
             type: String,
-            required: true
         },
         presidentImage: {
             type: String,
         },
         vicePresidentName: {
             type: String,
-            required: true
         },
         vicePresidentImage: {
             type: String,
@@ -172,6 +170,12 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: flex-end;
+
+        width: calc(150px + 0.5em);
+        @media only screen and (min-width: 768px) {
+            width: calc(200px + 0.5em);
+        }
 
         .img__wrapper {
             width: 150px;

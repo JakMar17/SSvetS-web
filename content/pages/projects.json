@@ -11,19 +11,16 @@
       "image": "/img/majske-igre.jpg",
       "links": [
         {
-          "internalLink": true,
           "buttonType": "is-text",
           "title": "Več o projektu",
           "link": "https://majske-igre.si"
         },
         {
-          "internalLink": true,
           "buttonType": "is-text",
           "title": "Facebook",
           "link": "https://www.facebook.com/majskeigre"
         },
         {
-          "internalLink": true,
           "buttonType": "is-text",
           "title": "Instagram",
           "link": "https://www.instagram.com/majskeigre/"

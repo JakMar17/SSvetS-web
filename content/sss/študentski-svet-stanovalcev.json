@@ -317,14 +317,14 @@
     },
     {
       "dormMotto": "Znanost brez meja",
-      "presidentName": "Miha Marinšek",
-      "subPresidentName": "Matija Mavsar",
+      "presidentName": "",
+      "subPresidentName": "",
       "name": "Dom podiplomcev",
       "noOfStudents": 172,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_podiplomcev/DPL-zunanjost.jpg",
-      "location": "samotni",
-      "subPresidentImage": "/img/matija-mavsar-miha-marinšek.jpg",
-      "presidentImage": "/img/miha-marinšek-miha-marinšek.jpg"
+      "location": "Kardeljeva ploščad",
+      "subPresidentImage": "",
+      "presidentImage": ""
     }
   ]
 }
