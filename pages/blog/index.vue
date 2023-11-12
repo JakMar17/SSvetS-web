@@ -1,28 +1,34 @@
 <template>
     <HeaderPageComponent imageUrl="/images/blog.jpg" subtitle="Dogodki, življenje v domu in ostale informacije" title="Novice"/>
-
-    <CardImageComponent v-for="post of posts" :key="post.id" :title="post.title" :image-url="post.cover" :content="post.summary"/>
-
-
     <div class="container">
-        <div class="card">
-
+        <BlogPostCardComponent v-for="post of posts" :key="post.id" :post="post"/>
+    </div>
+    <div class="container">
+        <div class="has-text-centered">
+            <button v-show="showLoadMore" class="button is-primary" @click="fetchPosts">Naloži več</button>
         </div>
     </div>
-
 </template>
 <script>
 export default {
     data() {
-        const page = this.$route.query.page;
-        queryContent('blog/posts').skip(((page ?? 1) -1 ) * 10 ).limit(10).find().then(res => {
-            this.posts = res;
-            console.log(this.posts);
-        })
-
+        this.fetchPosts();
         return {
+            loadedPosts: 0,
+            showLoadMore: false,
             posts: []
         }
+    },
+    methods: {
+        async fetchPosts() {
+            this.showLoadMore = false;
+            const res = await queryContent('blog/posts').skip(this.loadedPosts).limit(10).find();
+            this.posts.push(...res);
+            this.loadedPosts += res.length;
+            if (res.length === 10) {
+                this.showLoadMore = true;
+            }
+        },
     }
 }
 </script>
