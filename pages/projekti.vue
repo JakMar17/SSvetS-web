@@ -1,31 +1,29 @@
 <template>
-    <main>
+    <main v-if="componentState === 'loaded'">
         <ProjectsHeaderComponent></ProjectsHeaderComponent>
-
-        <!--        <div class="container">-->
-        <!--            <div class="card p-4 mb-6">-->
-        <!--                <p class="content">-->
-        <!--                    {{ content.intro }}-->
-        <!--                </p>-->
-        <!--            </div>-->
-        <!--        </div>-->
-
         <CardComponent :content="content.intro"></CardComponent>
-
         <CardImageComponent v-for="(project, index) in content.projects" :key="project.title" :content="project.description" :image-url="project.image" :links="project.links" :reversed="index % 2 !== 0" :subtitle="project.subtitle" :title="project.title"/>
     </main>
 </template>
 
 <script>
 export default {
-    setup: async () => {
-        const {data} = await useAsyncData('projects', async () => (await queryContent('projects').find())[0]);
-        return {content: data.value}
-    },
-    async asyncData() {
-        const data = await queryContent('projects').find();
+    data() {
+        this.fetchData();
         return {
-            content: data?.[0] ?? null
+            content: null,
+            componentState: 'loading'
+        }
+    },
+    methods: {
+        async fetchData() {
+            try {
+                const data = await queryContent('pages/projects').findOne();
+                this.content = data ?? null;
+                this.componentState = 'loaded';
+            } catch (e) {
+                this.componentState = 'error';
+            }
         }
     }
 }

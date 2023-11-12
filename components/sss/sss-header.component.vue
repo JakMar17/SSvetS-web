@@ -22,10 +22,6 @@ export default {
         return {
             headerLinks: [
                 {
-                    label: "Kdo smo",
-                    onClick: () => this.$router.push('/sss/kdo-smo')
-                },
-                {
                     label: "Člani",
                     onClick: () => this.$router.push('/sss/clani')
                 }
