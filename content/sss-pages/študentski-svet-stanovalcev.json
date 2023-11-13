@@ -4,7 +4,7 @@
   "menuButton": "Kdo smo",
   "link": "kdo-smo",
   "cover": "/img/sss_skupinska.jpg",
-  "intro": "Javni zavod Študentski dom Ljubljana (ŠDL) sestavlja 29 študentskih domov, ki so postopoma zrasli na različnih lokacijah po Ljubljani (Vič, Bežigrad, Center in Šiška). V njih biva nekaj manj kot 7500 stanovalcev in stanovalk.\n\nŠtudentski svet stanovalcev (ŠSS) je avtonomen organ, ki prek predstavnikov zastopa vse stanovalce ŠDL. Vsak dom zastopa predstavnik, ki interese stanovalcev predstavlja na upravi ŠDL ter na sejah ŠSS. ŠSS ima svojega predstavnika v svetu zavoda ŠDL, ki je najvišji organ\n\nV razprave izven zavoda se ŠSS vključi, kadar se te tičejo študentskega bivanja v širšem. Tu si prizadevamo za korektno in enakovredno obravnavo študentskega bivanja v javnih študentskih domovih. Verjamemo, da je bivanje, ki je prilagojeno mladim eden izmed ključnih delov študijskega procesa.",
+  "intro": "Javni zavod Študentski dom Ljubljana (ŠDL) sestavlja 29 študentskih domov, ki so postopoma zrasli na različnih lokacijah po Ljubljani (Vič, Bežigrad, Center in Šiška). V njih biva nekaj manj kot 7500 stanovalcev in stanovalk.\n\nŠtudentski svet stanovalcev (ŠSS) je avtonomen organ, ki prek predstavnikov zastopa vse stanovalce ŠDL. Vsak dom zastopa predstavnik, ki interese stanovalcev predstavlja na upravi ŠDL ter na sejah ŠSS. ŠSS ima svojega predstavnika v svetu zavoda ŠDL, ki je najvišji organ zavoda.\n\nŠ﻿SS se tako vključuje v vse razprave znotraj zavoda, posebno pozornost pa daje problematikam, ki bi lahko bistveno poslapšale življenje stanovalcev v domu. ŠSS vedno trdi, da je študentski dom več kot le soba, saj mnogim študentom predstavlja prve korake v samostojnost in jim kot tak predstavlja celovit dom.\n\nV razprave izven zavoda se ŠSS vključi, kadar se te tičejo študentskega bivanja v širšem. Tu si prizadevamo za korektno in enakovredno obravnavo študentskega bivanja v javnih študentskih domovih. Verjamemo, da je bivanje, ki je prilagojeno mladim eden izmed ključnih delov študijskega procesa.",
   "paragraphs": [
     {
       "title": "Delovanje Študentskega sveta stanovalcev",
@@ -15,6 +15,16 @@
       "title": "Domsko življenje",
       "description": "Poleg uradnih dolžnosti predstavniki domov skrbijo, da v domu življenje gladko poteka. Skrbijo za sredstva doma in skupaj s hišnikom doma urejajo skupne prostore ter skupni inventar. So prvi naslov za bruce in preostale stanovalce, ki potrebujejo nasvet ali dva glede bivanja. Prav tako pa znotraj doma organizirajo različne dogodke za stanovalce.\n\nDodatno predstavniki in namestniki domov pomagajo pri organizaciji večjih projektov ŠSS.",
       "image": "/img/img_5287.jpg"
+    },
+    {
+      "title": "Obštudijski projekti ŠSS",
+      "description": "O﻿bštudijski projekti Študentskega sveta stanovalcev potekajo celotno leto, delimo pa jih v sklope kulture, zabave in športa.\n\nS﻿ projekti, ki jih oblikujemo in organiziramo skrbimo za dvoje - ohranitev tradicije študentskih dogodkov v Ljubljani in ustvarjanje nepozabnih spominov iz študentskih let. Z meddomskimi tekmovanji pa skrbimo tudi za zdravo tekmovalnost med domovi.\n\nZa razliko od večine študentskih dogodkov v Ljubljane, dogodke namreč organiziramo z izključno željo, da stanovalci zavoda izkusijo obštudijsko življenje na način prijazen študentskim urnikom in denarnicam.\n\nN﻿ajpomembnejši projekt, ki ga ŠSS organizira že več kot 40 let so Majske igre - dogodek, ki poteka v maju in je sestavljen iz več kot 30 športnih, kulturnih in zabavnih dogodkov.",
+      "image": "/img/predmajski_2022_6.jpg"
+    },
+    {
+      "title": "Sponzorji",
+      "description": "Z﻿a zagotavljanje kakovostne izvedbe dogodkov se pogostokrat obrnemo na pomoč našim sponzorjem in partnerjem. Naši sponzorji nam omogočajo, da koncertni in kulturni dogodki Majskih iger ostajajo že vsa leta brez vstopnin, omogočajo nam nagrajevanje najboljših v svoji kategoriji in predvsem omogočajo nam ohranjanjanje avtonomnosti pri razvoju in organizaciji nekaterih najbolj edinstvenih in unikatnih dogodkov v slovenskem in evropskem okolju.\n\nZ﻿a naše partnerje in sponzorje tekom leta skrbi vodja trženja, ki je del organizacijske ekipe pustovanja in Majskih iger. V študijskem letu 2023/24 to funkcijo opravlja **Jakob Marušič.**\n\n**V﻿ kolikor se vaše podjetje vidi kot partnerja Majskih iger, Pustovanja v Rožni dolini ali drugih projektov Študentskega sveta stanovalcev, vas vabimo, da se nam pridružite. Skupaj bomo spisali odlično in zanimivo partnersko zgodbo.**",
+      "image": "/img/predmajski_2023_4.jpg"
     }
   ]
 }
