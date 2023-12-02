@@ -12,11 +12,15 @@ definePageMeta({
 });
 
 useSeoMeta({
-    title: 'Študentski svet stanovalcev',
-    ogTitle: 'Študentski svet stanovalcev',
+    title: 'Študentski svet stanovalcev ŠSS',
+    ogTitle: 'Študentski svet stanovalcev ŠSS',
+    twitterTitle: 'Študentski svet stanovalcev ŠSS',
     description: 'Študentski svet stanovalcev je organ, ki predstavlja stanovalce Študentskega doma Ljubljana Svet je sestavljen iz predstavnikov študentov, ki so izvoljeni na volitvah, ki potekajo vsako leto. ŠSS je organizator Majskih iger, Študentskega pustovanja v Rožni dolini in drugih dogodkov.',
     ogDescription: 'Študentski svet stanovalcev je organ, ki predstavlja stanovalce Študentskega doma Ljubljana Svet je sestavljen iz predstavnikov študentov, ki so izvoljeni na volitvah, ki potekajo vsako leto. ŠSS je organizator Majskih iger, Študentskega pustovanja v Rožni dolini in drugih dogodkov.',
     twitterCard: 'summary_large_image',
+    ogImageAlt: 'Študentski svet stanovalcev ŠSS',
+    twitterImage: '/img/347269340_761751668759482_5891382283528008371_n.webp',
+    ogImage: '/img/347269340_761751668759482_5891382283528008371_n.webp',
 });
 </script>
 

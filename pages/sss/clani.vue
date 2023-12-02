@@ -42,7 +42,6 @@
 
 
 <script>
-import {createSEOMeta} from '/utils/seo'
 
 export default {
     async setup() {
@@ -51,15 +50,7 @@ export default {
     },
     head() {
         return {
-            title: "Študentski svet stanovalcev",
-            meta: [
-                ...createSEOMeta({
-                    title: "Študentski svet stanovalcev",
-                    description: "this.project.description",
-                    url: 'https://jakob.marela.team/sss/clani',
-                    image: {}
-                }),
-            ],
+            title: "Študentski svet stanovalcev"
         }
     },
 }
