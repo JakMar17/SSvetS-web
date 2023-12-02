@@ -1,0 +1,38 @@
+{
+  "person_contact": [
+    {
+      "name": "Deni Cerovac",
+      "function": "predsednik",
+      "email": "deni.cerovac@ssvets.si",
+      "phone": "041 398 407"
+    },
+    {
+      "name": "Jakob Marušič",
+      "function": "namestnik predsednika",
+      "email": "jakob.marusic@ssvets.si",
+      "phone": "041 337 631"
+    }
+  ],
+  "social": {
+    "facebook": [
+      {
+        "title": "Študentski svet stanovalcev",
+        "link": "https://www.facebook.com/profile.php?id=100069419859415"
+      },
+      {
+        "title": "Majske igre",
+        "link": " https://www.facebook.com/majskeigre"
+      },
+      {
+        "title": "Študentsko pustovanje v Rožni dolini",
+        "link": "https://www.facebook.com/pustovanje"
+      }
+    ],
+    "instagram": [
+      {
+        "title": "Majske igre",
+        "link": "https://www.instagram.com/majskeigre/"
+      }
+    ]
+  }
+}

@@ -7,23 +7,34 @@
             <h1 class="title px-2 has-text-centered">Študentski svet stanovalcev</h1>
             <div class="flex direction--column has-text-centered gap--2em">
                 <div>
+                    <i class="ri-mail-line" style="font-size: 2em"></i>
+                    <div>
+                        <div><a href="mailto:info@ssvets.si">info@ssvets.si</a></div>
+                    </div>
+                </div>
+                <div>
                     <i class="ri-home-2-line" style="font-size: 2em"></i>
                     <div>Svetčeva ulica 9</div>
                     <div>dom 3, 2. nadstropje</div>
                     <div>1000 Ljubljana</div>
                 </div>
+
                 <div>
-                    <i class="ri-mail-line" style="font-size: 2em"></i>
-                    <div>
-                        <div><a href="mailto:info@ssvets.si">info@ssvets.si</a></div>
-                        <div><a href="mailto:deni.cerovac@ssvets.si">Deni Cerovac</a></div>
-                        <div><a href="mailto:jakob.marusic@ssvets.si">Jakob Marušič</a></div>
+                    <div class="mb-2 mt-4">
+                    <i class="ri-team-line" style="font-size: 2em;"></i>
                     </div>
-                </div>
-                <div>
-                    <i class="ri-phone-line" style="font-size: 2em"></i>
-                    <div>041 398 407 (predsednik ŠSS)</div>
-                    <div>041 337 631 (namestnik predsednika ŠSS)</div>
+                    <div v-for="contact of contacts" class="mb-5">
+                        <div class="title is-5">{{ contact.name }}</div>
+                        <div class="subtitle is-6 mb-4">{{ contact.function }}</div>
+                        <div style="display: flex; gap: 1em; align-items: baseline; justify-content: center">
+                            <i class="ri-phone-line"></i>
+                            <span>{{contact.phone}}</span>
+                        </div>
+                        <div style="display: flex; gap: 1em; align-items: baseline; justify-content: center">
+                            <i class="ri-mail-line"></i>
+                            <a :href="'mailto:' + contact.email">{{ contact.email }}</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -76,7 +87,33 @@
         </section>
     </main>
 </template>
-<script lang="ts" setup>
+<script>
+export default {
+    data() {
+        this.fetchData();
+        return {
+            contacts: [],
+            facebookSocial: [],
+            instagramSocial: [],
+            otherSocial: [],
+            componentState: 'loading'
+        }
+    },
+    methods: {
+        async fetchData() {
+            try {
+                const {person_contact, social} = await queryContent('pages/contacts').findOne();
+                this.contacts = person_contact;
+                this.facebookSocial = social.facebook ?? null;
+                this.instagramSocial = social.instagram ?? null;
+                this.otherSocial = social.other ?? null;
+            } catch (e) {
+                this.componentState = 'error';
+            }
+        }
+    }
+}
+
 </script>
 
 <style lang="scss" scoped>
