@@ -15,7 +15,7 @@ export default {
         },
         imageUrl: {
             type: String,
-            default: "https://ssvets.si/wp-content/uploads/2022/02/89144402_2506116986366693_2098656754677055488_n.jpg"
+            default: "https://ssvets.si/wp-content/uploads/2022/02/89144402_2506116986366693_2098656754677055488_n.webp"
         }
     },
     data() {
