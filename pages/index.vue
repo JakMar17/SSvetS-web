@@ -6,14 +6,18 @@
     </div>
 </template>
 
-<script>
+<script lang="ts" setup>
 definePageMeta({
     layout: "no-navbar-layout"
 });
 
-export default {
-    name: "Home",
-};
+useSeoMeta({
+    title: 'Študentski svet stanovalcev',
+    ogTitle: 'Študentski svet stanovalcev',
+    description: 'Študentski svet stanovalcev je organ, ki predstavlja stanovalce Študentskega doma Ljubljana Svet je sestavljen iz predstavnikov študentov, ki so izvoljeni na volitvah, ki potekajo vsako leto. ŠSS je organizator Majskih iger, Študentskega pustovanja v Rožni dolini in drugih dogodkov.',
+    ogDescription: 'Študentski svet stanovalcev je organ, ki predstavlja stanovalce Študentskega doma Ljubljana Svet je sestavljen iz predstavnikov študentov, ki so izvoljeni na volitvah, ki potekajo vsako leto. ŠSS je organizator Majskih iger, Študentskega pustovanja v Rožni dolini in drugih dogodkov.',
+    twitterCard: 'summary_large_image',
+});
 </script>
 
 <style lang="scss" scoped>
