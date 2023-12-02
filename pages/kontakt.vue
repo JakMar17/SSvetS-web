@@ -73,15 +73,23 @@
         <section id="social-column" class="card p-6 mt-6 mb-6">
             <h1 class="title px-2 has-text-centered">Socialna omrežja</h1>
             <div class="flex direction--column has-text-centered gap--2em">
-                <div>
+                <div v-if="facebookSocial && facebookSocial.length > 0">
                     <i class="ri-facebook-circle-line" style="font-size: 2em"></i>
-                    <div><a href="" target="_blank">Študentski svet stanovalcev</a></div>
-                    <div><a href="" target="_blank">Majske igre</a></div>
-                    <div><a href="" target="_blank">Največje študentsko pustovanje</a></div>
+                    <div v-for="facebook of facebookSocial">
+                        <a :href="facebook.link" target="_blank">{{ facebook.title }}</a>
+                    </div>
                 </div>
-                <div>
+                <div v-if="instagramSocial && instagramSocial.length > 0">
                     <i class="ri-instagram-line" style="font-size: 2em"></i>
-                    <div><a href="" target="_blank">Majske igre</a></div>
+                    <div v-for="instagram of instagramSocial">
+                        <a :href="instagram.link" target="_blank">{{ instagram.title }}</a>
+                    </div>
+                </div>
+                <div v-if="otherSocial && otherSocial.length > 0">
+                    <i class="ri-links-line" style="font-size: 2em"></i>
+                    <div v-for="other of otherSocial">
+                        <a :href="other.link" target="_blank">{{ other.title }}</a>
+                    </div>
                 </div>
             </div>
         </section>
