@@ -12,7 +12,7 @@
                 </p>
             </div>
             <div class="has-text-secondary mt-5 has-text-right">
-                Objavil <span class="has-text-weight-bold">{{ post.author }}</span> dne <span class="has-text-weight-bold">{{ post.date }}</span>
+                Objavil <span class="has-text-weight-bold">{{ post.author }}</span> dne <span class="has-text-weight-bold">{{ new Date(post.date * 1000).toLocaleDateString() }}</span>
             </div>
         </div>
     </NuxtLink>
@@ -33,12 +33,13 @@ export default {
 @import '@/assets/styles/main.scss';
 
 .wrapper {
-    @extend .card, .mb-4;
+    @extend .card, .mb-5;
 
     @media only screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
-        max-height: 20em;
+        align-items: center;
+        //max-height: 20em;
     }
 }
 
@@ -62,6 +63,7 @@ export default {
 
     &__wrapper {
         @extend .p-4;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;

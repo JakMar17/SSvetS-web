@@ -60,7 +60,7 @@ export default {
     methods: {
         async fetchPosts() {
             this.showLoadMore = false;
-            const req = queryContent('blog/posts').skip(this.loadedPosts).limit(10);
+            const req = queryContent('blog/posts').sort({date: -1}).skip(this.loadedPosts).limit(10);
             if (this.selectedCategory) {
                 req.where({category: this.selectedCategory.title});
             }

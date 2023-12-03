@@ -282,7 +282,7 @@ collections:
       - name: date
         label: Datum
         widget: datetime
-        format: "DD. MM. YYYY"
+        format: "X"
       - name: cover
         label: Naslovnica
         widget: image

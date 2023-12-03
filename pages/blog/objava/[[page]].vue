@@ -4,9 +4,9 @@
             <img v-if="cover" :src="cover" class="card-image__top" style="max-height: 30em; width: 100%; object-fit: cover"/>
             <div class="px-6 pt-3 pb-6">
                 <div class="has-text-centered">
-                    <div v-if="authorAvatarUrl">
-                        <img :src="authorAvatarUrl" style="height: 64px; width: 64px; border-radius: 50%; object-fit: cover"/>
-                    </div>
+<!--                    <div v-if="authorAvatarUrl">-->
+<!--                        <img :src="authorAvatarUrl" style="height: 64px; width: 64px; border-radius: 50%; object-fit: cover"/>-->
+<!--                    </div>-->
                     <div>{{ author }}</div>
                     <h1 class="title is-2 mb-0">{{ title }}</h1>
                     <h2 v-if="subtitle" class="subtitle is-4 mt-2 mb-6 has-text-primary">{{ subtitle }}</h2>
