@@ -47,6 +47,7 @@ export default {
                 this.subtitle = res.subtitle;
                 parseMarkdown(res.body).then(parsed => this.content = parsed);
                 this.fetchAuthorImage(res.author);
+                useSeoMeta(createSeoObject({title: this.title, image: this.cover, description: res.summary}));
                 this.componentState = 'loaded';
             } catch (e) {
                 this.componentState = 'error';
@@ -55,7 +56,6 @@ export default {
         async fetchAuthorImage(authorTitle) {
             try {
                 const res = await queryContent('blog/authors').where({name: authorTitle}).findOne();
-                console.log(res)
                 this.authorAvatarUrl = res.image;
             } catch (e) {
             }
