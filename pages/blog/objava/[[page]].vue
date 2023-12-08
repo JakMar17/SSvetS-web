@@ -1,4 +1,19 @@
 <template>
+  <Head>
+    <Meta :content="blogPostData.title" name="title"/>
+    <Meta :content="blogPostData.summary" name="description"/>
+    <Meta :content="blogPostData.cover" name="image"/>
+    <Meta :content="blogPostData.author" name="author"/>
+    <Meta :content="blogPostData.title" name="og:title"/>
+    <Meta :content="blogPostData.summary" name="og:description"/>
+    <Meta :content="blogPostData.cover" name="og:image"/>
+    <Meta :content="blogPostData.author" name="og:author"/>
+    <Meta :content="blogPostData.title" name="twitter:title"/>
+    <Meta :content="blogPostData.summary" name="twitter:description"/>
+    <Meta :content="blogPostData.cover" name="twitter:image"/>
+    <Meta :content="blogPostData.author" name="twitter:author"/>
+    <Meta content="summary_large_image" name="twitter:card"/>
+  </Head>
     <main v-if="componentState === 'loaded'" class="container">
         <div class="card">
             <img v-if="blogPostData.cover" :src="blogPostData.cover" class="card-image__top" style="max-height: 30em; width: 100%; object-fit: cover"/>
@@ -41,6 +56,7 @@ const fetchBlogPost = async () => {
 }
 
 watch(blogPostData, (value) => {
+    console.log(createSeoObject({title: value?.title, image: value?.cover, description: value?.summary}))
     useSeoMeta(createSeoObject({title: value?.title, image: value?.cover, description: value?.summary}))
 });
 
