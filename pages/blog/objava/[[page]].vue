@@ -39,7 +39,7 @@
 <script lang="ts" setup>
 const componentState = ref('loading');
 
-const blogPostData = ref<null | {title: string, subtitle: string, author: string, cover: string}>(null);
+const blogPostData = ref<null | {title: string, subtitle: string, author: string, cover: string, summary: string}>(null);
 const blogContent = ref<null | string>(null);
 
 const fetchBlogPost = async () => {
@@ -47,7 +47,7 @@ const fetchBlogPost = async () => {
     try {
         const {author, cover, title, subtitle, body, summary} = await queryContent('blog/posts').where({title: route.params.page}).findOne()
 
-        blogPostData.value = {author, cover, title, subtitle};
+        blogPostData.value = {author, cover, title, subtitle, summary};
         blogContent.value = await parseMarkdown(body);
         componentState.value = 'loaded';
     } catch (e) {
@@ -55,18 +55,7 @@ const fetchBlogPost = async () => {
     }
 }
 
-// watch(blogPostData, (value) => {
-//     console.log(createSeoObject({title: value?.title, image: value?.cover, description: value?.summary}))
-//     useSeoMeta(createSeoObject({title: value?.title, image: value?.cover, description: value?.summary}))
-//     useServerSeoMeta(createSeoObject({title: value?.title, image: value?.cover, description: value?.summary}))
-// });
-
-// onMounted(() => {
-//     fetchBlogPost();
-// })
-
 await fetchBlogPost();
-console.log(blogPostData.value)
 useServerSeoMeta(createSeoObject({title: blogPostData.value?.title, image: blogPostData.value?.cover, description: blogPostData.value?.summary}))
 
 </script>
