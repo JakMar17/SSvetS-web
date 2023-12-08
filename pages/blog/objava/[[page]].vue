@@ -1,18 +1,18 @@
 <template>
     <main v-if="componentState === 'loaded'" class="container">
         <div class="card">
-            <img v-if="cover" :src="cover" class="card-image__top" style="max-height: 30em; width: 100%; object-fit: cover"/>
+            <img v-if="blogPostData.cover" :src="blogPostData.cover" class="card-image__top" style="max-height: 30em; width: 100%; object-fit: cover"/>
             <div class="px-6 pt-3 pb-6">
                 <div class="has-text-centered">
 <!--                    <div v-if="authorAvatarUrl">-->
 <!--                        <img :src="authorAvatarUrl" style="height: 64px; width: 64px; border-radius: 50%; object-fit: cover"/>-->
 <!--                    </div>-->
-                    <div>{{ author }}</div>
-                    <h1 class="title is-2 mb-0">{{ title }}</h1>
-                    <h2 v-if="subtitle" class="subtitle is-4 mt-2 mb-6 has-text-primary">{{ subtitle }}</h2>
+                    <div>{{ blogPostData.author }}</div>
+                    <h1 class="title is-2 mb-0">{{ blogPostData.title }}</h1>
+                    <h2 v-if="blogPostData.subtitle" class="subtitle is-4 mt-2 mb-6 has-text-primary">{{ blogPostData.subtitle }}</h2>
                 </div>
                 <ContentRenderer>
-                    <ContentRendererMarkdown v-if="content" :value="content" class="markdown"/>
+                    <ContentRendererMarkdown v-if="blogContent" :value="blogContent" class="markdown"/>
                 </ContentRenderer>
             </div>
         </div>
@@ -21,47 +21,33 @@
     <ComponentStateErrorComponent v-if="componentState === 'error'"/>
 </template>
 
-<script>
-export default {
-    data() {
-        this.fetchBlogPost();
-        return {
-            componentState: 'loading',
-            title: null,
-            subtitle: null,
-            content: null,
-            author: null,
-            authorAvatarUrl: null,
-            cover: null
-        }
-    },
-    methods: {
-        parseMarkdown,
-        async fetchBlogPost() {
-            const route = useRoute();
-            try {
-                const res = await queryContent('blog/posts').where({title: route.params.page}).findOne()
-                this.author = res.author;
-                this.cover = res.cover;
-                this.title = res.title;
-                this.subtitle = res.subtitle;
-                parseMarkdown(res.body).then(parsed => this.content = parsed);
-                this.fetchAuthorImage(res.author);
-                useSeoMeta(createSeoObject({title: this.title, image: this.cover, description: res.summary}));
-                this.componentState = 'loaded';
-            } catch (e) {
-                this.componentState = 'error';
-            }
-        },
-        async fetchAuthorImage(authorTitle) {
-            try {
-                const res = await queryContent('blog/authors').where({name: authorTitle}).findOne();
-                this.authorAvatarUrl = res.image;
-            } catch (e) {
-            }
-        }
-    },
+<script lang="ts" setup>
+const componentState = ref('loading');
+
+const blogPostData = ref<null | {title: string, subtitle: string, author: string, cover: string}>(null);
+const blogContent = ref<null | string>(null);
+
+const fetchBlogPost = async () => {
+    const route = useRoute();
+    try {
+        const {author, cover, title, subtitle, body, summary} = await queryContent('blog/posts').where({title: route.params.page}).findOne()
+
+        blogPostData.value = {author, cover, title, subtitle};
+        blogContent.value = await parseMarkdown(body);
+        componentState.value = 'loaded';
+    } catch (e) {
+        componentState.value = 'error';
+    }
 }
+
+watch(blogPostData, (value) => {
+    useSeoMeta(createSeoObject({title: value?.title, image: value?.cover, description: value?.summary}))
+});
+
+onMounted(() => {
+    fetchBlogPost();
+})
+
 </script>
 
 <style lang="scss" scoped>
