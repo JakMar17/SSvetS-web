@@ -1,17 +1,17 @@
 <template>
   <Head>
-    <Meta :content="blogPostData.title" name="title"/>
-    <Meta :content="blogPostData.summary" name="description"/>
-    <Meta :content="blogPostData.cover" name="image"/>
-    <Meta :content="blogPostData.author" name="author"/>
-    <Meta :content="blogPostData.title" name="og:title"/>
-    <Meta :content="blogPostData.summary" name="og:description"/>
-    <Meta :content="blogPostData.cover" name="og:image"/>
-    <Meta :content="blogPostData.author" name="og:author"/>
-    <Meta :content="blogPostData.title" name="twitter:title"/>
-    <Meta :content="blogPostData.summary" name="twitter:description"/>
-    <Meta :content="blogPostData.cover" name="twitter:image"/>
-    <Meta :content="blogPostData.author" name="twitter:author"/>
+    <Meta content="blogPostData.title" name="title"/>
+    <Meta content="blogPostData.summary" name="description"/>
+    <Meta content="blogPostData.cover" name="image"/>
+    <Meta content="blogPostData.author" name="author"/>
+    <Meta content="blogPostData.title" name="og:title"/>
+    <Meta content="blogPostData.summary" name="og:description"/>
+    <Meta content="blogPostData.cover" name="og:image"/>
+    <Meta content="blogPostData.author" name="og:author"/>
+    <Meta content="blogPostData.title" name="twitter:title"/>
+    <Meta content="blogPostData.summary" name="twitter:description"/>
+    <Meta content="blogPostData.cover" name="twitter:image"/>
+    <Meta content="blogPostData.author" name="twitter:author"/>
     <Meta content="summary_large_image" name="twitter:card"/>
   </Head>
     <main v-if="componentState === 'loaded'" class="container">
