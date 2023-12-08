@@ -55,15 +55,19 @@ const fetchBlogPost = async () => {
     }
 }
 
-watch(blogPostData, (value) => {
-    console.log(createSeoObject({title: value?.title, image: value?.cover, description: value?.summary}))
-    useSeoMeta(createSeoObject({title: value?.title, image: value?.cover, description: value?.summary}))
-    useServerSeoMeta(createSeoObject({title: value?.title, image: value?.cover, description: value?.summary}))
-});
+// watch(blogPostData, (value) => {
+//     console.log(createSeoObject({title: value?.title, image: value?.cover, description: value?.summary}))
+//     useSeoMeta(createSeoObject({title: value?.title, image: value?.cover, description: value?.summary}))
+//     useServerSeoMeta(createSeoObject({title: value?.title, image: value?.cover, description: value?.summary}))
+// });
 
-onMounted(() => {
-    fetchBlogPost();
-})
+// onMounted(() => {
+//     fetchBlogPost();
+// })
+
+await fetchBlogPost();
+console.log(blogPostData.value)
+useServerSeoMeta(createSeoObject({title: blogPostData.value?.title, image: blogPostData.value?.cover, description: blogPostData.value?.summary}))
 
 </script>
 
