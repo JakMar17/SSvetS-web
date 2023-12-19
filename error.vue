@@ -22,6 +22,11 @@ const props = defineProps({
 const handleError = () => clearError({ redirect: '/' })
 
 const statusCode = computed(() => props.error.statusCode);
+
+if(statusCode.value !== 404) {
+    handleError();
+}
+
 const title = computed(() => {
     const code = statusCode.value;
     switch (code) {
