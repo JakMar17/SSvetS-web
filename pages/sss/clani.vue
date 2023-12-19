@@ -40,20 +40,21 @@
     </main>
 </template>
 
+<script lang="ts" setup>
 
-<script>
+import {SssClaniModel} from "~/types/models/sss-clani.model";
 
-export default {
-    async setup() {
-        const {data} = await useAsyncData('sss', async () => (await queryContent('sss/studentski-svet-stanovalcev').findOne()));
-        return {content: data.value}
-    },
-    head() {
-        return {
-            title: "Študentski svet stanovalcev"
-        }
-    },
+useHead({
+    title: "Študentski svet stanovalcev"
+});
+
+async function fetchData() {
+    const {data} = await useAsyncData('sss', async () => (await queryContent('sss/studentski-svet-stanovalcev').findOne()));
+    return data.value as SssClaniModel;
 }
+
+const content: SssClaniModel = await fetchData();
+
 </script>
 
 <style lang="scss" scoped>

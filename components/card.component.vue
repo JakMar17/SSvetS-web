@@ -6,42 +6,27 @@
                 <h2 v-if="subtitle" :class="buildCssClass('title is-6 mt-2 has-text-primary')">{{ subtitle.toUpperCase() }}</h2>
             </div>
             <div class="content">
-                <ContentRendererMarkdown v-if="parsedContent" :value="parsedContent"/>
+                <ContentRendererMarkdown v-if="content" :value="content"/>
             </div>
         </div>
     </div>
 </template>
 
-<script>
-export default {
-    props: {
-        title: {
-            type: String,
-        },
-        subtitle: {
-            type: String
-        },
-        content: {
-            type: String
-        },
-        centeredTitles: {
-            type: Boolean,
-            default: false
-        }
-    },
-    data() {
-        parseMarkdown(this.content).then(parsed => this.parsedContent = parsed);
-        return {
-            clientWidth: null,
-            clientHeight: null,
-            parsedContent: null
-        }
-    },
-    methods: {
-        buildCssClass(baseClass = "") {
-            return `${baseClass} ${this.centeredTitles ? "has-text-centered" : ""}`;
-        },
-    }
+<script lang="ts" setup>
+import {CardModel} from "~/types/models";
+import {parseMarkdown} from "~/utils/parseMarkdown";
+
+const props = withDefaults(defineProps<CardModel>(), {
+    centeredTitles: false,
+});
+
+const {title, subtitle, centeredTitles} = toRefs(props);
+const content = ref<string | null>(null);
+
+parseMarkdown(props.content).then((parsed: string) => content.value = parsed);
+
+function buildCssClass(baseClass = "") {
+  return `${baseClass} ${centeredTitles?.value ? "has-text-centered" : ""}`;
 }
 </script>
 
