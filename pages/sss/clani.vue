@@ -1,6 +1,6 @@
 <template>
     <main>
-        <SssHeaderComponent/>
+        <SssHeaderComponent :image-url="content.imageUrl"/>
 
         <div class="container">
             <div class="card p-4 mt-4">

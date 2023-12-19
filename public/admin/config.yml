@@ -103,6 +103,9 @@ collections:
       - name: intro
         label: Intro
         widget: markdown
+      - name: imageUrl
+        label: Slika
+        widget: image
       - name: leadership
         label: Vodstvo
         widget: list
