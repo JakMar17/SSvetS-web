@@ -24,16 +24,8 @@ export default defineNuxtConfig({
 
     },
     plugins: [
-        {src: '~/plugins/aos.client.js', mode: 'client'},
     ],
     modules: [
         '@nuxt/content',
-        ['@pinia/nuxt',
-            {
-                autoImports: [
-                    'defineStore',
-                    ['defineStore', 'definePiniaStore'],
-                ],
-            },],
     ],
 })
