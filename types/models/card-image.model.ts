@@ -3,8 +3,8 @@ export interface CardImageModel {
     subtitle?: string;
     imageUrl: string;
     content: string;
-    reverse?: boolean;
-    links: Array<{
+    reversed?: boolean;
+    links?: Array<{
         title: string;
         buttonType?: string;
         link: string;
