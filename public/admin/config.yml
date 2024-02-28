@@ -285,7 +285,6 @@ collections:
       - name: date
         label: Datum
         widget: datetime
-        format: "X"
       - name: cover
         label: Naslovnica
         widget: image
