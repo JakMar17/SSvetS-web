@@ -41,7 +41,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_2/Dom2-DSC_6131-dom2.jpg",
       "location": "Rožna dolina",
       "subPresidentImage": "",
-      "presidentImage": ""
+      "presidentImage": "/img/pia_drofenik_dom2_predsednica-nina-rojc.jpeg.webp"
     },
     {
       "dormMotto": "Dom tri, kjer se vse dobi",
@@ -52,7 +52,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_3/Dom3-DSC_6116.jpg",
       "location": "Rožna dolina",
       "subPresidentImage": "",
-      "presidentImage": "/img/img_2989-žiga-gerdina.webp"
+      "presidentImage": "/img/ziga_gerdina_3ka_predstavnik-žiga-gerdina.png.webp"
     },
     {
       "dormMotto": "4ka, dom umazane posode, vrhunskih žurov, kupov perila in najboljših ljudi.",
@@ -63,7 +63,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_4/Dom4-DSC_6161.jpg",
       "location": "Rožna dolina",
       "subPresidentImage": "",
-      "presidentImage": "/img/20230121_122525-tjaša-vraničar.webp"
+      "presidentImage": "/img/vip_photoshoot-070-tjaša-vraničar.jpg.webp"
     },
     {
       "dormMotto": "Vsako leto manj tihi dom",
@@ -73,8 +73,8 @@
       "noOfStudents": 188,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_5/Dom5-DSC_6156.jpg",
       "location": "Rožna dolina",
-      "subPresidentImage": "/img/img_6375.webp",
-      "presidentImage": "/img/img_6374.webp"
+      "subPresidentImage": "",
+      "presidentImage": "/img/oskar_rosc_dom-5_predstavnik-oskar-rosc.jpg.webp"
     },
     {
       "dormMotto": "Samo da je 6ka!",
@@ -85,7 +85,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_6/Dom6-DSC_6153.jpg",
       "location": "Rožna dolina",
       "subPresidentImage": "",
-      "presidentImage": ""
+      "presidentImage": "/img/manca_dragan_dom6_predstavnik-manca-dragan.jpg.webp"
     },
     {
       "name": "Dom VII",
@@ -94,7 +94,8 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_7/Dom7-DSC_6138-dom1.jpg",
       "presidentName": "Nuša Jež",
       "subPresidentName": "Rene Polajžar",
-      "dormMotto": "Seven heaven (iški)"
+      "dormMotto": "Seven heaven (iški)",
+      "presidentImage": "/img/nuša_jež_dom7_predstavnica-nuša-jež.png.webp"
     },
     {
       "dormMotto": "Dom osm, v srcu te nosm ❤️",
