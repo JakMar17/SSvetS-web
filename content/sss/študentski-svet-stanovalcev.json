@@ -106,7 +106,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_8/Dom8-DSC_6175-dom8.jpg",
       "location": "Rožna dolina",
       "subPresidentImage": "",
-      "presidentImage": "/img/img_4506-lara-zlatoper.webp"
+      "presidentImage": "/img/slika-primož-primož-hrovat.jpeg.webp"
     },
     {
       "dormMotto": "Dom kot iz raja, dokler ne prideta dva policaja",
@@ -117,7 +117,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_9/Dom9-DSC_6178.jpg",
       "location": "Rožna dolina",
       "subPresidentImage": "/img/klemen_ferlez-erik.webp",
-      "presidentImage": "/img/erik_pahor-erik.webp"
+      "presidentImage": "/img/erik_pahor_ix_predstavnik-erik.webp.webp"
     },
     {
       "dormMotto": "Mi smo 10ka, mi smo barabe, po naših žilah teče šnops šnops šnops",
@@ -127,8 +127,8 @@
       "noOfStudents": 217,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_10/Dom10-DSC_6184.jpg",
       "location": "Rožna dolina",
-      "subPresidentImage": "/img/49ab4ed9-ce4f-4bed-98c3-691ead9b0dd6-tjaša-cvek.webp",
-      "presidentImage": ""
+      "subPresidentImage": "",
+      "presidentImage": "/img/klemen_geršak_10_predstavnik-klemen.jpg.webp"
     },
     {
       "dormMotto": "Drž'te se in druž'te se!",
@@ -139,7 +139,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_11/Dom11-DSC_6128.jpg",
       "location": "Rožna dolina",
       "subPresidentImage": "",
-      "presidentImage": "/img/screenshot_1-ivan-vehovec.webp"
+      "presidentImage": "/img/ivan_vehovec_xi_predstavnik-ivan-vehovec.jpg.webp"
     },
     {
       "name": "Dom XII",
@@ -148,7 +148,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/_processed_/c/0/csm_Dom12-DSC_6122_6991ae1bcf.jpg",
       "presidentName": "Lara Klemenčič",
       "subPresidentName": "Nadja Balažic",
-      "presidentImage": "",
+      "presidentImage": "/img/lara_klemenčič_xii_predstavnica-lara-klemenčič.jpg.webp",
       "dormMotto": "Otroci po srcu."
     },
     {
@@ -160,7 +160,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_13/Dom13-DSC_6193.jpg",
       "location": "Rožna dolina",
       "subPresidentImage": "",
-      "presidentImage": "/img/20230120_134113-rok-petrovčič.webp"
+      "presidentImage": "/img/rok_petrovčič__dom13__predstavnik-rok-petrovčič.jpg.webp"
     },
     {
       "name": "Dom XIV",
@@ -169,7 +169,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_14/Dom14-DSC_6187-dom14.jpg",
       "presidentName": "Nejc Godec",
       "subPresidentName": "Špela Črv",
-      "presidentImage": "/img/nejc-predsednik-nejc-godec.webp",
+      "presidentImage": "/img/nejc_godec_dom14_predstavnik-nejc-godec.jpg.webp",
       "dormMotto": "Mi casa es tu casa"
     },
     {
@@ -179,18 +179,19 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_A/DomA-DSC_6211-domA.jpg",
       "subPresidentName": "Špela Šket",
       "presidentName": "Nastja Grošelj",
-      "presidentImage": "",
+      "presidentImage": "/img/nastja_grošelj_doma_predstavnica-nastja-grošelj.jpg.webp",
       "dormMotto": "Kdor z modrim perjem leti, vedno skupaj drži. - Rio (1h 19min 26 sec)"
     },
     {
-      "name": "Dom B",
-      "location": "Kardeljeva ploščad",
-      "noOfStudents": 256,
-      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_B/DomB-DSC_6204-domB.jpg",
+      "dormMotto": "The place to B",
       "presidentName": "Adil Mahmić",
       "subPresidentName": "Tjaš Makuc",
+      "name": "Dom B",
+      "noOfStudents": 256,
+      "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_B/DomB-DSC_6204-domB.jpg",
+      "location": "Kardeljeva ploščad",
       "subPresidentImage": "",
-      "dormMotto": "The place to B"
+      "presidentImage": "/img/adil-mahmić-dom-b-predstavnik-adil-mahmić.jpg.webp"
     },
     {
       "dormMotto": "/",
@@ -201,7 +202,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_C/DomC-DSC_6209-domC-1.jpg",
       "location": "Kardeljeva ploščad",
       "subPresidentImage": "",
-      "presidentImage": ""
+      "presidentImage": "/img/blaž_vogrin__dom_c__predstavnik-jakob-marušič.jpg.webp"
     },
     {
       "dormMotto": "The biggest D on the block",
@@ -212,7 +213,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_D/DomD-DSC_6221-domD.jpg",
       "location": "Kardeljeva ploščad",
       "subPresidentImage": "",
-      "presidentImage": ""
+      "presidentImage": "/img/žiga-merkač_dom-d_predstavnik-žiga-merkač.jpg.webp"
     },
     {
       "name": "Dom FDV",
@@ -221,7 +222,8 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_FDV/FomFDV-DSC_5290.jpg",
       "presidentName": "Žan Gimpelj",
       "subPresidentName": "Tarik Osmanbašić",
-      "dormMotto": "FDV, dom, kjer se namesto kuhalnih plošč raje menjajo ključavnice."
+      "dormMotto": "FDV, dom, kjer se namesto kuhalnih plošč raje menjajo ključavnice.",
+      "presidentImage": "/img/žan_gimpelj_fdv_predstavnik-tarik-osmanbašić.jpg.webp"
     },
     {
       "name": "Dom Litostroj",
@@ -230,7 +232,8 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_Litostroj/Litostroj-DSC_6029.jpg",
       "presidentName": "Žiga Maj Špiler",
       "subPresidentName": "Luka Žohar",
-      "dormMotto": "Na(Liti) na vseh žurih"
+      "dormMotto": "Na(Liti) na vseh žurih",
+      "presidentImage": "/img/žiga-maj_špiler_litostroj_predstavnik-žiga-maj-špiler.jpg.webp"
     },
     {
       "dormMotto": "Zavedno, mi in Boštjan.",
@@ -241,7 +244,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_AK/AK-DSC_6238-AK.jpg",
       "location": "samotni",
       "subPresidentImage": "",
-      "presidentImage": "/img/20230120_125024-jani-kodre.webp"
+      "presidentImage": "/img/slik_sss-jani-kodre.jpg.webp"
     },
     {
       "dormMotto": "Ok, Top!",
@@ -252,7 +255,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_Topniska/Topniska-DSC_6232-Topn.jpg",
       "location": "samotni",
       "subPresidentImage": "",
-      "presidentImage": "/img/moments-in-between_3.1.3-robert-babić.webp"
+      "presidentImage": "/img/unnamed-robert-babić.jpg.webp"
     },
     {
       "dormMotto": "A lah mal stišate? Eni mamo izpite...",
@@ -263,7 +266,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_Poljanska/Poljanska-DSC_6246.jpg",
       "location": "samotni",
       "subPresidentImage": "",
-      "presidentImage": ""
+      "presidentImage": "/img/juš-navratil-poljanec-predstavnik-juš-navratil.jpg.webp"
     },
     {
       "name": "Dom VŠZ",
@@ -272,7 +275,8 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_VSZ/VSZ-DSC_6256-VZS-1.jpg",
       "presidentName": "Tadej Ornik",
       "subPresidentName": "Gal Trost",
-      "dormMotto": "Live laugh love <3 "
+      "dormMotto": "Live laugh love <3 ",
+      "presidentImage": "/img/tadej_ornik_všz_predstavnik-tadej-ornik.jpg.webp"
     },
     {
       "dormMotto": "Ni lep, je pa visok.",
@@ -282,8 +286,8 @@
       "noOfStudents": 300,
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_Ilirska/Ilirska-DSC_6270-ilirska3.jpg",
       "location": "samotni",
-      "subPresidentImage": "/img/sara-simonič-sara-simonič.webp",
-      "presidentImage": "/img/3142c84d-48d7-49c2-b792-5209430db74a-nika-volk.webp"
+      "subPresidentImage": "",
+      "presidentImage": "/img/nika_volk_ilirska_predstavnica-nika-volk.jpg.webp"
     },
     {
       "name": "ŠD3",
@@ -304,7 +308,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_SD4/SD4-DSC_6326-Vic-SD4-1.jpg",
       "location": "Mestni log",
       "subPresidentImage": "",
-      "presidentImage": ""
+      "presidentImage": "/img/erazem_urbiha_šd4_predstavnik-boštjan-birsa.jpg.webp"
     },
     {
       "dormMotto": "Najboljši študentski dom pod Ljubljanskim soncem!",
@@ -315,7 +319,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_G59/G59-DSC_6338-Vic-Gerb1.jpg",
       "location": "Mestni log",
       "subPresidentImage": "",
-      "presidentImage": "/img/foto_nsz_nina-miha-rejec.webp"
+      "presidentImage": "/img/nina-špilar-g59-predstavnica-nina-špilar.jpg.webp"
     },
     {
       "dormMotto": "Znanost brez meja",
