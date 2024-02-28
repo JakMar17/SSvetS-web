@@ -22,7 +22,7 @@
   ],
   "memberDorms": [
     {
-      "dormMotto": "Na nebo!",
+      "dormMotto": "Ni tih je pa lažni - alarm",
       "presidentName": "Bine Brunec",
       "subPresidentName": "David Pivk",
       "name": "Dom I",
@@ -33,7 +33,7 @@
       "presidentImage": ""
     },
     {
-      "dormMotto": "Sosedov hrup me spravlja v obup. Rajši, kot da z njim kaj spijem, \"Bom klicu upravo!\" Čez hodnik upijem.",
+      "dormMotto": "Tiha voda bregove dere.",
       "presidentName": "Pia Drofenik",
       "subPresidentName": "Nina Rojc",
       "name": "Dom II",
@@ -44,7 +44,7 @@
       "presidentImage": ""
     },
     {
-      "dormMotto": "Čeprav iz sekretov smrdi, se nam dobro godi",
+      "dormMotto": "Dom tri, kjer se vse dobi",
       "presidentName": "Žiga Gerdina",
       "subPresidentName": "Adelina Osmanaj",
       "name": "Dom III",
@@ -55,7 +55,7 @@
       "presidentImage": "/img/img_2989-žiga-gerdina.webp"
     },
     {
-      "dormMotto": "4-ka great again",
+      "dormMotto": "4ka, dom umazane posode, vrhunskih žurov, kupov perila in najboljših ljudi.",
       "presidentName": "Tjaša Vraničar",
       "subPresidentName": "Domen Tomc",
       "name": "Dom IV",
@@ -77,7 +77,7 @@
       "presidentImage": "/img/img_6374.webp"
     },
     {
-      "dormMotto": "Najbolj glasen tihi dom!",
+      "dormMotto": "Samo da je 6ka!",
       "presidentName": "Manca Dragan",
       "subPresidentName": "Katja Gruden",
       "name": "Dom VI",
@@ -94,10 +94,10 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_7/Dom7-DSC_6138-dom1.jpg",
       "presidentName": "Nuša Jež",
       "subPresidentName": "Rene Polajžar",
-      "dormMotto": "Seven heaven"
+      "dormMotto": "Seven heaven (iški)"
     },
     {
-      "dormMotto": "Dom 8, v srcu te nos'm",
+      "dormMotto": "Dom osm, v srcu te nosm ❤️",
       "presidentName": "Primož Hrovat",
       "subPresidentName": "Drejc Bedek",
       "name": "Dom VIII",
@@ -119,7 +119,7 @@
       "presidentImage": "/img/erik_pahor-erik.webp"
     },
     {
-      "dormMotto": "Čista desetka!",
+      "dormMotto": "Mi smo 10ka, mi smo barabe, po naših žilah teče šnops šnops šnops",
       "presidentName": "Klemen Geršak",
       "subPresidentName": "Vita Mihelič",
       "name": "Dom X",
@@ -130,7 +130,7 @@
       "presidentImage": ""
     },
     {
-      "dormMotto": "Vroče mamice v vaši bližini",
+      "dormMotto": "Drž'te se in druž'te se!",
       "presidentName": "Ivan Vehovec",
       "subPresidentName": "Bogdan Korbar",
       "name": "Dom XI",
@@ -147,10 +147,11 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/_processed_/c/0/csm_Dom12-DSC_6122_6991ae1bcf.jpg",
       "presidentName": "Lara Klemenčič",
       "subPresidentName": "Nadja Balažic",
-      "presidentImage": ""
+      "presidentImage": "",
+      "dormMotto": "Otroci po srcu."
     },
     {
-      "dormMotto": "Prekleta številka, prekleto dobri ljudje",
+      "dormMotto": "Prekleta 13ka prekleto dobri ljudje",
       "presidentName": "Rok Petrovčič",
       "subPresidentName": "Alen Lenič",
       "name": "Dom XIII",
@@ -178,7 +179,7 @@
       "subPresidentName": "Špela Šket",
       "presidentName": "Nastja Grošelj",
       "presidentImage": "",
-      "dormMotto": "Tu smo DomA"
+      "dormMotto": "Kdor z modrim perjem leti, vedno skupaj drži. - Rio (1h 19min 26 sec)"
     },
     {
       "name": "Dom B",
@@ -191,7 +192,7 @@
       "dormMotto": "The place to B"
     },
     {
-      "dormMotto": "Mirnih študentov še profesorji ne marajo",
+      "dormMotto": "/",
       "presidentName": "Blaž Vogrin",
       "subPresidentName": "Dorian Josipović",
       "name": "Dom C",
@@ -219,7 +220,7 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_FDV/FomFDV-DSC_5290.jpg",
       "presidentName": "Žan Gimpelj",
       "subPresidentName": "Tarik Osmanbašić",
-      "dormMotto": "Desn lift spet stoji v 5. štuku"
+      "dormMotto": "FDV, dom, kjer se namesto kuhalnih plošč raje menjajo ključavnice."
     },
     {
       "name": "Dom Litostroj",
@@ -228,10 +229,10 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_Litostroj/Litostroj-DSC_6029.jpg",
       "presidentName": "Žiga Maj Špiler",
       "subPresidentName": "Luka Žohar",
-      "dormMotto": "Yes we exist (zdej mamo dejansko žure)"
+      "dormMotto": "Na(Liti) na vseh žurih"
     },
     {
-      "dormMotto": "Klapa, še smo tuki!",
+      "dormMotto": "Zavedno, mi in Boštjan.",
       "presidentName": "Jani Kodre",
       "subPresidentName": "Megi Megan Batista",
       "name": "Dom AK",
@@ -242,7 +243,7 @@
       "presidentImage": "/img/20230120_125024-jani-kodre.webp"
     },
     {
-      "dormMotto": "Na Topniški je Top!",
+      "dormMotto": "Ok, Top!",
       "presidentName": "Robert Babić",
       "subPresidentName": "Petra Omahen",
       "name": "Dom Topniška",
@@ -253,7 +254,7 @@
       "presidentImage": "/img/moments-in-between_3.1.3-robert-babić.webp"
     },
     {
-      "dormMotto": "Poljane dom prelepih dni",
+      "dormMotto": "A lah mal stišate? Eni mamo izpite...",
       "presidentName": "Juš Navratil",
       "subPresidentName": "Ana Nuša Gjura",
       "name": "Dom Poljanska",
@@ -270,10 +271,10 @@
       "dormImage": "https://www.stud-dom-lj.si/fileadmin/user_upload/Slike/Domovi/Dom_VSZ/VSZ-DSC_6256-VZS-1.jpg",
       "presidentName": "Tadej Ornik",
       "subPresidentName": "Gal Trost",
-      "dormMotto": "Veliko študentske zabave"
+      "dormMotto": "Live laugh love <3 "
     },
     {
-      "dormMotto": "Življenje je borba, ampak mi smo Ilirčani!",
+      "dormMotto": "Ni lep, je pa visok.",
       "presidentName": "Nika Volk",
       "subPresidentName": "Sara Simonič",
       "name": "Dom Ilirska",
