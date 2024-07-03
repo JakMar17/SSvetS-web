@@ -27,5 +27,14 @@ export default defineNuxtConfig({
     ],
     modules: [
         '@nuxt/content',
+        'v-plausible'
     ],
+    plausible: {
+        init: {
+            domain: 'ssvets.si',
+            apiHost: 'https://plausible.sven.marela.team/',
+            trackLocalhost: false
+        },
+        partytown: false,
+    }
 })
