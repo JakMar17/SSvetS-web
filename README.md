@@ -1,62 +1,61 @@
-# Nuxt 3 Minimal Starter (Typescript) / Vuetify 3.1.3
+<div align="center">
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Website][website-shield]][website-url]
+</div>
 
-## Setup
 
-Make sure to install the dependencies:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+<h1 align="center">Študentski svet stanovalcev's homepage</h1>
 
-Required node version: >=19.0.0
+  <p align="center">
+    <b>Homepage of Študentski svet stanovalcev of student dorms in Ljubljana</b>
+    <br />
+    <br />
+    <a href="https://ssvets.si">🌐 Website</a>
+    ·
+    <a href="https://jakob.marela.team">🌐 My personal website</a>
+    ·
+    <a href="https://github.com/JakMar17">💼 Other projects</a>
+  </p>
+</div>
 
-Basic middleware was added to project for auth. You can use it as a template for your own middleware.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Auth middleware control in /composables/useAuth
+### Built With
 
-Pinia was implemented in /store folder.
+Project was built with the following technologies, tools and dependencies:
+* **NuxtJS** frontend framework
+* **BulmaCSS** CSS framework
+* **DecapCMS** for content management
 
-2 Layouts added (default, auth).
+## Getting Started
 
-Vuetify v3.1.3 was implemented.
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
+Project can be run using the following commands:
 
 ```bash
-npm run build
+yarn install # install dependencies
+yarn dev # run development server
 ```
 
-Locally preview production build:
+Server is now running on `localhost:3000`.
 
-```bash
-npm run preview
-```
+## License
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Distributed under the MIT License.
 
-## Any questions?
-Reach out to me on [ugur@burakturkis.com](mailto:ugur@burakturkis.com)
 
-## Buy me a coffee
-[![Buy me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/burakturkis)
 
-*** Happy Coding ***
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[website-shield]:https://img.shields.io/badge/Jakob's%20homepage-white?style=for-the-badge&logo=superuser&color=555&link=https%3A%2F%2Fjakob.marela.team
+[website-url]: https://jakob.marela.team
+
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/jakmar17
