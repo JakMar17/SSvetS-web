@@ -12,7 +12,7 @@
         </p>
       </div>
       <div class="has-text-secondary mt-5 has-text-right">
-        Objavil <span class="has-text-weight-bold">{{ post.author }}</span> dne <span class="has-text-weight-bold">{{ new Date(post.date * 1000).toLocaleDateString() }}</span>
+        Objavil <span class="has-text-weight-bold">{{ post.author }}</span> dne <span class="has-text-weight-bold">{{ new Date(post.date).toLocaleDateString() }}</span>
       </div>
     </div>
   </div>
