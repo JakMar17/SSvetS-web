@@ -1,16 +1,16 @@
 {
   "person_contact": [
     {
-      "name": "Deni Cerovac",
+      "name": "Primož Hrovat",
       "function": "predsednik",
-      "email": "deni.cerovac@ssvets.si",
+      "email": "primoz.hrovat@ssvets.si",
       "phone": "041 398 407"
     },
     {
-      "name": "Jakob Marušič",
+      "name": "Tia Zanutto",
       "function": "namestnik predsednika",
-      "email": "jakob.marusic@ssvets.si",
-      "phone": "041 337 631"
+      "email": "tia.zanutto@ssvets.si",
+      "phone": "064 181 500"
     }
   ],
   "social": {
